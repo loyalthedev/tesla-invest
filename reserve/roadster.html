@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserve Roadster - Tesla</title>
+  <link rel="icon" type="image/svg+xml" href="../images/tesla-logo.svg">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gotham:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="vo-dark">
+
+
+
+
+
+<!-- Minimal order-flow header: Tesla wordmark + locale only -->
+<header class="vo-topbar">
+  <a class="vo-topbar-logo" href="../index.htm" aria-label="Tesla home"><svg viewbox="0 0 342 35" fill="currentColor" aria-hidden="true"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg></a>
+  <div class="vo-topbar-right">
+    <span class="vo-topbar-locale"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg> US</span>
+    <button type="button" class="vo-burger" id="voBurger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="vo-layout">
+  <div class="vo-visual" data-vo-carousel="">
+    
+    <img class="vo-slide active" src="../co1n/image/upload/f_auto%2Cq_auto/prod/static_assets/R_/_V_/2-rr-perf-rear-m.jpg" alt="Roadster" loading="eager">
+    
+    <img class="vo-slide " src="../co1n/image/upload/f_auto%2Cq_auto/prod/static_assets/R_/_V_/1-rr-perf-front-m.jpg" alt="Roadster" loading="lazy">
+    
+    <img class="vo-slide " src="../co1n/image/upload/f_auto%2Cq_auto/prod/static_assets/R_/_V_/3-rr-perf-side-m.jpg" alt="Roadster" loading="lazy">
+    
+    <img class="vo-slide " src="../co1n/image/upload/f_auto%2Cq_auto/prod/static_assets/R_/_V_/4-rr-perf-Interior-d.jpg" alt="Interior" loading="lazy">
+    
+    
+    <div class="vo-visual-ctrls">
+      <button type="button" class="vo-visual-nav prev" aria-label="Previous photo">
+        <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <div class="vo-visual-dots">
+        <button type="button" class="vo-visual-dot active" data-index="0" aria-label="Photo 1"></button><button type="button" class="vo-visual-dot " data-index="1" aria-label="Photo 2"></button><button type="button" class="vo-visual-dot " data-index="2" aria-label="Photo 3"></button><button type="button" class="vo-visual-dot " data-index="3" aria-label="Photo 4"></button>
+      </div>
+      <button type="button" class="vo-visual-nav next" aria-label="Next photo">
+        <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </div>
+    
+  </div>
+
+  
+  <!-- ─── Roadster: cinematic reservation panel ─── -->
+  <form class="vo-panel vo-panel-roadster" id="reserveForm" action="/reserve/roadster/sign-in" method="GET">
+    <div class="vo-r-wordmark"><img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Roadster-Logo-Final-Desktop-Left-Aligned.png" alt="Roadster"></div>
+
+    
+    <label class="vo-tier vo-tier-pick">
+      
+      <input type="radio" name="trim" value="performance" data-today="5000" data-later="45000" checked="">
+    
+      <div class="vo-tier-head"><h2>Performance</h2><span class="vo-tier-tag">Reserve</span></div>
+      <p>Road ready with seating for two. Includes active aero and a multi-mode suction system.</p>
+    </label>
+
+    <p class="vo-tier-label">Augments</p>
+
+    <label class="vo-tier vo-tier-pick">
+      
+      <input type="radio" name="trim" value="thrust" data-today="5000" data-later="245000">
+    
+      <div class="vo-tier-head"><h2>Thrust</h2><span class="vo-tier-tag gold">Limited</span></div>
+      <p>Race ready with seating for two. Includes Performance active aero and a multi-mode suction system, plus acceleration thrusters.</p>
+    </label>
+
+    <label class="vo-tier vo-tier-dim">
+      <input type="radio" name="trim" value="rocket" disabled="">
+      <div class="vo-tier-head"><h2>Rocket</h2><span class="vo-tier-tag">Invite Only</span></div>
+      <p>Air ready with seating for one. Includes Performance and Thrust, plus a full flight system.</p>
+    </label>
+
+    <p class="vo-legal" id="thrustNotice" hidden="">Due to limited availability, the Thrust variant is restricted to one order per customer. We reserve the right to cancel duplicate orders, multiple purchases using the same account or phone number, and orders sharing identical payment or address details. Availability is subject to each region's legal requirements and applicable laws.</p>
+
+    <div class="vo-due-block">
+      <div class="vo-due-row">
+        <div><strong>Due Today</strong><span>Fully refundable</span></div>
+        <strong class="vo-due-amt" id="dueToday">$5,000</strong>
+      </div>
+      <div class="vo-due-row">
+        <div><strong>Due within 10 days</strong></div>
+        <strong class="vo-due-amt" id="dueLater">$45,000</strong>
+      </div>
+    </div>
+
+    <p class="vo-legal">Reservations are not final until payment is received. Reservation subject to cancellation if payment is not completed within 10 days. Refunds for modifications will not be issued.</p>
+    <p class="vo-legal">By reserving, I agree to the <a href="../privacy.html">Roadster Reservation Agreement</a>, <a href="../privacy.html">Terms of Use</a>, and <a href="../privacy.html">Privacy Notice</a>.</p>
+
+    
+
+
+<button type="submit" class="vo-reserve-btn vo-pay-submit">Sign in to Reserve</button>
+<p class="vo-legal">You'll sign in or create an account, then come straight back here to complete your reservation.</p>
+
+
+  </form>
+
+  
+</div>
+
+<!-- Mobile slide-in navigation for the order flow -->
+<div class="mobile-overlay" id="voMobileOverlay"></div>
+<div class="mobile-menu" id="voMobileMenu">
+  <div class="mobile-menu-header">
+    <span class="mobile-logo" style="display:block;width:100px;color:#171a20;"><svg viewbox="0 0 342 35" fill="currentColor" aria-hidden="true"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg></span>
+    <button class="mobile-close" id="voMobileClose" aria-label="Close menu">
+      <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+  </div>
+  <div class="mobile-section-label">Vehicles</div>
+  <div class="mobile-menu-items">
+    
+    <a href="../model-3.html" class="mobile-link"><span>Model 3</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-y.html" class="mobile-link"><span>Model Y</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-s.html" class="mobile-link"><span>Model S</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-x.html" class="mobile-link"><span>Model X</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../cybertruck.html" class="mobile-link"><span>Cybertruck</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../roadster.html" class="mobile-link"><span>Roadster</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../robotaxi.html" class="mobile-link"><span>Robotaxi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../semi.html" class="mobile-link"><span>Semi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+  </div>
+  <div class="mobile-section-label">Energy</div>
+  <div class="mobile-menu-items">
+    <a href="../solar-panels.html" class="mobile-link"><span>Solar Panels</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="../powerwall.html" class="mobile-link"><span>Powerwall</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Discover</div>
+  <div class="mobile-menu-items">
+    <a href="../shop.html" class="mobile-link mobile-shop"><span>Tesla Shop</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="../invest.html" class="mobile-link mobile-invest"><span>Invest</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Account</div>
+  <div class="mobile-menu-items mobile-account-items">
+    
+      <a href="../auth/login.html" class="mobile-link"><span>Sign In</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+      <a href="../auth/register.html" class="mobile-cta">Create Account</a>
+    
+  </div>
+</div>
+
+<script>
+// Mobile slide-in menu for the order flow
+(function () {
+  var toggle = document.getElementById('voBurger');
+  var menu = document.getElementById('voMobileMenu');
+  var overlay = document.getElementById('voMobileOverlay');
+  var closeBtn = document.getElementById('voMobileClose');
+  if (!(toggle && menu && overlay && closeBtn)) return;
+  function openM() { menu.classList.add('open'); overlay.classList.add('active'); document.body.style.overflow = 'hidden'; toggle.setAttribute('aria-expanded', 'true'); }
+  function closeM() { menu.classList.remove('open'); overlay.classList.remove('active'); document.body.style.overflow = ''; toggle.setAttribute('aria-expanded', 'false'); }
+  toggle.addEventListener('click', openM);
+  closeBtn.addEventListener('click', closeM);
+  overlay.addEventListener('click', closeM);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeM(); });
+})();
+
+// Left-panel photo carousel
+(function () {
+  const root = document.querySelector('[data-vo-carousel]');
+  if (!root) return;
+  const slides = Array.prototype.slice.call(root.querySelectorAll('.vo-slide'));
+  const dots = Array.prototype.slice.call(root.querySelectorAll('.vo-visual-dot'));
+  if (slides.length < 2) return;
+  let cur = 0;
+  function show(i) {
+    cur = (i + slides.length) % slides.length;
+    slides.forEach((s, idx) => s.classList.toggle('active', idx === cur));
+    dots.forEach((d, idx) => d.classList.toggle('active', idx === cur));
+  }
+  const AUTO = 5000, reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let timer = null;
+  function start() { if (reduce) return; stop(); timer = setInterval(() => show(cur + 1), AUTO); }
+  function stop() { if (timer) { clearInterval(timer); timer = null; } }
+  function go(i) { show(i); start(); }
+  const prev = root.querySelector('.vo-visual-nav.prev');
+  const next = root.querySelector('.vo-visual-nav.next');
+  if (prev) prev.addEventListener('click', () => go(cur - 1));
+  if (next) next.addEventListener('click', () => go(cur + 1));
+  dots.forEach(d => d.addEventListener('click', () => go(parseInt(d.dataset.index, 10))));
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  document.addEventListener('visibilitychange', () => { document.hidden ? stop() : start(); });
+  start();
+})();
+
+// Selection summary, deposit amounts and inline payment
+(function () {
+  const form = document.getElementById('reserveForm');
+  if (!form) return;
+  const fmt = n => '$' + Number(n).toLocaleString('en-US');
+  const DEST = 1390;
+  const picked = name => form.querySelector('input[name="' + name + '"]:checked');
+  const $ = id => document.getElementById(id);
+
+  function update() {
+    const trim = picked('trim');
+    const today = Number(trim.dataset.today), later = Number(trim.dataset.later);
+    $('dueToday').textContent = fmt(today);
+    $('dueLater').textContent = fmt(later);
+    if ($('dueLaterRow')) $('dueLaterRow').hidden = !later;
+    if ($('thrustNotice')) $('thrustNotice').hidden = trim.value !== 'thrust';
+
+    if (window.setPaymentDue) window.setPaymentDue({ deposit: today });
+
+    if (!$('sumTotal')) return;
+    const base = Number(trim.dataset.price);
+    const options = ['paint', 'interior', 'wheels'].reduce((s, n) => s + Number(picked(n).dataset.price), 0);
+    $('sumBase').textContent = fmt(base);
+    $('sumOptions').textContent = fmt(options);
+    $('sumTotal').textContent = fmt(base + options + DEST);
+    $('specRange').textContent = trim.dataset.range;
+    $('specAccel').textContent = trim.dataset.accel;
+    $('specTop').textContent = trim.dataset.top;
+    ['paint', 'interior'].forEach(n => {
+      const o = picked(n);
+      form.querySelector('.vo-swatch-label[data-for="' + n + '"]').textContent =
+        o.dataset.name + ' · ' + (Number(o.dataset.price) ? fmt(o.dataset.price) : 'Included');
+    });
+  }
+
+  form.addEventListener('change', update);
+  update();
+})();
+</script>
+
+<footer class="tesla-footer">
+  <div class="footer-links">
+    <span class="footer-copy">Tesla &copy; 2026</span>
+    <a href="../privacy.html">Privacy &amp; Legal</a>
+    <a href="../privacy.html">Vehicle Recalls</a>
+    <a href="../contact.html">Contact</a>
+    <a href="../news.html">News</a>
+    <a href="../engage.html">Get Updates</a>
+    <a href="../locations.html">Locations</a>
+    <a href="../news.html">Learn</a>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>
+

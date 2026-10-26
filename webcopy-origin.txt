@@ -1,0 +1,1380 @@
+Uri: https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/layers-2x.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\ajax\libs\leaflet\1.9.4\images\layers-2x.png
+Content Type: image/png
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/layers.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\ajax\libs\leaflet\1.9.4\images\layers.png
+Content Type: image/png
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\ajax\libs\leaflet\1.9.4\images\marker-icon.png
+Content Type: image/png
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\ajax\libs\leaflet\1.9.4\leaflet.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\ajax\libs\leaflet\1.9.4\leaflet.min.js
+Content Type: application/javascript
+
+Uri: https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/tesla-shop-marketing-imagery/flyout-nav/1948406-00-A_CT_Cybertent_FeaturedNav_696x482.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\image\upload\f_auto,q_auto\v1\content\dam\tesla\tesla-shop-marketing-imagery\flyout-nav\1948406-00-A_CT_Cybertent_FeaturedNav_696x482.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/R_/_V_/1-rr-perf-front-m.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\co1n\image\upload\f_auto,q_auto\prod\static_assets\R_\_V_\1-rr-perf-front-m.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/R_/_V_/2-rr-perf-rear-m.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\co1n\image\upload\f_auto,q_auto\prod\static_assets\R_\_V_\2-rr-perf-rear-m.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/R_/_V_/3-rr-perf-side-m.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\co1n\image\upload\f_auto,q_auto\prod\static_assets\R_\_V_\3-rr-perf-side-m.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/co1n/image/upload/f_auto,q_auto/prod/static_assets/R_/_V_/4-rr-perf-Interior-d.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\co1n\image\upload\f_auto,q_auto\prod\static_assets\R_\_V_\4-rr-perf-Interior-d.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/1M-Powerwalls-Powerwall-3-Hero-Desktop.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\1M-Powerwalls-Powerwall-3-Hero-Desktop.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Better-Desktop-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Better-Desktop-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Browse-Desktop-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Browse-Desktop-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Hero-Desktop-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Hero-Desktop-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Never-Desktop-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Never-Desktop-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Save-Desktop-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Save-Desktop-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Verified-Carousel-Charge-Desktop-Mobile-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Verified-Carousel-Charge-Desktop-Mobile-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Verified-Carousel-Plug-Desktop-Mobile-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Verified-Carousel-Plug-Desktop-Mobile-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Verified-Carousel-Slide-1-Desktop-Mobile-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Verified-Carousel-Slide-1-Desktop-Mobile-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Verified-Carousel-Slide-2-Desktop-Mobile-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Verified-Carousel-Slide-2-Desktop-Mobile-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Verified-Carousel-Slide-3-Desktop-Mobile-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Verified-Carousel-Slide-3-Desktop-Mobile-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Verified-Carousel-Slide-4-Desktop-Mobile-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Verified-Carousel-Slide-4-Desktop-Mobile-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Certified-Pre-Owned-Verified-Desktop-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Certified-Pre-Owned-Verified-Desktop-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/CPO-Hero-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\CPO-Hero-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Current-Offers-Cybertruck.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Current-Offers-Cybertruck.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Current-Offers-Model-3.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Current-Offers-Model-3.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Current-Offers-Model-Y.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Current-Offers-Model-Y.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Current-Offers-Promo-Hero-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Current-Offers-Promo-Hero-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Current-Offers-Stay-Connected-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Current-Offers-Stay-Connected-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Cybertruck-Main-Hero-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Cybertruck-Main-Hero-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Cybertruck-Main-Hero-Mobile.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Cybertruck-Main-Hero-Mobile.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Cybertruck-Social-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Cybertruck-Social-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/FSD-Autonomous-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\FSD-Autonomous-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/FSD-EOP-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\FSD-EOP-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/FSD-Every-Drive-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\FSD-Every-Drive-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Get-Updates-Desktop-Mobile-Global.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Get-Updates-Desktop-Mobile-Global.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Cybertruck-Desktop-US_PR_MX.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Card-Cybertruck-Desktop-US_PR_MX.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Megapack-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Card-Megapack-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-3-Desktop-US_PR_MX.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Card-Model-3-Desktop-US_PR_MX.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-Y-L-Desktop-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Card-Model-Y-L-Desktop-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Vehicle-CPO-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Card-Vehicle-CPO-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Cybertruck-Desktop.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Grid-Current-Offers-All-Devices.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Grid-Current-Offers-All-Devices.png
+Content Type: image/png
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Grid-IR-2026.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Grid-IR-2026.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Model-3-Desktop-US.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Model-S-Desktop-US.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Model-X-Desktop-US.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Model-Y-Desktop-US.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promo-Model-3-Desktop-US.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Promo-Model-3-Desktop-US.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promo-Model-Y-L-Family-Desktop-NA.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Promo-Model-Y-L-Family-Desktop-NA.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promo-Model-Y-L-Family-Tablet-NA.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Promo-Model-Y-L-Family-Tablet-NA.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Promo-Roadster-desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Promo-Roadster-desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Vehicle-Card-Model-Y-Desktop-US-Snow.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Vehicle-Card-Model-Y-Desktop-US-Snow.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Vehicle-Card-Roadster-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Homepage-Vehicle-Card-Roadster-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Mega-Menu-Vehicles-Model-3.png
+Content Type: image/png
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Mega-Menu-Vehicles-Model-S.png
+Content Type: image/png
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-X.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Mega-Menu-Vehicles-Model-X.png
+Content Type: image/png
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-Y.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Mega-Menu-Vehicles-Model-Y.png
+Content Type: image/png
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Interior-Hero-Desktop-LHD.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-3-Interior-Hero-Desktop-LHD.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Performance-Hero-Desktop.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-3-Performance-Hero-Desktop.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Social.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-3-Social.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Interior-Desktop.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-S-Interior-Desktop.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-LHD.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-S-Main-Hero-Desktop-LHD.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-S-New-Social.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-S-New-Social.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-X-Interior-Desktop.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-X-Interior-Desktop.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-X-Main-Hero-Desktop-LHD.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-X-Main-Hero-Desktop-LHD.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-X-Social.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-X-Social.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-Y-Interior-Desktop.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-Y-Interior-Desktop.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-Y-L-Hero-Desktop.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-Y-L-Hero-Desktop.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-Y-Main-Hero-Desktop-Global.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-Y-Main-Hero-Desktop-Global.png
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-Y-Social-US-PR.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Model-Y-Social-US-PR.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-01-Hero-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-01-Hero-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-02-Pilot-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-02-Pilot-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-1-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-03-Carousel-Slide-1-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-2-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-03-Carousel-Slide-2-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-3-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-03-Carousel-Slide-3-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-4-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-03-Carousel-Slide-4-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-5-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-03-Carousel-Slide-5-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-04-World-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-04-World-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-05-Graph-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-05-Graph-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-06-Gravity-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-06-Gravity-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-07-Augments-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-07-Augments-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-08-End-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-08-End-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-Hero-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-Hero-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-Logo-Final-Desktop-Left-Aligned.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-Logo-Final-Desktop-Left-Aligned.png
+Content Type: image/png
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-Logo-Final-Tablet.png
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Roadster-Logo-Final-Tablet.png
+Content Type: image/png
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-End-Desktop-v2.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-End-Desktop-v2.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Forget-Youre-in-a-Car-Slide1-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Forget-Youre-in-a-Car-Slide1-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Forget-Youre-in-a-Car-Slide2-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Forget-Youre-in-a-Car-Slide2-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Forget-Youre-in-a-Car-Slide3-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Forget-Youre-in-a-Car-Slide3-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Forget-Youre-in-a-Car-Slide4-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Forget-Youre-in-a-Car-Slide4-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Forget-Youre-in-a-Car-Slide5-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Forget-Youre-in-a-Car-Slide5-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Forget-Youre-in-a-Car-Slide6-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Forget-Youre-in-a-Car-Slide6-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Our-Fully-Autonomous-Fleet-Slide-1-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Our-Fully-Autonomous-Fleet-Slide-1-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Our-Fully-Autonomous-Fleet-Slide-2-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Our-Fully-Autonomous-Fleet-Slide-2-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Our-Fully-Autonomous-Fleet-Slide-3-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Our-Fully-Autonomous-Fleet-Slide-3-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Robotaxi-Own-An-Autonomous-Fleet.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Robotaxi-Own-An-Autonomous-Fleet.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Safety-Aftermath-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Safety-Aftermath-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Safety-End-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Safety-End-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Safety-Hero-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Safety-Hero-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Safety-Starts-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Safety-Starts-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Semi-Main-Hero-Desktop-v3.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Semi-Main-Hero-Desktop-v3.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Semi-Main-Hero-Mobile-v3.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Semi-Main-Hero-Mobile-v3.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Semi-Social.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Semi-Social.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Solar-Panels-Social.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Solar-Panels-Social.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Vehicle-Safety-Report-Cameras-Desktop.jpg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\f_auto,q_auto\Vehicle-Safety-Report-Cameras-Desktop.jpg
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2878,c_fit,f_auto,q_auto:best/roadster-hero-desktop
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\h_1800,w_2878,c_fit,f_auto,q_autobest\roadster-hero-desktop
+Content Type: image/jpeg
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-cybertruck-new-vehicle-limited-warranty-en-us.pdf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\tesla-cybertruck-new-vehicle-limited-warranty-en-us.pdf
+Content Type: application/pdf
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-cybertruck-new-vehicle-limited-warranty-es-us.pdf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\tesla-cybertruck-new-vehicle-limited-warranty-es-us.pdf
+Content Type: application/pdf
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-new-vehicle-limited-warranty-en-us.pdf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\tesla-new-vehicle-limited-warranty-en-us.pdf
+Content Type: application/pdf
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-new-vehicle-limited-warranty-es-us.pdf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\tesla-new-vehicle-limited-warranty-es-us.pdf
+Content Type: application/pdf
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-parts-accessories-body-repair-limited-warranty-en-us.pdf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\tesla-parts-accessories-body-repair-limited-warranty-en-us.pdf
+Content Type: application/pdf
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-used-vehicle-limited-warranty-en-us.pdf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\tesla-used-vehicle-limited-warranty-en-us.pdf
+Content Type: application/pdf
+
+Uri: https://digitalassets.tesla.com/tesla-contents/image/upload/tesla-used-vehicle-limited-warranty-es-us.pdf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\image\upload\tesla-used-vehicle-limited-warranty-es-us.pdf
+Content Type: application/pdf
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Attentive-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Attentive-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Attentive-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Attentive-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Autopark-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Autopark-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Autopark-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Autopark-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-FSD-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-FSD-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-FSD-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-FSD-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Hero-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Hero-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Hero-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Hero-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Scenarios-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Scenarios-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Scenarios-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Scenarios-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Summon-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Summon-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Summon-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Summon-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Vehicle-Safety-Report-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Vehicle-Safety-Report-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Vehicle-Safety-Report-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Vehicle-Safety-Report-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/FSD-Worlds-First-Autonomous-Car-Delivery.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\FSD-Worlds-First-Autonomous-Car-Delivery.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Hero-Desktop-v2.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Hero-Desktop-v2.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Hero-Mobile-v2.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Hero-Mobile-v2.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Its-Your-Car-Slide-1-Desktop-Tablet.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Its-Your-Car-Slide-1-Desktop-Tablet.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Its-Your-Car-Slide-1-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Its-Your-Car-Slide-1-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Its-Your-Car-Slide-2-Desktop-Tablet.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Its-Your-Car-Slide-2-Desktop-Tablet.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Its-Your-Car-Slide-2-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Its-Your-Car-Slide-2-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Its-Your-Car-Slide-3-Desktop-Tablet.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Its-Your-Car-Slide-3-Desktop-Tablet.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Its-Your-Car-Slide-3-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Its-Your-Car-Slide-3-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Its-Your-Car-Slide-4-Desktop-Tablet.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Its-Your-Car-Slide-4-Desktop-Tablet.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Its-Your-Car-Slide-4-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Its-Your-Car-Slide-4-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Real-Autonomy-Looks-Like-Slide-1-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Real-Autonomy-Looks-Like-Slide-1-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Real-Autonomy-Looks-Like-Slide-1-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Real-Autonomy-Looks-Like-Slide-1-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Real-Autonomy-Looks-Like-Slide-2-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Real-Autonomy-Looks-Like-Slide-2-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Real-Autonomy-Looks-Like-Slide-2-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Real-Autonomy-Looks-Like-Slide-2-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Real-Autonomy-Looks-Like-Slide-3-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Real-Autonomy-Looks-Like-Slide-3-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Real-Autonomy-Looks-Like-Slide-3-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Real-Autonomy-Looks-Like-Slide-3-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Real-Autonomy-Looks-Like-Slide-4-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Real-Autonomy-Looks-Like-Slide-4-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Robotaxi-Real-Autonomy-Looks-Like-Slide-4-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Robotaxi-Real-Autonomy-Looks-Like-Slide-4-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Collisions-Carousel-Slide-1-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Collisions-Carousel-Slide-1-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Collisions-Carousel-Slide-1-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Collisions-Carousel-Slide-1-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Collisions-Carousel-Slide-2-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Collisions-Carousel-Slide-2-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Collisions-Carousel-Slide-2-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Collisions-Carousel-Slide-2-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Collisions-Carousel-Slide-3-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Collisions-Carousel-Slide-3-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Collisions-Carousel-Slide-3-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Collisions-Carousel-Slide-3-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Paramount-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Paramount-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Paramount-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Paramount-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Preventing-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Preventing-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Preventing-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Preventing-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Starts-Carousel-Slide-1-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Starts-Carousel-Slide-1-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Starts-Carousel-Slide-1-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Starts-Carousel-Slide-1-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Starts-Carousel-Slide-2-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Starts-Carousel-Slide-2-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Starts-Carousel-Slide-2-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Starts-Carousel-Slide-2-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Starts-Carousel-Slide-3-Desktop.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Starts-Carousel-Slide-3-Desktop.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto,ac_none/Safety-Starts-Carousel-Slide-3-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto,ac_none\Safety-Starts-Carousel-Slide-3-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Homepage-FSD-Card-Mobile.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto\Homepage-FSD-Card-Mobile.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Roadster-Event-Livestream.mp4
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-contents\video\upload\f_auto,q_auto\Roadster-Event-Livestream.mp4
+Content Type: video/mp4
+
+Uri: https://digitalassets.tesla.com/tesla-design-system/raw/upload/static/fonts/universal-sans-2/web/text/Universal-Sans-Text-Bold.woff2
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-design-system\raw\upload\static\fonts\universal-sans-2\web\text\Universal-Sans-Text-Bold.woff2
+Content Type: font/woff2
+
+Uri: https://digitalassets.tesla.com/tesla-design-system/raw/upload/static/fonts/universal-sans-2/web/text/Universal-Sans-Text-Light.woff2
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-design-system\raw\upload\static\fonts\universal-sans-2\web\text\Universal-Sans-Text-Light.woff2
+Content Type: font/woff2
+
+Uri: https://digitalassets.tesla.com/tesla-design-system/raw/upload/static/fonts/universal-sans-2/web/text/Universal-Sans-Text-Medium.woff2
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-design-system\raw\upload\static\fonts\universal-sans-2\web\text\Universal-Sans-Text-Medium.woff2
+Content Type: font/woff2
+
+Uri: https://digitalassets.tesla.com/tesla-design-system/raw/upload/static/fonts/universal-sans-2/web/text/Universal-Sans-Text-Regular.woff2
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\tesla-design-system\raw\upload\static\fonts\universal-sans-2\web\text\Universal-Sans-Text-Regular.woff2
+Content Type: font/woff2
+
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabWmT.ttf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\s\roboto\v51\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabWmT.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\s\roboto\v51\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\s\roboto\v51\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammT.ttf
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\s\roboto\v51\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammT.ttf
+Content Type: font/ttf
+
+Uri: https://www.tsla-invest.com/
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\index.htm
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/about
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\about.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/auth/forgot-password
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\auth\forgot-password.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/auth/login
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\auth\login.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/auth/register
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\auth\register.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/careers
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\careers.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/certified-pre-owned
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\certified-pre-owned.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/contact
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\contact.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/css/main.css
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\css\main.css
+Content Type: text/css
+
+Uri: https://www.tsla-invest.com/css/shop.css
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\css\shop.css
+Content Type: text/css
+
+Uri: https://www.tsla-invest.com/current-offers
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\current-offers.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/cybertruck
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\cybertruck.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/drive
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\drive.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/engage
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\engage.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/fonts/hyperspace-race.woff2
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\fonts\hyperspace-race.woff2
+Content Type: font/woff2
+
+Uri: https://www.tsla-invest.com/fsd
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\fsd.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/fsd/safety
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\fsd\safety.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/images/robotaxi/cybercab-wordmark.svg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\images\robotaxi\cybercab-wordmark.svg
+Content Type: image/svg+xml
+
+Uri: https://www.tsla-invest.com/images/robotaxi/robotaxi-wordmark.svg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\images\robotaxi\robotaxi-wordmark.svg
+Content Type: image/svg+xml
+
+Uri: https://www.tsla-invest.com/images/robotaxi/us-map.svg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\images\robotaxi\us-map.svg
+Content Type: image/svg+xml
+
+Uri: https://www.tsla-invest.com/images/tesla-logo.svg
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\images\tesla-logo.svg
+Content Type: image/svg+xml
+
+Uri: https://www.tsla-invest.com/invest
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\invest.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/invest/shares
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\invest\shares.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/js/main.js
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\js\main.js
+Content Type: application/javascript
+
+Uri: https://www.tsla-invest.com/locations
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\locations.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/model-3
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\model-3.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/model-s
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\model-s.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/model-x
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\model-x.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/model-y
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\model-y.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/model-y-l
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\model-y-l.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/news
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\news.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/order/cybertruck
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\order\cybertruck.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/order/model-3
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\order\model-3.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/order/model-s
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\order\model-s.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/order/model-x
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\order\model-x.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/order/model-y
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\order\model-y.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/order/model-y-l
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\order\model-y-l.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/powerwall
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\powerwall.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/privacy
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\privacy.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/reserve/roadster
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\reserve\roadster.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/reserve/semi
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\reserve\semi.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/roadster
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\roadster.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/robotaxi
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\robotaxi.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/robotaxi/interest
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\robotaxi\interest.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/safety
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\safety.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/semi
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\semi.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-4.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-6.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-7.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-5.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sort=popular&isNew=true
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-8.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=kids
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-3.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=kids&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-17.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=kids&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-19.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=kids&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-20.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=kids&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-18.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=men
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-1.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=men&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-9.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=men&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-11.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=men&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-12.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=men&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-10.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=women
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-2.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=women&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-13.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=women&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-15.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=women&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-16.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/apparel?sub=women&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\apparel-14.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-4.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-6.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-7.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-5.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sort=popular&isNew=true
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-8.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=adapters
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-3.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=adapters&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-17.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=adapters&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-19.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=adapters&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-20.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=adapters&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-18.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=mobile-chargers
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-2.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=mobile-chargers&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-13.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=mobile-chargers&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-15.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=mobile-chargers&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-16.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=mobile-chargers&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-14.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=wall-connectors
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-1.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=wall-connectors&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-9.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=wall-connectors&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-11.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=wall-connectors&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-12.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/charging?sub=wall-connectors&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\charging-10.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-5.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-7.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-8.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-6.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sort=popular&isNew=true
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-9.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=accessories
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-1.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=accessories&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-10.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=accessories&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-12.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=accessories&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-13.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=accessories&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-11.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=bags
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-3.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=bags&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-18.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=bags&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-20.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=bags&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-21.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=bags&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-19.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=collectibles
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-4.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=collectibles&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-22.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=collectibles&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-24.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=collectibles&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-25.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=collectibles&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-23.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=drinkware
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-2.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=drinkware&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-14.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=drinkware&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-16.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=drinkware&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-17.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/lifestyle?sub=drinkware&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\lifestyle-15.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-6.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?&sort=price-asc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-8.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?&sort=price-desc
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-9.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?&sort=rating
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-7.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=cybertruck
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-1.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=cybertruck&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-11.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=model-3
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-2.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=model-3&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-12.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=model-s
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-4.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=model-s&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-14.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=model-x
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-5.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=model-x&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-15.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=model-y
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-3.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?model=model-y&sort=popular
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-13.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/category/vehicle-accessories?sort=popular&isNew=true
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\category\vehicle-accessories-10.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/cybertruck-bed-liner
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\cybertruck-bed-liner.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/cybertruck-floor-mats
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\cybertruck-floor-mats.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/cybertruck-hoodie
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\cybertruck-hoodie.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/cybertruck-roof-rack
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\cybertruck-roof-rack.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/cybertruck-tonneau-cover
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\cybertruck-tonneau-cover.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/cybertruck-wall-connector
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\cybertruck-wall-connector.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/j1772-adapter
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\j1772-adapter.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/kids-cybertruck-hoodie
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\kids-cybertruck-hoodie.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/kids-tesla-tee
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\kids-tesla-tee.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/mobile-connector
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\mobile-connector.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/model-3-floor-mats
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\model-3-floor-mats.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/model-s-carbon-spoiler
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\model-s-carbon-spoiler.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/model-x-wiper-blades
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\model-x-wiper-blades.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/model-y-cargo-organizer
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\model-y-cargo-organizer.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/nacs-ccs1-adapter
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\nacs-ccs1-adapter.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/powerwall-connector
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\powerwall-connector.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-backpack
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-backpack.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-cap
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-cap.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-diecast-cybertruck
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-diecast-cybertruck.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-diecast-model-s
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-diecast-model-s.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-raven-quarter-zip
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-raven-quarter-zip.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-softshell-jacket
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-softshell-jacket.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-sunglasses
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-sunglasses.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-tote-bag
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-tote-bag.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-travel-mug
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-travel-mug.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-womens-script-tee
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-womens-script-tee.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-womens-sweatshirt
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-womens-sweatshirt.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-womens-wind-jacket
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-womens-wind-jacket.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/tesla-wordmark-tee
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\tesla-wordmark-tee.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/shop/product/universal-wall-connector
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\shop\product\universal-wall-connector.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/solar-panels
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\solar-panels.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/support/robotaxi
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\support\robotaxi.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/support/vehicle-warranty
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\support\vehicle-warranty.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/updates
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\updates.html
+Content Type: text/html
+
+Uri: https://www.tsla-invest.com/VehicleFireSafetyReport
+File Name: C:\Users\Hewllet-Packard\Downloads\www.tsla-invest.com\VehicleFireSafetyReport.html
+Content Type: text/html
+

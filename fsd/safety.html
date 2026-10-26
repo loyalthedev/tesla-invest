@@ -1,0 +1,854 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FSD (Supervised) Vehicle Safety Report - Tesla</title>
+  <link rel="icon" type="image/svg+xml" href="../images/tesla-logo.svg">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gotham:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="vsr-page">
+
+
+<header class="tz-header" id="main-header" data-tz-nav="">
+  <div class="tz-bar">
+    <a href="../index.htm" class="tz-logo" aria-label="Tesla home"><svg viewbox="0 0 342 35" fill="currentColor" aria-hidden="true"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg></a>
+
+    <nav class="tz-primary" aria-label="Primary">
+      <button type="button" class="tz-navlink" data-panel="vehicles">Vehicles</button>
+      <button type="button" class="tz-navlink" data-panel="energy">Energy</button>
+      <button type="button" class="tz-navlink" data-panel="charging">Charging</button>
+      <button type="button" class="tz-navlink" data-panel="semi">Semi</button>
+      <button type="button" class="tz-navlink" data-panel="discover">Discover</button>
+      <button type="button" class="tz-navlink" data-panel="shop">Shop</button>
+      <a class="tz-navlink" href="../invest.html">Invest</a>
+    </nav>
+
+    <div class="tz-actions">
+      <a class="tz-icon" href="../contact.html" aria-label="Support" title="Support">
+        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+      </a>
+      <a class="tz-icon" href="../locations.html" aria-label="Locations" title="Locations">
+        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+      </a>
+      <a class="tz-icon" href="../auth/login.html" aria-label="Account" title="Account">
+        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 20a7.5 7.5 0 0 1 15 0"></path></svg>
+      </a>
+      <button class="tz-burger" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+
+  <!-- Full-width mega dropdown -->
+  <div class="tz-mega" id="tzMega">
+    <!-- Vehicles -->
+    <div class="tz-panel" data-panel="vehicles">
+      <div class="tz-grid">
+        
+        <div class="tz-card">
+          <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-3.png" alt="Model 3" loading="lazy">
+          <div class="tz-card-name">Model 3</div>
+          <div class="tz-card-links"><a href="../model-3.html">Learn</a><a href="../order/model-3.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-Y.png" alt="Model Y" loading="lazy">
+          <div class="tz-card-name">Model Y</div>
+          <div class="tz-card-links"><a href="../model-y.html">Learn</a><a href="../order/model-y.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Homepage-Cybertruck-Desktop.png" alt="Cybertruck" loading="lazy">
+          <div class="tz-card-name">Cybertruck</div>
+          <div class="tz-card-links"><a href="../cybertruck.html">Learn</a><a href="../order/cybertruck.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-S.png" alt="Model S" loading="lazy">
+          <div class="tz-card-name">Model S</div>
+          <div class="tz-card-links"><a href="../model-s.html">Learn</a><a href="../order/model-s.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-X.png" alt="Model X" loading="lazy">
+          <div class="tz-card-name">Model X</div>
+          <div class="tz-card-links"><a href="../model-x.html">Learn</a><a href="../order/model-x.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Roadster-Hero-Desktop.jpg" alt="Roadster" loading="lazy">
+          <div class="tz-card-name">Roadster</div>
+          <div class="tz-card-links"><a href="../roadster.html">Learn</a><a href="../reserve/roadster.html">Reserve</a></div>
+        </div>
+        
+      </div>
+      <aside class="tz-aside">
+        <a href="../invest.html">Current Offers</a>
+        <a href="../drive.html">Demo Drive</a>
+        <a href="../shop.html">Inventory</a>
+        <a href="../robotaxi.html">Robotaxi</a>
+        <a href="../invest/shares.html">Compare &amp; Invest</a>
+        <a href="../locations.html">Find Us</a>
+      </aside>
+    </div>
+
+    <!-- Energy -->
+    <div class="tz-panel" data-panel="energy">
+      <div class="tz-grid">
+        <div class="tz-card">
+          <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Solar-Panels-Social.jpg" alt="Solar Panels" loading="lazy">
+          <div class="tz-card-name">Solar Panels</div>
+          <div class="tz-card-links"><a href="../solar-panels.html">Learn</a><a href="../solar-panels.html">Order</a></div>
+        </div>
+        <div class="tz-card">
+          <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/1M-Powerwalls-Powerwall-3-Hero-Desktop.png" alt="Powerwall" loading="lazy">
+          <div class="tz-card-name">Powerwall</div>
+          <div class="tz-card-links"><a href="../powerwall.html">Learn</a><a href="../powerwall.html">Order</a></div>
+        </div>
+      </div>
+      <aside class="tz-aside">
+        <a href="../solar-panels.html">Why Solar</a>
+        <a href="../contact.html">Schedule a Consultation</a>
+        <a href="../contact.html">Support</a>
+      </aside>
+    </div>
+
+    <!-- Charging -->
+    <div class="tz-panel" data-panel="charging">
+      <div class="tz-tiles">
+        <a class="tz-tile" href="../shop/category/charging.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true" focusable="false"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span>Home Charging</span></a>
+        <a class="tz-tile" href="../locations.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Supercharging</span></a>
+        <a class="tz-tile" href="../shop/category/charging.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="1" y="4" width="22" height="16" rx="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg><span>Wall Connector</span></a>
+      </div>
+      <aside class="tz-aside">
+        <a href="../locations.html">Find a Supercharger</a>
+        <a href="../shop/category/charging.html">Charging Products</a>
+        <a href="../contact.html">Help Me Charge</a>
+      </aside>
+    </div>
+
+    <!-- Semi -->
+    <div class="tz-panel" data-panel="semi">
+      <div class="tz-grid">
+        <div class="tz-card">
+          <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Semi-Social.jpg" alt="Tesla Semi" loading="lazy">
+          <div class="tz-card-name">Semi</div>
+          <div class="tz-card-links"><a href="../semi.html">Learn</a><a href="../reserve/semi.html">Reserve</a></div>
+        </div>
+      </div>
+      <aside class="tz-aside">
+        <a href="../locations.html">Find Us</a>
+        <a href="../invest.html">Tesla for Business</a>
+      </aside>
+    </div>
+
+    <!-- Discover -->
+    <div class="tz-panel tz-panel-cols" data-panel="discover">
+      <div class="tz-col">
+        <div class="tz-col-label">Resources</div>
+        <a href="../drive.html">Demo Drive</a>
+        <a href="../invest.html">Current Offers</a>
+        <a href="../news.html">Learn</a>
+        <a href="../engage.html">Events</a>
+        <a href="../privacy.html">Safety &amp; Legal</a>
+      </div>
+      <div class="tz-col">
+        <div class="tz-col-label">Location Services</div>
+        <a href="../locations.html">Find Us</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+      <div class="tz-col">
+        <div class="tz-col-label">Company</div>
+        <a href="../about.html">About</a>
+        <a href="../careers.html">Careers</a>
+        <a href="../invest.html">Investor Relations</a>
+        <a href="../news.html">News</a>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="tz-panel" data-panel="shop">
+      <div class="tz-tiles tz-tiles-4">
+        <a class="tz-tile" href="../shop/category/charging.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true" focusable="false"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span>Charging</span></a>
+        <a class="tz-tile" href="../shop/category/vehicle-accessories.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 17H3v-5l2-5h14l2 5v5h-2"></path><path d="M5 12h14"></path><circle cx="7.5" cy="17.5" r="1.5"></circle><circle cx="16.5" cy="17.5" r="1.5"></circle></svg><span>Vehicle Accessories</span></a>
+        <a class="tz-tile" href="../shop/category/apparel.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.59 13.41 13.42 20.59a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg><span>Apparel</span></a>
+        <a class="tz-tile" href="../shop/category/lifestyle.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg><span>Lifestyle</span></a>
+      </div>
+      <aside class="tz-aside">
+        <a href="../shop.html">Shop Home</a>
+        
+        <a href="../auth/login.html">Cart</a>
+      </aside>
+    </div>
+  </div>
+</header>
+<div class="tz-mega-backdrop" id="tzBackdrop"></div>
+
+<!-- Mobile overlay & slide-in menu (kept outside header) -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-header">
+    <svg width="100" height="10" viewbox="0 0 342 35" fill="#171a20" xmlns="http://www.w3.org/2000/svg" style="display:block;" class="mobile-logo">
+      <path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path>
+    </svg>
+    <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+      <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+  </div>
+  <div class="mobile-section-label">Vehicles</div>
+  <div class="mobile-menu-items">
+    
+    <a href="../model-3.html" class="mobile-link"><span>Model 3</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-y.html" class="mobile-link"><span>Model Y</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-s.html" class="mobile-link"><span>Model S</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-x.html" class="mobile-link"><span>Model X</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../cybertruck.html" class="mobile-link"><span>Cybertruck</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../roadster.html" class="mobile-link"><span>Roadster</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../robotaxi.html" class="mobile-link"><span>Robotaxi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../semi.html" class="mobile-link"><span>Semi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+  </div>
+  <div class="mobile-section-label">Energy</div>
+  <div class="mobile-menu-items">
+    <a href="../solar-panels.html" class="mobile-link"><span>Solar Panels</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="../powerwall.html" class="mobile-link"><span>Powerwall</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Discover</div>
+  <div class="mobile-menu-items">
+    <a href="../shop.html" class="mobile-link mobile-shop"><span>Tesla Shop</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="../invest.html" class="mobile-link mobile-invest"><span>Invest</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Account</div>
+  <div class="mobile-menu-items mobile-account-items">
+    
+      <a href="../auth/login.html" class="mobile-link"><span>Sign In</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+      <a href="../auth/register.html" class="mobile-cta">Create Account</a>
+    
+  </div>
+</div>
+
+<script>
+(function () {
+  // ----- Desktop mega-menu -----
+  var header = document.getElementById('main-header');
+  var mega = document.getElementById('tzMega');
+  var backdrop = document.getElementById('tzBackdrop');
+  if (header && mega) {
+    var links = header.querySelectorAll('.tz-navlink');
+    var panels = mega.querySelectorAll('.tz-panel');
+    var current = null;
+    function open(name) {
+      if (!name) return close();
+      current = name;
+      panels.forEach(function (p) { p.classList.toggle('active', p.dataset.panel === name); });
+      links.forEach(function (l) { l.classList.toggle('active', l.dataset.panel === name); });
+      header.classList.add('mega-open');
+      if (backdrop) backdrop.classList.add('show');
+    }
+    function close() {
+      current = null;
+      header.classList.remove('mega-open');
+      links.forEach(function (l) { l.classList.remove('active'); });
+      if (backdrop) backdrop.classList.remove('show');
+    }
+    links.forEach(function (l) {
+      l.addEventListener('mouseenter', function () { open(l.dataset.panel); });
+      l.addEventListener('click', function () { current === l.dataset.panel ? close() : open(l.dataset.panel); });
+      l.addEventListener('focus', function () { open(l.dataset.panel); });
+    });
+    header.addEventListener('mouseleave', close);
+    if (backdrop) backdrop.addEventListener('mouseenter', close);
+    if (backdrop) backdrop.addEventListener('click', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  }
+
+  // ----- Mobile slide-in menu -----
+  var toggle = document.getElementById('menuToggle');
+  var menu = document.getElementById('mobileMenu');
+  var overlay = document.getElementById('mobileOverlay');
+  var closeBtn = document.getElementById('mobileClose');
+  if (toggle && menu && overlay && closeBtn) {
+    function openM() { menu.classList.add('open'); overlay.classList.add('active'); document.body.style.overflow = 'hidden'; toggle.setAttribute('aria-expanded', 'true'); }
+    function closeM() { menu.classList.remove('open'); overlay.classList.remove('active'); document.body.style.overflow = ''; toggle.setAttribute('aria-expanded', 'false'); }
+    toggle.addEventListener('click', openM);
+    closeBtn.addEventListener('click', closeM);
+    overlay.addEventListener('click', closeM);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeM(); });
+  }
+})();
+</script>
+
+
+
+<main class="vsr">
+
+  <!-- Hero: clip, title, live counters -->
+  <section class="vsr-wrap vsr-hero">
+    <div class="vsr-frame fsd-media-wrap"><video autoplay="" muted="" loop="" playsinline="" preload="metadata"><source src="../tesla-contents/video/upload/f_auto%2Cq_auto%2Cac_none/FSD-Vehicle-Safety-Report-Mobile.mp4" type="video/mp4" media="(max-width: 599px)"><source src="../tesla-contents/video/upload/f_auto%2Cq_auto%2Cac_none/FSD-Vehicle-Safety-Report-Desktop.mp4" type="video/mp4"></video><button type="button" class="fsd-toggle" aria-label="Pause video"><span class="fsd-ic-pause"><svg viewbox="0 0 24 24" aria-hidden="true"><rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor"></rect><rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor"></rect></svg></span><span class="fsd-ic-play"><svg viewbox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"></path></svg></span></button></div>
+    <div class="vsr-hero-row">
+      <div>
+        <h1>Full Self-Driving (Supervised)</h1>
+        <p class="vsr-hero-sub">Vehicle Safety Report</p>
+        <div class="vsr-btns">
+          <a class="btn-primary" href="../drive.html">Demo FSD (Supervised)</a>
+          <a class="btn-grey" href="../robotaxi.html">Try Robotaxi</a>
+        </div>
+      </div>
+      <div class="vsr-counters">
+        <strong id="vsrMiles">17,591,094,613</strong>
+        <span>Miles Driven</span>
+        <p><b id="vsrCity">6,871,081,555</b> City Miles Driven<sup>1</sup></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keeps You Safer -->
+  <section class="vsr-wrap vsr-section">
+    <h2>Full Self-Driving (Supervised) Keeps You Safer</h2>
+    <p class="vsr-lede"><a href="../fsd.html">FSD (Supervised)</a> enables your vehicle to drive you almost anywhere with your active supervision, requiring minimal intervention. When engaged and under your active supervision, your likelihood of being in a collision goes down.</p>
+    <div class="vsr-grid vsr-grid-3">
+      <div class="vsr-card"><span class="vsr-icon"><svg viewbox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 30h9l5-6h4"></path><circle cx="10" cy="31" r="2.5"></circle><path d="M44 30h-9l-5-6h-4"></path><circle cx="38" cy="31" r="2.5"></circle><path d="M24 12v6M17 14l3 5M31 14l-3 5"></path></svg></span><p class="vsr-big">7<small>x</small></p><p class="vsr-cap">Fewer major collisions<sup>2</sup></p></div>
+      <div class="vsr-card"><span class="vsr-icon"><svg viewbox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 30h9l5-6h4"></path><circle cx="10" cy="31" r="2.5"></circle><path d="M44 30h-9l-5-6h-4"></path><circle cx="38" cy="31" r="2.5"></circle><path d="M24 12v6M17 14l3 5M31 14l-3 5"></path></svg></span><p class="vsr-big">7<small>x</small></p><p class="vsr-cap">Fewer minor collisions<sup>2</sup></p></div>
+      <div class="vsr-card"><span class="vsr-icon"><svg viewbox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="13" y="6" width="16" height="36"></rect><path d="M29 18h7v24h-7M18 12h2M23 12h2M18 18h2M23 18h2M18 24h2M23 24h2M32 24h1M32 30h1M20 42v-8h4v8"></path></svg></span><p class="vsr-big">5<small>x</small></p><p class="vsr-cap">Fewer off-highway collisions<sup>2</sup></p></div>
+    </div>
+  </section>
+
+  <!-- Miles Driven Before a Collision -->
+  <section class="vsr-wrap vsr-section">
+    <h2>Miles Driven Before a Collision</h2>
+    <p class="vsr-lede">Tesla vehicles with FSD (Supervised) engaged experience fewer collisions than those driven without.</p>
+    <div class="vsr-filters">
+      
+      <div class="vsr-select" data-filter="road">
+        <button type="button" class="vsr-select-btn" aria-haspopup="listbox" aria-expanded="false"><span>All Road Classes</span><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+        <ul class="vsr-select-list" role="listbox" hidden="">
+          <li role="option" data-value="all" aria-selected="true">All Road Classes</li><li role="option" data-value="highway" aria-selected="false">Highway</li><li role="option" data-value="non-highway" aria-selected="false">Non-Highway</li>
+        </ul>
+      </div>
+      
+      <div class="vsr-select" data-filter="region">
+        <button type="button" class="vsr-select-btn" aria-haspopup="listbox" aria-expanded="false"><span>North America</span><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+        <ul class="vsr-select-list" role="listbox" hidden="">
+          <li role="option" data-value="north-america" aria-selected="true">North America</li><li role="option" data-value="worldwide" aria-selected="false">Worldwide</li>
+        </ul>
+      </div>
+      
+    </div>
+    <div class="vsr-chart-card">
+      <ul class="vsr-legend">
+        <li><i class="vsr-c0"></i>Teslas Driven With FSD (Supervised)</li><li><i class="vsr-c1"></i>Teslas Driven Manually (Active Safety Features)</li><li><i class="vsr-c2"></i>Teslas Driven Manually (No Active Safety Features)</li><li><i class="vsr-c3"></i>U.S. Average</li>
+      </ul>
+      <div class="vsr-chart" id="vsrChart" data-chart='{"north-america|all":[{"label":"Miles Driven Before a Major Collision","values":[5700000,2100000,859000,699000]},{"label":"Miles Driven Before a Minor Collision","values":[1600000,697000,288000,237000]}],"north-america|highway":[{"label":"Miles Driven Before a Major Collision","values":[8400000,3200000,1400000,1200000]},{"label":"Miles Driven Before a Minor Collision","values":[2400000,1000000,420000,345000]}],"north-america|non-highway":[{"label":"Miles Driven Before a Major Collision","values":[2600000,1300000,580000,505000]},{"label":"Miles Driven Before a Minor Collision","values":[850000,410000,190000,165000]}],"worldwide|all":[{"label":"Miles Driven Before a Major Collision","values":[5300000,2000000,812000,699000]},{"label":"Miles Driven Before a Minor Collision","values":[1500000,655000,272000,237000]}],"worldwide|highway":[{"label":"Miles Driven Before a Major Collision","values":[7800000,3000000,1300000,1200000]},{"label":"Miles Driven Before a Minor Collision","values":[2200000,940000,395000,345000]}],"worldwide|non-highway":[{"label":"Miles Driven Before a Major Collision","values":[2400000,1200000,545000,505000]},{"label":"Miles Driven Before a Minor Collision","values":[790000,385000,178000,165000]}]}'></div>
+    </div>
+  </section>
+
+  <!-- Teslas Can See It All -->
+  <section class="vsr-wrap vsr-section">
+    <div class="vsr-frame vsr-frame-img">
+      <picture>
+        <source srcset="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Vehicle-Safety-Report-Cameras-Mobile.jpg" media="(max-width: 599px)">
+        <img src="../tesla-contents/image/upload/f_auto%2Cq_auto/Vehicle-Safety-Report-Cameras-Desktop.jpg" alt="Tesla vehicle cameras seeing pedestrians, cars and cyclists at an intersection" loading="lazy">
+      </picture>
+    </div>
+    <h2 class="vsr-space">Teslas Can See It All</h2>
+    <p class="vsr-lede">Eight external cameras provide a 360-degree view of the environment around the vehicle. The FSD (Supervised) system then processes over one million pixels of visual data every millisecond so that it can respond in real time to complex and highly variable driving environments.</p>
+  </section>
+
+  <!-- Engineered to Be the Safest -->
+  <section class="vsr-wrap vsr-section">
+    <h2>Engineered to Be the Safest in the World</h2>
+    <p class="vsr-lede">Tesla's combination of passive, active and advanced driver-assistance safety systems set the standard for vehicle safety worldwide. <a href="../safety.html">Learn More</a></p>
+    <div class="vsr-grid vsr-grid-4">
+      <div class="vsr-card">
+        <h3>5-Star Safety Ratings</h3>
+        <div class="vsr-stars" aria-label="Five stars"><svg viewbox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z" fill="#f5a623"></path></svg><svg viewbox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z" fill="#f5a623"></path></svg><svg viewbox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z" fill="#f5a623"></path></svg><svg viewbox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z" fill="#f5a623"></path></svg><svg viewbox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z" fill="#f5a623"></path></svg></div>
+        <div class="vsr-badges"><span>NHTSA</span><span class="vsr-badge-dark">EURO NCAP</span><span>ANCAP</span></div>
+      </div>
+      <div class="vsr-card"><h3>Passive Safety</h3><ul><li>Large crumple zones</li><li>Advanced airbags and seatbelts</li><li>Reduced rollover risk</li></ul></div>
+      <div class="vsr-card"><h3>Active Safety</h3><ul><li>Automatic emergency braking</li><li>Driver drowsiness warning</li><li>Over-the-air software updates</li></ul></div>
+      <div class="vsr-card"><h3>Fire Safety</h3><ul><li>Battery runaway protection</li><li>Integrated fault responses</li><li><a href="../VehicleFireSafetyReport.html">Proven fire safety record</a></li></ul></div>
+    </div>
+  </section>
+
+  <!-- Saves Lives -->
+  <section class="vsr-wrap vsr-section">
+    <h2>FSD (Supervised) Saves Lives and Prevents Injuries</h2>
+    <p class="vsr-lede">FSD (Supervised) improves U.S. road safety by over 80%, reducing the likelihood of collisions caused by human error.</p>
+    <div class="vsr-grid vsr-grid-2">
+      <div class="vsr-card vsr-card-wide"><p class="vsr-huge">32,000<small>+</small></p><p class="vsr-cap-dark">Lives potentially saved per year</p><p class="vsr-cap"><a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813730" target="_blank" rel="noopener">NHTSA</a> reported 40,900+ fatalities on the road in the U.S. in 2023<sup>3</sup></p></div>
+      <div class="vsr-card vsr-card-wide"><p class="vsr-huge">1,900,000<small>+</small></p><p class="vsr-cap-dark">Injuries could potentially be avoided per year</p><p class="vsr-cap"><a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813730" target="_blank" rel="noopener">NHTSA</a> reported 2,400,000+ injuries on the road in the U.S. in 2023<sup>3</sup></p></div>
+    </div>
+    <div class="vsr-grid vsr-grid-4 vsr-grid-tight">
+      
+      <div class="vsr-card"><span class="vsr-icon"><svg viewbox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 8h28L24 24zM24 24v14M16 40h16M30 4l-4 10"></path></svg></span><p class="vsr-mid">30<small>%</small></p><p class="vsr-cap">Of fatalities from drunk driving (2023)<sup>4</sup></p><a class="vsr-src" href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813730" target="_blank" rel="noopener">NHTSA</a></div>
+      
+      <div class="vsr-card"><span class="vsr-icon"><svg viewbox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="8" r="4"></circle><path d="M16 42l3-14h10l3 14M18 22l6-6 6 6M12 34l24-20"></path></svg></span><p class="vsr-mid">44<small>%</small></p><p class="vsr-cap">Of vehicle-occupant fatalities from not wearing a seatbelt (2023)<sup>4</sup></p><a class="vsr-src" href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813730" target="_blank" rel="noopener">NHTSA</a></div>
+      
+      <div class="vsr-card"><span class="vsr-icon"><svg viewbox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 32a16 16 0 0 1 32 0"></path><path d="M24 32l-2-12"></path><circle cx="24" cy="32" r="2" fill="currentColor"></circle></svg></span><p class="vsr-mid">29<small>%</small></p><p class="vsr-cap">Of fatalities from speeding (2023)<sup>4</sup></p><a class="vsr-src" href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813730" target="_blank" rel="noopener">NHTSA</a></div>
+      
+      <div class="vsr-card"><span class="vsr-icon"><svg viewbox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="15" y="5" width="18" height="38" rx="4"></rect><rect x="19" y="18" width="10" height="7" rx="1.5"></rect><path d="M22 5h4"></path></svg></span><p class="vsr-mid">29<small>%</small></p><p class="vsr-cap">Of collisions from distracted driving (2023)<sup>4</sup></p><a class="vsr-src" href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813730" target="_blank" rel="noopener">NHTSA</a></div>
+      
+    </div>
+  </section>
+
+  <!-- Methodology -->
+  <section class="vsr-wrap vsr-section">
+    <h2>Methodology</h2>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Collision Definition</summary>
+      <p>Tesla records collision events in accordance with 49 C.F.R. § 563.5, which defines a collision event as a crash or physical occurrence that causes any non-reversible deployable restraint to be deployed or that meets or exceeds the trigger threshold of a change in velocity (Delta-V) of 8 km/h occurring within a 150-millisecond period. Delta-V measures the change in a vehicle's velocity during a collision and is widely used in crash analysis to quantify impact severity. A higher Delta-V indicates greater forces acting on the vehicle and its occupants, making it a reliable indicator for discriminating between impact severities across a broad spectrum of collisions.</p>
+      <p>Consistent with 49 C.F.R. § 563.5, Tesla separates collisions into two categories:</p>
+      <ol>
+        <li>Deployment collisions tend to have higher severity impacts where the vehicle's airbags or other non-reversible pyrotechnic restraints are deployed. Tesla refers to these collisions as “major collisions” in the Vehicle Safety Report.</li>
+        <li>Non-deployment collisions tend to have lower severity impacts (Delta-V ≥ 8 km/h within 150 milliseconds) where neither airbags nor any other non-reversible pyrotechnic restraints are deployed. Tesla refers to these collisions as “minor collisions” in the Vehicle Safety Report.</li>
+      </ol>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Collision Classification</summary>
+      <p>If FSD (Supervised) was active at any point within five seconds leading up to a collision event, Tesla considers the collision to have occurred with FSD (Supervised) engaged for purposes of calculating collision rates for the Vehicle Safety Report. This approach accounts for the time required for drivers to recognize potential hazards and take manual control of the vehicle. This calculation ensures that our reported collision rates for FSD (Supervised) capture not only collisions that occur while the system is actively controlling the vehicle, but also scenarios where a driver may disengage the system or where the system aborts on its own shortly before impact.</p>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>No Assessment of Fault in the Reported Data</summary>
+      <p>Tesla does not attribute fault in our collision reporting due to the subjective and complex nature of fault determination, which typically requires detailed investigation of circumstances, driver intent and applicable traffic laws. By reporting all collisions, regardless of who or what factors contributed to the cause of the collision—driver(s), vehicle(s), environment, system misuse, etc.—Tesla provides a consistent and objective measure that allows for meaningful safety comparisons across different driving modes and conditions.</p>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Comparison to Manually Driven Tesla Vehicles With and Without Active Safety Features</summary>
+      <p>Tesla compares FSD (Supervised) collision rates, observed by our telemetry, to both manually driven Tesla vehicles with and without active safety features. All Tesla vehicles manufactured after 2014 are equipped with active safety features, including Automatic Emergency Braking, Forward Collision Warning, Lane Departure Warning and other collision-avoidance systems. Tesla's data reflects substantially higher miles-per-collision rates for Tesla vehicles equipped with active safety features compared to Tesla vehicles without these features.</p>
+      <p>Tesla vehicles without active safety features (i.e., Tesla vehicles manufactured prior to 2014) serve as the best proxy for the safety of an average U.S. vehicle, given that the average vehicle age in the U.S. is approximately 12 years old, predating widespread adoption of active safety and advanced driver-assistance systems. While these vehicles are not sold anymore, they collectively drive hundreds of millions of miles every year.</p>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Vehicle Telemetry Presented</summary>
+      <p>The Tesla fleet is comprised of millions of vehicles worldwide, generating real-world driving data at scale. The Vehicle Safety Report illustrates a combination of anonymous vehicle telemetry, including miles driven, road classifications and control type, in addition to safety-critical event telemetry (VIN-associated data received when the vehicle experiences a major or minor collision, as defined above). To illustrate telemetry volume, in Q3 of 2025 alone, Tesla received 2.5 billion telemetry packages from our vehicle fleet around the world (excluding China).</p>
+      <p>The vehicle telemetry packages that are analyzed and aggregated in the Vehicle Safety Report occur in two distinct ways:</p>
+      <ol>
+        <li>On shift-to-park: The vehicle transmits a data packet containing anonymized mileage information from the culminating trip (or drive cycle) to Tesla servers. This data informs Tesla of the number of miles traveled in different control types and road classifications for each vehicle type.</li>
+        <li>On detection of a major or minor collision: A VIN-associated data packet is transmitted to Tesla servers. If the data upload fails, trip and collision information remains stored on the vehicle itself and is available to reattempt upload if connectivity is restored.</li>
+      </ol>
+      <p>Certain variables, including but not limited to cellular connectivity or damage to vehicle communication systems, may affect Tesla's ability to capture certain events. Importantly, these variables apply uniformly across all Tesla control types analyzed in the Vehicle Safety Report, preserving the validity of comparative safety metrics between FSD (Supervised) and manual driving.</p>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Highway and Non-Highway Definition</summary>
+      <p>Tesla categorizes roadways into highway and non-highway based on road characteristics including map data routing classes, lane count and controlled access infrastructure. While our classification accuracy is high, there may be minor variations in mileage and collision data based on localization, map dependencies and differences in definitions when compared to U.S. averages.</p>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Calculating a Baseline U.S. Average</summary>
+      <p>The safety benefits of FSD (Supervised) are clear when compared to manually driven Tesla vehicles with and without active safety features. This is the most direct and statistically valid comparison setup since it is being made within the same fleet of vehicles using the same telemetry pipelines.</p>
+      <p>Additionally, Tesla vehicles share the road with many road users in non-Tesla vehicles. To that end, it is prudent to assess the safety of FSD (Supervised) against the general safety of roadways in the U.S. A quantifiable means by which to do this is to estimate the U.S. collision rate using data published by the U.S. government, which is the best available source. To establish a baseline U.S. average, Tesla used U.S. government data, as explained below, to estimate for total miles traveled (numerator) and total vehicles involved in a collision (denominator).</p>
+      <p>The U.S. government publishes several data sources for consideration. For total miles traveled (numerator), a commonly used source for research is the Federal Highway Administration's (FHWA) vehicle miles traveled (VMT) annual reports (with the most recent publication being for calendar year <a href="https://www.fhwa.dot.gov/policyinformation/statistics.cfm" target="_blank" rel="noopener">2024</a>). For total vehicles involved in a collision (denominator), Tesla looked to three sampling and reporting systems: the National Highway Traffic Safety Administration's (NHTSA) Crash Report Sampling System (CRSS), which captures police-reported incident rates nationwide; second, NHTSA's Crash Investigation Sampling System (CISS), which samples police-reported collisions where at least one passenger vehicle was towed from the crash scene; and third, NHTSA's Fatality Analysis Reporting System (FARS), which measures fatality events nationwide. Among these sampling and reporting systems, the CISS primarily involves collision severities that most closely align with Tesla's approach to tracking major collisions, because the CISS captures collisions where at least one passenger vehicle was towed and is not limited by injury outcomes. In contrast, CRSS primarily captures incidents where neither airbags nor other restraints may have deployed (e.g., approximately <a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813730" target="_blank" rel="noopener">71.7%</a> of crashes in the CRSS for 2023 are property damage only, whereas deployment events are more closely associated with higher severity impacts with greater potential for injury). In further contrast, the FARS is specific to fatal collisions and primarily captures a subset of the highest severity deployment incidents and certain non-deployment or difficult-to-detect incidents involving certain object types.</p>
+      <p>Based on all these considerations, to calculate the major collision “U.S. average” estimate, Tesla divided the FHWA vehicle miles traveled (from all vehicles reported) by the estimated total count of vehicles involved in CISS-reported incidents (see the total value in Table 3 of the <a href="https://www.nhtsa.gov/crash-data-systems/crash-investigation-sampling-system" target="_blank" rel="noopener">CISS reports</a>).</p>
+      <p>The CISS and FHWA databases do not contain highway and non-highway breakdowns that are directly comparable to Tesla's data. Therefore, to estimate a baseline for the “U.S. average” collision rate breakdown by highway and non-highway, Tesla computed the relative fraction of the overall collision rate seen in the manually driven Tesla fleet for both highway and non-highway driving. Tesla then applied those fractions to the major collision “U.S. average” rate to estimate the “U.S. average” collision rate for highway and non-highway driving. Tesla applied the same method to estimate the “U.S. average” rate for “Minor Collisions” by using the ratio of minor collisions to major collisions in the Tesla manually driven fleet. The Tesla manually driven fleet is a reasonably representative approximation for these fractions, due to its size (over three million U.S. vehicles), geographic distribution (presence in every U.S. state), owner makeup (Model Y was the second bestselling non-pickup in the U.S. in 2023-2024) and activity (over 30 billion miles annually in the U.S.).</p>
+      <p>Tesla appreciates that any adjustments to data can potentially introduce inadvertent noise and bias. To preserve the accuracy and integrity of the methodology used to calculate the U.S. average and compare it to Tesla collision rates, Tesla purposely limited any processing or filtering of data to be strictly minimal and only as necessary, as outlined above. Even still, the methodology involves necessary and unavoidable assumptions due to differences in data collection methods between Tesla's data and publicly available data published by the U.S. government. These assumptions may contain limitations with respect to reporting criteria, unreported incident estimations (e.g., NHTSA estimates that 60% of property damage-only crashes and 32% of injury crashes are not reported to police [<a href="https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813730" target="_blank" rel="noopener">Blincoe et al. 2023</a>]), federal database sample size and fleet distribution. Some of these limitations may skew the U.S. average calculation higher or lower than presented in the Vehicle Safety Report. Notwithstanding these limitations, the magnitude of improved real-world safety using FSD (Supervised) is clear and undeniable. This is plainly evident in the most direct comparison between Tesla vehicles using FSD (Supervised) and those being driven manually. The U.S. average estimate (even with its limitations) simply reinforces that conclusion.</p>
+    </details>
+  </section>
+
+  <!-- FAQ -->
+  <section class="vsr-wrap vsr-section">
+    <h2>FAQ</h2>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Why does Tesla collect collision telemetry?</summary>
+      <p>Tesla collects collision telemetry to understand the nature of real-world collisions and develop solutions to prevent or mitigate them.</p>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>What date range is the Vehicle Safety Report based on?</summary>
+      <p>This web page presents data from different date ranges. Overall FSD (Supervised) mileage is presented from 2020 onward, which coincides with the launch of FSD (Supervised). The latest 12 months of collision rate metrics will be used each time the report is updated, which will be per quarter.</p>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>How often does the data get updated?</summary>
+      <p>Tesla will update collision rate metrics in this report every quarter. The data will reflect a rolling twelve-month aggregation of miles and collisions in an effort to remain relevant to recent trends and progress.</p>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Why doesn't Tesla share other data (e.g., injuries) in the Vehicle Safety Report?</summary>
+      <p>Tesla's collision reporting methodology relies on automated telemetry data collected directly from vehicle systems. This approach enables objective collision detection across millions of vehicles. Other data, such as occupant injury information, is inconsistently provided through voluntary reporting by drivers or otherwise inaccessible to Tesla due to health-related privacy laws.</p>
+      <p>Instead, Tesla focuses on objective and programmatic metrics such as collision frequency and airbag deployment rates. Airbag deployments serve as a reliable proxy for collision severity. For example, airbag deployment thresholds are specifically engineered to activate airbags at impact severities where occupant injury risk increases significantly. Airbag non-deployment collisions typically represent lower severity collisions that may not require an airbag deployment. Together, these make for meaningful and objective safety indicators, which can be consistently measured across the entire fleet of Tesla vehicles. In addition to the regular quarterly updates, Tesla is committed to enhancing the Vehicle Safety Report with additional insights, statistics and reporting methodology.</p>
+      <p><a href="../safety.html">Find information on Tesla vehicles' crash safety</a>.</p>
+    </details>
+    <details class="vsr-acc" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Why does Tesla report the most collisions under NHTSA's Standing General Order on Crash Reporting (SGO), as compared to other car companies?</summary>
+      <p>NHTSA's Standing General Order on Crash Reporting (SGO) requires manufacturers to report known collisions involving a vehicle traveling with an Automated Driving System (ADS) or Advanced Driver Assistance System (ADAS) engaged within the last 30 seconds before a collision occurs, among other reporting criteria. However, the SGO does not require manufacturers to develop a telemetry system to receive notification of collisions involving an ADAS or ADS system. Tesla uses the collision telemetry system described in this Vehicle Safety Report to supplement federal reporting obligations, including the SGO.</p>
+      <p>Tesla designed its vehicles to maximize connectivity and capability. We use remote telemetry to learn from the vehicle fleet to inform a variety of engineering decisions, including being notified about safety-critical events (such as major or minor collisions). In contrast, other vehicle manufacturers, whose vehicles are less connected, largely do not receive vehicle data when a collision occurs that involves one of their vehicles unless or until a customer tells them or sues them.</p>
+      <p>The consequence of the SGO's reporting scheme suggests higher absolute collisions among Tesla vehicles than for every vehicle manufacturer combined; however, the reality is that Tesla reports more collisions simply because we have a large, active and fully connected customer vehicle fleet. This unfortunate consequence of the SGO is compounded by a lack of data normalization. While the SGO requires manufacturers to report absolute collision counts, it does not require manufacturers to report the number of their vehicles operating on U.S. roads or the distance traveled in those vehicles. If one considers absolute collision counts alone, collisions will appear to increase with increased adoption or usage, while in reality, the rate of incidents may be decreasing.</p>
+    </details>
+    <details class="vsr-acc" id="available-countries" open="">
+      <summary><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>Why is FSD (Supervised) not available in my country?</summary>
+      <p>If Tesla vehicles are available for sale in your country, but FSD (Supervised) is not yet available, it may be because your country requires explicit regulatory approval from local authorities. Tesla is actively working with governments worldwide to secure regulatory approvals, with successful rollouts already in place in the following markets:</p>
+      <ul><li>United States</li><li>Canada</li><li>Mexico</li><li>Puerto Rico</li><li>Australia</li><li>New Zealand</li><li>South Korea</li><li>The Netherlands</li><li>Lithuania</li><li>Estonia</li><li>Denmark</li><li>Belgium</li><li>Slovenia</li><li>Czech Republic</li><li>Croatia</li><li>Slovakia</li></ul>
+      <p>While we can't provide exact timelines for specific countries, progress is being made. Once FSD (Supervised) is approved for a given country, eligible vehicles will receive it with an over-the-air software update. More information on how to subscribe to FSD (Supervised) for your vehicle will be released when it is approved in your country.</p>
+    </details>
+  </section>
+
+  <!-- Experience FSD -->
+  <section class="vsr-wrap vsr-section vsr-cta">
+    <div>
+      <h2>Experience Full Self-Driving (Supervised)</h2>
+      <p class="vsr-lede">Engineered to protect every driver, passenger and pedestrian.</p>
+      <div class="vsr-btns vsr-btns-sm">
+        <a class="btn-primary" href="../drive.html">Demo FSD (Supervised)</a>
+        <a class="btn-secondary" href="../robotaxi.html">Try Robotaxi</a>
+      </div>
+    </div>
+    <div class="vsr-frame fsd-media-wrap"><video autoplay="" muted="" loop="" playsinline="" preload="metadata"><source src="../tesla-contents/video/upload/f_auto%2Cq_auto%2Cac_none/FSD-Vehicle-Safety-Report-Mobile.mp4" type="video/mp4" media="(max-width: 599px)"><source src="../tesla-contents/video/upload/f_auto%2Cq_auto%2Cac_none/FSD-Vehicle-Safety-Report-Desktop.mp4" type="video/mp4"></video><button type="button" class="fsd-toggle" aria-label="Pause video"><span class="fsd-ic-pause"><svg viewbox="0 0 24 24" aria-hidden="true"><rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor"></rect><rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor"></rect></svg></span><span class="fsd-ic-play"><svg viewbox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"></path></svg></span></button></div>
+  </section>
+
+  <section class="vsr-wrap vsr-notes">
+    <p><sup>1</sup> Counters increment at the average rate of Tesla fleet mileage per second. This number may not include mileage increases for the growing fleet and free trials offered.</p>
+    <p><sup>2</sup> Compared to the estimated U.S. average</p>
+    <p><sup>3</sup> Injury and fatality estimates and statements extrapolate current FSD (Supervised) collision reductions to 2024 total U.S. vehicle miles traveled and injury/fatality data and assume that fewer collisions reduce injuries and fatalities.</p>
+    <p><sup>4</sup> U.S. data shown</p>
+    <p>FSD (Supervised) Vehicle Safety Report excludes data from China.</p>
+  </section>
+</main>
+
+<script>
+(function () {
+  // Pause/play toggles
+  document.querySelectorAll('.fsd-toggle').forEach(function (btn) {
+    var video = btn.parentElement.querySelector('video');
+    if (!video) return;
+    var sync = function () { btn.classList.toggle('is-paused', video.paused); btn.setAttribute('aria-label', video.paused ? 'Play video' : 'Pause video'); };
+    btn.addEventListener('click', function () { video.paused ? video.play() : video.pause(); });
+    video.addEventListener('play', sync); video.addEventListener('pause', sync); sync();
+  });
+
+  // Live mileage counters (shared rate with the home and FSD pages)
+  var FSD = {"base":17500000000,"since":1792627200000,"perSecond":350}, CITY = 0.3906;
+  var milesEl = document.getElementById('vsrMiles'), cityEl = document.getElementById('vsrCity');
+  var tick = function () {
+    var m = Math.floor(FSD.base + Math.max(Date.now() - FSD.since, 0) / 1000 * FSD.perSecond);
+    milesEl.textContent = m.toLocaleString('en-US');
+    cityEl.textContent = Math.floor(m * CITY).toLocaleString('en-US');
+  };
+  tick(); setInterval(tick, 100);
+
+  // Bar chart: groups of four bars, scaled to the largest value
+  var chartEl = document.getElementById('vsrChart');
+  var DATA = JSON.parse(chartEl.dataset.chart);
+  var state = { road: 'all', region: 'north-america' };
+  var short = function (n) { return n >= 1e6 ? (Math.round(n / 1e5) / 10) + 'M' : Math.round(n / 1e3) + 'K'; };
+  function render() {
+    var groups = DATA[state.region + '|' + state.road];
+    if (!groups) { chartEl.innerHTML = '<p class="vsr-chart-empty">Data for this view isn\'t available yet.</p>'; return; }
+    var max = Math.max.apply(null, groups.flatMap(function (g) { return g.values; }));
+    var top = Math.ceil(max / 1e6) * 1e6, ticks = '';
+    for (var t = top; t >= 0; t -= top / (top / 1e6 > 6 ? 6 : top / 1e6)) ticks += '<div class="vsr-tick"><span>' + (t ? short(t) : '0') + '</span></div>';
+    chartEl.innerHTML = '<div class="vsr-ticks">' + ticks + '</div><div class="vsr-groups">' + groups.map(function (g) {
+      return '<div class="vsr-group"><div class="vsr-bars">' + g.values.map(function (v, i) {
+        return '<div class="vsr-bar vsr-c' + i + '" style="height:' + (v / top * 100) + '%"><span>' + short(v) + '</span></div>';
+      }).join('') + '</div><p>' + g.label + '</p></div>';
+    }).join('') + '</div>';
+  }
+  render();
+
+  // Custom dropdowns
+  document.querySelectorAll('.vsr-select').forEach(function (sel) {
+    var btn = sel.querySelector('.vsr-select-btn'), list = sel.querySelector('.vsr-select-list');
+    var close = function () { list.hidden = true; btn.setAttribute('aria-expanded', 'false'); };
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = list.hidden;
+      document.querySelectorAll('.vsr-select-list').forEach(function (l) { l.hidden = true; });
+      list.hidden = !open; btn.setAttribute('aria-expanded', String(open));
+    });
+    list.querySelectorAll('li').forEach(function (li) {
+      li.addEventListener('click', function () {
+        list.querySelectorAll('li').forEach(function (o) { o.setAttribute('aria-selected', String(o === li)); });
+        btn.querySelector('span').textContent = li.textContent;
+        state[sel.dataset.filter] = li.dataset.value;
+        close(); render();
+      });
+    });
+    document.addEventListener('click', close);
+  });
+})();
+</script>
+
+
+
+
+<!-- Bottom bar -->
+<div class="ta-bar ta-bar--compact" id="taBar">
+  <div class="ta-bar-inner">
+    <button type="button" class="ta-ask" id="taAsk" aria-label="Ask a question">
+      <span class="ta-ask-icon"><svg viewbox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5h16A1.5 1.5 0 0 1 21.5 5v11a1.5 1.5 0 0 1-1.5 1.5H9.2L5 21v-3.5H4A1.5 1.5 0 0 1 2.5 16V5A1.5 1.5 0 0 1 4 3.5z"></path><circle cx="8" cy="10.5" r="1.25" fill="#fff"></circle><circle cx="12" cy="10.5" r="1.25" fill="#fff"></circle><circle cx="16" cy="10.5" r="1.25" fill="#fff"></circle></svg></span>
+      <strong>Ask a Question</strong>
+      <span class="ta-ask-prompt" id="taAskPrompt">"What does the Tesla app do?"</span>
+      <span class="ta-send" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg></span>
+    </button>
+    <button type="button" class="ta-icon-btn" id="taIconBtn" aria-label="Ask a question"><svg viewbox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5h16A1.5 1.5 0 0 1 21.5 5v11a1.5 1.5 0 0 1-1.5 1.5H9.2L5 21v-3.5H4A1.5 1.5 0 0 1 2.5 16V5A1.5 1.5 0 0 1 4 3.5z"></path><circle cx="8" cy="10.5" r="1.25" fill="#fff"></circle><circle cx="12" cy="10.5" r="1.25" fill="#fff"></circle><circle cx="16" cy="10.5" r="1.25" fill="#fff"></circle></svg><span class="ta-dot" hidden=""></span></button>
+    
+  </div>
+</div>
+
+<!-- Tesla Assist panel -->
+<section class="ta-panel" id="taPanel" role="dialog" aria-label="Tesla Assist" hidden="">
+  <header class="ta-head">
+    <button type="button" class="ta-head-btn" id="taMin" aria-label="Minimize chat"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line></svg></button>
+    <h2>Tesla Assist</h2>
+    <button type="button" class="ta-head-btn" id="taClose" aria-label="End chat"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"></line><line x1="18" y1="6" x2="6" y2="18"></line></svg></button>
+  </header>
+  <div class="ta-log" id="taLog" aria-live="polite"></div>
+  <footer class="ta-foot" id="taFoot">
+    <p class="ta-disclaimer">This is an AI assistant, mistakes may occur. <a href="../privacy.html">T&amp;Cs Apply</a></p>
+    <form class="ta-compose" id="taCompose" autocomplete="off">
+      <input id="taInput" type="text" maxlength="1000" placeholder="Ask Tesla AI anything" aria-label="Message Tesla Assist">
+      <button type="submit" class="ta-send-round" disabled="" aria-label="Send"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg></button>
+    </form>
+  </footer>
+</section>
+
+<script>
+(function () {
+  const $ = id => document.getElementById(id);
+  const panel = $('taPanel'), log = $('taLog'), input = $('taInput'), compose = $('taCompose');
+  const askPrompt = $('taAskPrompt'), closeBtn = $('taClose'), dot = document.querySelector('.ta-dot');
+  const GREETING = 'Hello! How can I help you today?';
+  const PROMPTS = ['What does the Tesla app do?', 'Compare Model 3 and Model Y', 'How long does charging take?', 'What is Full Self-Driving (Supervised)?'];
+  const ICONS = {
+    up: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M7 10v11H3V10h4zm0 0 4-7a2 2 0 0 1 2 2v4h6a2 2 0 0 1 2 2.3l-1.4 8A2 2 0 0 1 17.6 21H7"/></svg>',
+    down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M17 14V3h4v11h-4zm0 0-4 7a2 2 0 0 1-2-2v-4H5a2 2 0 0 1-2-2.3l1.4-8A2 2 0 0 1 6.4 3H17"/></svg>',
+    copy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h2"/></svg>',
+  };
+
+  // Conversation state mirrored from the server
+  let state = { id: null, status: 'none', messages: [], agentTyping: false, endedAt: null };
+  let pending = [];          // visitor messages not yet confirmed by the server ({ body, failed })
+  let isOpen = false, pollTimer = null, polling = false, lastTypingPing = 0;
+  // Bumped on every local change; a poll that started before a change is stale and gets discarded
+  let epoch = 0, pollAgain = false;
+
+  // ── Realtime (Supabase broadcast over WebSockets) ──
+  const RT = {"url":"https://jbzmhwvfloubbpojxgys.supabase.co","anonKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdibHd5c3BtdmNhYXBqd3ZlY3JtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkwMjA3NDMsImV4cCI6MjA2NDU5Njc0M30.jEU4EqEba52mqmLEUXSB01Syau_dCFD2wrJuDOkjE74"};
+  let rt = null, rtChannel = null, rtName = null, live = false, typingTimer = null, sdk = null;
+  function loadSdk() {
+    if (!sdk) sdk = new Promise((resolve, reject) => {
+      const tag = document.createElement('script');
+      tag.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.106.2/dist/umd/supabase.js';
+      tag.onload = resolve; tag.onerror = reject;
+      document.head.appendChild(tag);
+    });
+    return sdk;
+  }
+  // Listen on this conversation's private channel; events just say "something changed"
+  function connect(name) {
+    if (!RT || !name || name === rtName) return;
+    rtName = name;
+    loadSdk().then(() => {
+      if (name !== rtName) return;
+      rt = rt || window.supabase.createClient(RT.url, RT.anonKey, { auth: { persistSession: false } });
+      if (rtChannel) rt.removeChannel(rtChannel);
+      rtChannel = rt.channel(name)
+        .on('broadcast', { event: 'chat' }, ({ payload }) => onEvent(payload))
+        .subscribe(status => { live = status === 'SUBSCRIBED'; schedule(); });
+    }).catch(() => { live = false; });
+  }
+  function onEvent(e) {
+    if (!e || e.chatId !== state.id) return;
+    if (e.type === 'typing') {
+      state.agentTyping = true; render();
+      clearTimeout(typingTimer);
+      typingTimer = setTimeout(() => { state.agentTyping = false; render(); }, 5000);
+      return;
+    }
+    clearTimeout(typingTimer);
+    poll();
+  }
+
+  const timeOf = d => new Date(d).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+  const post = (url, body) => fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body || {}) });
+
+  function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  function agentMessage(m) {
+    const wrap = el('div', 'ta-msg ta-agent');
+    wrap.appendChild(el('div', 'ta-bubble', m.body));
+    const actions = el('div', 'ta-actions');
+    ['up', 'down'].forEach(v => {
+      const b = el('button', 'ta-act' + (m.feedback === v ? ' is-on' : ''));
+      b.type = 'button'; b.innerHTML = ICONS[v]; b.setAttribute('aria-label', v === 'up' ? 'Helpful' : 'Not helpful');
+      b.setAttribute('aria-pressed', String(m.feedback === v));
+      if (m.index == null) b.disabled = true;   // local greeting before a conversation exists
+      b.addEventListener('click', () => {
+        m.feedback = m.feedback === v ? undefined : v;
+        post('/chat/feedback', { index: m.index, value: m.feedback || null });
+        render();
+      });
+      actions.appendChild(b);
+    });
+    const copy = el('button', 'ta-act'); copy.type = 'button'; copy.innerHTML = ICONS.copy; copy.setAttribute('aria-label', 'Copy');
+    copy.addEventListener('click', () => { navigator.clipboard && navigator.clipboard.writeText(m.body); copy.classList.add('is-on'); setTimeout(() => copy.classList.remove('is-on'), 1200); });
+    actions.appendChild(copy);
+    wrap.appendChild(actions);
+    return wrap;
+  }
+
+  function render() {
+    const nearBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 80;
+    log.textContent = '';
+    const msgs = state.status === 'none' ? [{ from: 'agent', body: GREETING }] : state.messages;
+    msgs.forEach(m => {
+      if (m.from === 'agent') log.appendChild(agentMessage(m));
+      else if (m.from === 'visitor') log.appendChild(el('div', 'ta-msg ta-visitor')).appendChild(el('div', 'ta-bubble', m.body));
+    });
+    pending.forEach(m => {
+      const wrap = log.appendChild(el('div', 'ta-msg ta-visitor ' + (m.failed ? 'is-failed' : 'is-pending')));
+      wrap.appendChild(el('div', 'ta-bubble', m.body));
+      if (m.failed) {
+        const retry = el('button', 'ta-retry', 'Not sent · Tap to retry'); retry.type = 'button';
+        retry.addEventListener('click', () => { pending.splice(pending.indexOf(m), 1); send(m.body); });
+        wrap.appendChild(retry);
+      }
+    });
+    if (state.agentTyping && state.status === 'open') {
+      const t = el('div', 'ta-msg ta-agent'); t.appendChild(el('div', 'ta-bubble ta-typing')).innerHTML = '<span></span><span></span><span></span>'; log.appendChild(t);
+    }
+    const ended = state.status === 'ended';
+    if (ended) {
+      const endNote = state.messages.filter(m => m.from === 'system').pop();
+      const byAdvisor = endNote && !/^Visitor/.test(endNote.body);
+      log.appendChild(el('div', 'ta-msg ta-agent')).appendChild(el('div', 'ta-bubble', byAdvisor
+        ? 'This chat has been ended by the advisor. Start a new session if you need more help.'
+        : 'You have ended the chat. Re-open the chat to start a new session.'));
+      const row = el('div', 'ta-ended-row');
+      row.appendChild(el('span', '', timeOf(state.endedAt || Date.now())));
+      row.appendChild(el('span', '', 'Chat Session Ended'));
+      log.appendChild(row);
+      const again = el('button', 'ta-new', 'Start a new session'); again.type = 'button';
+      again.addEventListener('click', () => { epoch++; state = { id: null, status: 'none', messages: [], agentTyping: false }; render(); input.focus(); });
+      log.appendChild(el('div', 'ta-new-wrap')).appendChild(again);
+    }
+    $('taFoot').hidden = ended;
+    closeBtn.hidden = ended;
+    if (nearBottom || pending.length) log.scrollTop = log.scrollHeight;
+  }
+
+  function apply(view, after) {
+    // Merge messages fetched with ?after=<count> into local state
+    if (view.id !== state.id) state.messages = [];
+    // A poll that left before the visitor ended the chat mustn't reopen it
+    if (state.status === 'ended' && view.id === state.id && view.status === 'open') {
+      view = Object.assign({}, view, { status: 'ended', endedAt: state.endedAt, agentTyping: false });
+    }
+    const keep = state.messages.slice(0, after);
+    state = Object.assign({}, view, { messages: keep.concat(view.messages) });
+    dot.hidden = isOpen || !view.unread;
+    if (state.status === 'open') connect(state.channel);
+  }
+
+  async function poll() {
+    if (polling) { pollAgain = true; return; }   // an event arrived mid-poll: fetch again right after
+    polling = true;
+    const started = epoch;
+    try {
+      const after = state.messages.length;
+      const r = await fetch('/chat/state?after=' + after + (isOpen ? '&open=1' : ''));
+      const view = r.ok ? await r.json() : null;
+      // Ignore answers to polls that began before a send/end/new session
+      if (view && started === epoch) { apply(view, after); render(); }
+    } catch (_) {}
+    polling = false;
+    if (pollAgain) { pollAgain = false; return poll(); }
+    schedule();
+  }
+  // Fallback polling: rare while the realtime channel is live, frequent otherwise
+  function schedule() {
+    clearTimeout(pollTimer);
+    if (state.status !== 'open') return;
+    pollTimer = setTimeout(poll, live ? (isOpen ? 20000 : 30000) : (isOpen ? 2500 : 12000));
+  }
+
+  async function send(text) {
+    text = text.trim();
+    if (!text) return;
+    epoch++;
+    if (state.status === 'ended') state = { id: null, status: 'none', messages: [], agentTyping: false };
+    const item = { body: text };
+    pending.push(item);
+    render();
+    try {
+      const after = state.messages.length;
+      const r = await post('/chat/messages', { body: text, page: location.pathname, after: after });
+      const view = r.ok ? await r.json() : null;
+      if (!view || !view.id) throw new Error('send failed');
+      epoch++;
+      pending.splice(pending.indexOf(item), 1);
+      apply(view, after);
+    } catch (_) {
+      item.failed = true;   // keep it visible with a retry instead of silently dropping it
+    }
+    render();
+    schedule();
+  }
+
+  function open(prefill) {
+    isOpen = true;
+    panel.hidden = false;
+    document.body.classList.add('ta-open');
+    dot.hidden = true;
+    render();
+    if (prefill) send(prefill); else input.focus();
+    poll();
+  }
+  function minimize() { isOpen = false; panel.hidden = true; document.body.classList.remove('ta-open'); schedule(); }
+
+  // Composer
+  input.addEventListener('input', () => {
+    compose.querySelector('button').disabled = !input.value.trim();
+    if (state.status === 'open' && Date.now() - lastTypingPing > 2500) { lastTypingPing = Date.now(); post('/chat/typing'); }
+  });
+  compose.addEventListener('submit', e => { e.preventDefault(); const t = input.value; input.value = ''; compose.querySelector('button').disabled = true; send(t); });
+
+  // Bottom bar buttons open the panel
+  $('taAsk').addEventListener('click', () => open());
+  $('taIconBtn').addEventListener('click', () => open());
+
+  $('taMin').addEventListener('click', minimize);
+  closeBtn.addEventListener('click', () => {
+    if (state.status === 'open') {
+      // Show the ended state straight away; the server catches up in the background
+      clearTimeout(pollTimer);
+      epoch++;
+      state.status = 'ended'; state.endedAt = new Date().toISOString(); state.agentTyping = false;
+      render();
+      post('/chat/end');
+    } else minimize();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && isOpen) minimize(); });
+
+  // Rotating example prompts in the bar
+  let p = 0;
+  setInterval(() => {
+    p = (p + 1) % PROMPTS.length;
+    askPrompt.textContent = '"' + PROMPTS[p] + '"';
+  }, 4000);
+
+  // Resume an ongoing conversation (shows an unread dot if the advisor replied)
+  poll();
+})();
+</script>
+
+<footer class="tesla-footer">
+  <div class="footer-links">
+    <span class="footer-copy">Tesla &copy; 2026</span>
+    <a href="../privacy.html">Privacy &amp; Legal</a>
+    <a href="../privacy.html">Vehicle Recalls</a>
+    <a href="../contact.html">Contact</a>
+    <a href="../news.html">News</a>
+    <a href="../engage.html">Get Updates</a>
+    <a href="../locations.html">Locations</a>
+    <a href="../news.html">Learn</a>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>
+

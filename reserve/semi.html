@@ -1,0 +1,318 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserve Semi - Tesla</title>
+  <link rel="icon" type="image/svg+xml" href="../images/tesla-logo.svg">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gotham:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="vo-dark">
+
+
+
+
+
+<!-- Minimal order-flow header: Tesla wordmark + locale only -->
+<header class="vo-topbar">
+  <a class="vo-topbar-logo" href="../index.htm" aria-label="Tesla home"><svg viewbox="0 0 342 35" fill="currentColor" aria-hidden="true"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg></a>
+  <div class="vo-topbar-right">
+    <span class="vo-topbar-locale"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg> US</span>
+    <button type="button" class="vo-burger" id="voBurger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="vo-layout">
+  <div class="vo-visual" data-vo-carousel="">
+    
+    <img class="vo-slide active" src="../tesla-contents/image/upload/f_auto%2Cq_auto/Semi-Main-Hero-Desktop-v3.jpg" alt="Tesla Semi" loading="eager">
+    
+    <img class="vo-slide " src="../tesla-contents/image/upload/f_auto%2Cq_auto/Semi-Social.jpg" alt="On the road" loading="lazy">
+    
+    <img class="vo-slide " src="../tesla-contents/image/upload/f_auto%2Cq_auto/Semi-Main-Hero-Mobile-v3.jpg" alt="Detail" loading="lazy">
+    
+    
+    <div class="vo-visual-ctrls">
+      <button type="button" class="vo-visual-nav prev" aria-label="Previous photo">
+        <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+      <div class="vo-visual-dots">
+        <button type="button" class="vo-visual-dot active" data-index="0" aria-label="Photo 1"></button><button type="button" class="vo-visual-dot " data-index="1" aria-label="Photo 2"></button><button type="button" class="vo-visual-dot " data-index="2" aria-label="Photo 3"></button>
+      </div>
+      <button type="button" class="vo-visual-nav next" aria-label="Next photo">
+        <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </div>
+    
+  </div>
+
+  
+  <!-- ─── Standard reservation configurator (dark themed) ─── -->
+  <form class="vo-panel" id="reserveForm" action="/reserve/semi/sign-in" method="GET">
+    <div class="vo-head">
+      <span class="vo-eyebrow">Reserve</span>
+      <h1>Semi</h1>
+      <p>The Future of Trucking is Electric</p>
+    </div>
+
+    <div class="vo-visual-specs">
+      <div><strong id="specRange">300 mi</strong><span>Range (est.)</span></div>
+      <div><strong id="specAccel">20 s (loaded)</strong><span>0-60 mph</span></div>
+      <div><strong id="specTop">65 mph</strong><span>Top Speed</span></div>
+    </div>
+
+    <section class="vo-group">
+      <h2>Choose your trim</h2>
+      
+      <label class="vo-trim">
+        <input type="radio" name="trim" value="300-mile" checked="" data-price="150000" data-today="20000" data-later="0" data-range="300 mi" data-accel="20 s (loaded)" data-top="65 mph">
+        <span class="vo-trim-body">
+          <span class="vo-trim-name">300-Mile Range</span>
+          <span class="vo-trim-meta">300 mi · 20 s (loaded) 0-60 · 65 mph</span>
+        </span>
+        <span class="vo-trim-price">
+          <span class="vo-trim-main">$150,000</span>
+          <small>$20,000 to reserve</small>
+        </span>
+      </label>
+      
+      <label class="vo-trim">
+        <input type="radio" name="trim" value="500-mile" data-price="180000" data-today="20000" data-later="0" data-range="500 mi" data-accel="20 s (loaded)" data-top="65 mph">
+        <span class="vo-trim-body">
+          <span class="vo-trim-name">500-Mile Range</span>
+          <span class="vo-trim-meta">500 mi · 20 s (loaded) 0-60 · 65 mph</span>
+        </span>
+        <span class="vo-trim-price">
+          <span class="vo-trim-main">$180,000</span>
+          <small>$20,000 to reserve</small>
+        </span>
+      </label>
+      
+    </section>
+
+    
+    <section class="vo-group">
+      <h2>Paint</h2>
+      <div class="vo-swatches">
+        
+        <label class="vo-swatch" title="Fleet White">
+          <input type="radio" name="paint" value="white" data-price="0" data-name="Fleet White" checked="">
+          <span style="background:#f2f2f2;"></span>
+        </label>
+        
+      </div>
+      <p class="vo-swatch-label" data-for="paint">Fleet White · Included</p>
+    </section>
+    
+    <section class="vo-group">
+      <h2>Interior</h2>
+      <div class="vo-swatches">
+        
+        <label class="vo-swatch" title="Black">
+          <input type="radio" name="interior" value="black" data-price="0" data-name="Black" checked="">
+          <span style="background:#111;"></span>
+        </label>
+        
+      </div>
+      <p class="vo-swatch-label" data-for="interior">Black · Included</p>
+    </section>
+    
+
+    <section class="vo-group">
+      <h2>Wheels</h2>
+      
+      <label class="vo-trim vo-trim-sm">
+        <input type="radio" name="wheels" value="22-5-fleet" data-price="0" checked="">
+        <span class="vo-trim-body"><span class="vo-trim-name">22.5&#34; Fleet Wheels</span></span>
+        <span class="vo-trim-price">Included</span>
+      </label>
+      
+    </section>
+
+    <section class="vo-group vo-summary">
+      <h2>Summary</h2>
+      <div class="vo-line"><span>Vehicle</span><span id="sumBase">$150,000</span></div>
+      <div class="vo-line"><span>Options</span><span id="sumOptions">$0</span></div>
+      <div class="vo-line"><span>Destination &amp; doc fee</span><span>$1,390</span></div>
+      <div class="vo-line vo-total"><span>Vehicle price</span><span id="sumTotal">$151,390</span></div>
+      <p class="vo-fine">Remaining vehicle balance is due before delivery. Est. delivery: Volume production 2026–2027.</p>
+    </section>
+
+    <div class="vo-due-block">
+      <div class="vo-due-row">
+        <div><strong>Due Today</strong><span>Fully refundable</span></div>
+        <strong class="vo-due-amt" id="dueToday">$20,000</strong>
+      </div>
+      <div class="vo-due-row" id="dueLaterRow" hidden="">
+        <div><strong>Due within 10 days</strong></div>
+        <strong class="vo-due-amt" id="dueLater">$0</strong>
+      </div>
+    </div>
+
+    <p class="vo-legal">Reservations are not final until payment is received. Refunds for modifications will not be issued.</p>
+
+    
+
+
+<button type="submit" class="vo-reserve-btn vo-pay-submit">Sign in to Reserve</button>
+<p class="vo-legal">You'll sign in or create an account, then come straight back here to complete your reservation.</p>
+
+
+  </form>
+  
+</div>
+
+<!-- Mobile slide-in navigation for the order flow -->
+<div class="mobile-overlay" id="voMobileOverlay"></div>
+<div class="mobile-menu" id="voMobileMenu">
+  <div class="mobile-menu-header">
+    <span class="mobile-logo" style="display:block;width:100px;color:#171a20;"><svg viewbox="0 0 342 35" fill="currentColor" aria-hidden="true"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg></span>
+    <button class="mobile-close" id="voMobileClose" aria-label="Close menu">
+      <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+  </div>
+  <div class="mobile-section-label">Vehicles</div>
+  <div class="mobile-menu-items">
+    
+    <a href="../model-3.html" class="mobile-link"><span>Model 3</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-y.html" class="mobile-link"><span>Model Y</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-s.html" class="mobile-link"><span>Model S</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-x.html" class="mobile-link"><span>Model X</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../cybertruck.html" class="mobile-link"><span>Cybertruck</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../roadster.html" class="mobile-link"><span>Roadster</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../robotaxi.html" class="mobile-link"><span>Robotaxi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../semi.html" class="mobile-link"><span>Semi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+  </div>
+  <div class="mobile-section-label">Energy</div>
+  <div class="mobile-menu-items">
+    <a href="../solar-panels.html" class="mobile-link"><span>Solar Panels</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="../powerwall.html" class="mobile-link"><span>Powerwall</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Discover</div>
+  <div class="mobile-menu-items">
+    <a href="../shop.html" class="mobile-link mobile-shop"><span>Tesla Shop</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="../invest.html" class="mobile-link mobile-invest"><span>Invest</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Account</div>
+  <div class="mobile-menu-items mobile-account-items">
+    
+      <a href="../auth/login.html" class="mobile-link"><span>Sign In</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+      <a href="../auth/register.html" class="mobile-cta">Create Account</a>
+    
+  </div>
+</div>
+
+<script>
+// Mobile slide-in menu for the order flow
+(function () {
+  var toggle = document.getElementById('voBurger');
+  var menu = document.getElementById('voMobileMenu');
+  var overlay = document.getElementById('voMobileOverlay');
+  var closeBtn = document.getElementById('voMobileClose');
+  if (!(toggle && menu && overlay && closeBtn)) return;
+  function openM() { menu.classList.add('open'); overlay.classList.add('active'); document.body.style.overflow = 'hidden'; toggle.setAttribute('aria-expanded', 'true'); }
+  function closeM() { menu.classList.remove('open'); overlay.classList.remove('active'); document.body.style.overflow = ''; toggle.setAttribute('aria-expanded', 'false'); }
+  toggle.addEventListener('click', openM);
+  closeBtn.addEventListener('click', closeM);
+  overlay.addEventListener('click', closeM);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeM(); });
+})();
+
+// Left-panel photo carousel
+(function () {
+  const root = document.querySelector('[data-vo-carousel]');
+  if (!root) return;
+  const slides = Array.prototype.slice.call(root.querySelectorAll('.vo-slide'));
+  const dots = Array.prototype.slice.call(root.querySelectorAll('.vo-visual-dot'));
+  if (slides.length < 2) return;
+  let cur = 0;
+  function show(i) {
+    cur = (i + slides.length) % slides.length;
+    slides.forEach((s, idx) => s.classList.toggle('active', idx === cur));
+    dots.forEach((d, idx) => d.classList.toggle('active', idx === cur));
+  }
+  const AUTO = 5000, reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let timer = null;
+  function start() { if (reduce) return; stop(); timer = setInterval(() => show(cur + 1), AUTO); }
+  function stop() { if (timer) { clearInterval(timer); timer = null; } }
+  function go(i) { show(i); start(); }
+  const prev = root.querySelector('.vo-visual-nav.prev');
+  const next = root.querySelector('.vo-visual-nav.next');
+  if (prev) prev.addEventListener('click', () => go(cur - 1));
+  if (next) next.addEventListener('click', () => go(cur + 1));
+  dots.forEach(d => d.addEventListener('click', () => go(parseInt(d.dataset.index, 10))));
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  document.addEventListener('visibilitychange', () => { document.hidden ? stop() : start(); });
+  start();
+})();
+
+// Selection summary, deposit amounts and inline payment
+(function () {
+  const form = document.getElementById('reserveForm');
+  if (!form) return;
+  const fmt = n => '$' + Number(n).toLocaleString('en-US');
+  const DEST = 1390;
+  const picked = name => form.querySelector('input[name="' + name + '"]:checked');
+  const $ = id => document.getElementById(id);
+
+  function update() {
+    const trim = picked('trim');
+    const today = Number(trim.dataset.today), later = Number(trim.dataset.later);
+    $('dueToday').textContent = fmt(today);
+    $('dueLater').textContent = fmt(later);
+    if ($('dueLaterRow')) $('dueLaterRow').hidden = !later;
+    if ($('thrustNotice')) $('thrustNotice').hidden = trim.value !== 'thrust';
+
+    if (window.setPaymentDue) window.setPaymentDue({ deposit: today });
+
+    if (!$('sumTotal')) return;
+    const base = Number(trim.dataset.price);
+    const options = ['paint', 'interior', 'wheels'].reduce((s, n) => s + Number(picked(n).dataset.price), 0);
+    $('sumBase').textContent = fmt(base);
+    $('sumOptions').textContent = fmt(options);
+    $('sumTotal').textContent = fmt(base + options + DEST);
+    $('specRange').textContent = trim.dataset.range;
+    $('specAccel').textContent = trim.dataset.accel;
+    $('specTop').textContent = trim.dataset.top;
+    ['paint', 'interior'].forEach(n => {
+      const o = picked(n);
+      form.querySelector('.vo-swatch-label[data-for="' + n + '"]').textContent =
+        o.dataset.name + ' · ' + (Number(o.dataset.price) ? fmt(o.dataset.price) : 'Included');
+    });
+  }
+
+  form.addEventListener('change', update);
+  update();
+})();
+</script>
+
+<footer class="tesla-footer">
+  <div class="footer-links">
+    <span class="footer-copy">Tesla &copy; 2026</span>
+    <a href="../privacy.html">Privacy &amp; Legal</a>
+    <a href="../privacy.html">Vehicle Recalls</a>
+    <a href="../contact.html">Contact</a>
+    <a href="../news.html">News</a>
+    <a href="../engage.html">Get Updates</a>
+    <a href="../locations.html">Locations</a>
+    <a href="../news.html">Learn</a>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>
+

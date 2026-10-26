@@ -1,0 +1,506 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla Shop — Charging, Vehicle Accessories &amp; Apparel</title>
+  <link rel="icon" type="image/svg+xml" href="images/tesla-logo.svg">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gotham:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="">
+
+<link rel="stylesheet" href="css/shop.css">
+
+<body>
+<header class="shop-header">
+  <nav class="shop-nav">
+    <!-- Logo -->
+    <a href="shop.html" class="shop-logo">
+      <svg width="80" height="11" viewbox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#171a20" d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path>
+      </svg>
+      <span>Shop</span>
+    </a>
+
+    <!-- Nav links -->
+    <div class="shop-nav-links">
+      <a href="shop/category/charging.html" class="">Charging</a>
+      <a href="shop/category/vehicle-accessories.html" class="">Vehicle Accessories</a>
+      <a href="shop/category/apparel.html" class="">Apparel</a>
+      <a href="shop/category/lifestyle.html" class="">Lifestyle</a>
+      <a href="index.htm" style="color:#8a8a8a; font-size:13px;">← Tesla.com</a>
+    </div>
+
+    <!-- Actions -->
+    <div class="shop-nav-actions">
+      <form class="shop-search-form" action="/shop/search" method="GET">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+        <input type="text" name="q" placeholder="Search products..." value="">
+      </form>
+
+      
+      <a href="auth/login.html" style="font-size:13px; color:#5c5e62; text-decoration:none; padding:7px 12px; border-radius:20px; transition:background 0.2s;" onmouseover="this.style.background='#f4f4f4'" onmouseout="this.style.background='none'">Sign In</a>
+      
+
+      <a href="auth/login.html" class="cart-btn">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+        Cart
+        
+      </a>
+    </div>
+  </nav>
+</header>
+
+
+
+
+<!-- Hero -->
+<section class="shop-hero">
+  <div class="shop-hero-content">
+    <div style="display:inline-block; background:rgba(232,33,39,0.15); color:#e82127; font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:5px 14px; border-radius:20px; margin-bottom:20px; border:1px solid rgba(232,33,39,0.3);">Tesla Official Store</div>
+    <h1>Built for<br><span>Tesla Owners</span></h1>
+    <p>Genuine Tesla accessories, apparel, and charging solutions engineered to complement your vehicle and lifestyle.</p>
+    <div class="shop-hero-btns">
+      <a href="shop/category/vehicle-accessories.html" style="padding:13px 36px; background:#e82127; color:white; border-radius:6px; font-size:14px; font-weight:600; text-decoration:none; transition:background 0.2s;" onmouseover="this.style.background='#c41a1f'" onmouseout="this.style.background='#e82127'">Shop Accessories</a>
+      <a href="shop/category/charging.html" style="padding:13px 36px; background:rgba(255,255,255,0.12); color:white; border-radius:6px; font-size:14px; font-weight:600; text-decoration:none; border:1px solid rgba(255,255,255,0.3);">Shop Charging</a>
+    </div>
+  </div>
+</section>
+
+<!-- Category Cards -->
+<section style="background:#f8f9fa; padding-bottom:60px;">
+  <div class="category-grid">
+    <a href="shop/category/charging.html" class="category-card">
+      <div class="cat-bg" style="background: linear-gradient(135deg, #0f172a, #1e3a5f);"></div>
+      <div class="cat-overlay"></div>
+      <div class="cat-label">
+        <h3>Charging</h3>
+        <p>Wall Connectors, Adapters & More</p>
+        <div class="cat-arrow">→</div>
+      </div>
+    </a>
+    <a href="shop/category/vehicle-accessories.html" class="category-card">
+      <div class="cat-bg" style="background: linear-gradient(135deg, #1a1a1a, #3d3d3d);"></div>
+      <div class="cat-overlay"></div>
+      <div class="cat-label">
+        <h3>Vehicle Accessories</h3>
+        <p>Floor Mats, Cargo & Exterior</p>
+        <div class="cat-arrow">→</div>
+      </div>
+    </a>
+    <a href="shop/category/apparel.html" class="category-card">
+      <div class="cat-bg" style="background: linear-gradient(135deg, #e82127, #9b111e);"></div>
+      <div class="cat-overlay"></div>
+      <div class="cat-label">
+        <h3>Apparel</h3>
+        <p>Men, Women & Kids</p>
+        <div class="cat-arrow">→</div>
+      </div>
+    </a>
+    <a href="shop/category/lifestyle.html" class="category-card">
+      <div class="cat-bg" style="background: linear-gradient(135deg, #374151, #6b7280);"></div>
+      <div class="cat-overlay"></div>
+      <div class="cat-label">
+        <h3>Lifestyle</h3>
+        <p>Collectibles, Bags & Accessories</p>
+        <div class="cat-arrow">→</div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- Featured Products -->
+<section class="shop-section" style="background:white; max-width:100%; padding:60px;">
+  <div style="max-width:1400px; margin:0 auto;">
+    <div class="shop-section-header">
+      <h2>Featured Products</h2>
+      <a href="shop/category/charging.html">View all →</a>
+    </div>
+    <div class="products-grid">
+      
+      <a href="shop/product/nacs-ccs1-adapter.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Model-3-Social.jpg" alt="NACS to CCS1 Adapter" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Tesla'">
+          <div class="product-badge new">New</div>
+          
+        </div>
+        <div class="product-info">
+          <h3>NACS to CCS1 Adapter</h3>
+          <div class="product-price">
+            <span class="price">$250.00</span>
+            
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.5 (312)</span>
+          </div>
+        </div>
+        
+        <div class="product-card-quick-add" role="button" tabindex="0" data-quick-add="{&#34;productId&#34;:&#34;6a182cae62af63be1d5ce35f&#34;,&#34;quantity&#34;:&#34;1&#34;}">Quick Add +</div>
+        
+      </a>
+      
+      <a href="shop/product/model-3-floor-mats.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Homepage-Model-3-Desktop-US.png" alt="Model 3 All-Weather Floor Mats" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Tesla'">
+          
+          
+        </div>
+        <div class="product-info">
+          <h3>Model 3 All-Weather Floor Mats</h3>
+          <div class="product-price">
+            <span class="price">$155.00</span>
+            
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.8 (2145)</span>
+          </div>
+        </div>
+        
+        <div class="product-card-quick-add" role="button" tabindex="0" data-quick-add="{&#34;productId&#34;:&#34;6a182cae62af63be1d5ce366&#34;,&#34;quantity&#34;:&#34;1&#34;,&#34;color&#34;:&#34;Front &amp; Rear&#34;}">Quick Add +</div>
+        
+      </a>
+      
+      <a href="shop/product/tesla-backpack.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Cybertruck-Social-US.jpg" alt="Tesla Backpack" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Tesla'">
+          <div class="product-badge new">New</div>
+          
+        </div>
+        <div class="product-info">
+          <h3>Tesla Backpack</h3>
+          <div class="product-price">
+            <span class="price">$135.00</span>
+            
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.8 (334)</span>
+          </div>
+        </div>
+        
+        <div class="product-card-quick-add" role="button" tabindex="0" data-quick-add="{&#34;productId&#34;:&#34;6a182cae62af63be1d5ce38b&#34;,&#34;quantity&#34;:&#34;1&#34;,&#34;color&#34;:&#34;Black&#34;}">Quick Add +</div>
+        
+      </a>
+      
+      <a href="shop/product/cybertruck-bed-liner.html" class="product-card">
+        <div class="product-img">
+          <img src="image/upload/f_auto%2Cq_auto/v1/content/dam/tesla/tesla-shop-marketing-imagery/flyout-nav/1948406-00-A_CT_Cybertent_FeaturedNav_696x482.png" alt="Cybertruck Bed Liner" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Tesla'">
+          <div class="product-badge new">New</div>
+          
+        </div>
+        <div class="product-info">
+          <h3>Cybertruck Bed Liner</h3>
+          <div class="product-price">
+            <span class="price">$295.00</span>
+            
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.8 (156)</span>
+          </div>
+        </div>
+        
+        <div class="product-card-quick-add" role="button" tabindex="0" data-quick-add="{&#34;productId&#34;:&#34;6a182cae62af63be1d5ce361&#34;,&#34;quantity&#34;:&#34;1&#34;}">Quick Add +</div>
+        
+      </a>
+      
+      <a href="shop/product/tesla-cap.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Semi-Main-Hero-Desktop-v3.jpg" alt="Tesla Cap" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Tesla'">
+          
+          
+        </div>
+        <div class="product-info">
+          <h3>Tesla Cap</h3>
+          <div class="product-price">
+            <span class="price">$35.00</span>
+            
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.6 (1023)</span>
+          </div>
+        </div>
+        
+        <div class="product-card-quick-add" role="button" tabindex="0" data-quick-add="{&#34;productId&#34;:&#34;6a182cae62af63be1d5ce385&#34;,&#34;quantity&#34;:&#34;1&#34;,&#34;color&#34;:&#34;Black&#34;}">Quick Add +</div>
+        
+      </a>
+      
+      <a href="shop/product/tesla-diecast-cybertruck.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Cybertruck-Social-US.jpg" alt="Tesla Cybertruck Diecast 1:18" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Tesla'">
+          <div class="product-badge new">New</div>
+          <div class="product-badge sale">Sale</div>
+        </div>
+        <div class="product-info">
+          <h3>Tesla Cybertruck Diecast 1:18</h3>
+          <div class="product-price">
+            <span class="price">$120.00</span>
+            <span class="compare-price">$150.00</span>
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.9 (178)</span>
+          </div>
+        </div>
+        
+        <div class="product-card-quick-add" role="button" tabindex="0" data-quick-add="{&#34;productId&#34;:&#34;6a182cae62af63be1d5ce38f&#34;,&#34;quantity&#34;:&#34;1&#34;,&#34;color&#34;:&#34;Stainless Steel&#34;}">Quick Add +</div>
+        
+      </a>
+      
+      <a href="shop/product/tesla-womens-wind-jacket.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Model-Y-Social-US-PR.jpg" alt="Tesla Women&#39;s Wind Jacket" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Tesla'">
+          
+          
+        </div>
+        <div class="product-info">
+          <h3>Tesla Women&#39;s Wind Jacket</h3>
+          <div class="product-price">
+            <span class="price">$175.00</span>
+            
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.7 (234)</span>
+          </div>
+        </div>
+        
+        <div class="product-card-quick-add" role="button" tabindex="0" data-quick-add="{&#34;productId&#34;:&#34;6a182cae62af63be1d5ce377&#34;,&#34;quantity&#34;:&#34;1&#34;,&#34;size&#34;:&#34;XS&#34;,&#34;color&#34;:&#34;Black&#34;}">Quick Add +</div>
+        
+      </a>
+      
+      <a href="shop/product/tesla-sunglasses.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/h_1800%2Cw_2878%2Cc_fit%2Cf_auto%2Cq_autobest/roadster-hero-desktop" alt="Tesla Sunglasses" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Tesla'">
+          
+          
+        </div>
+        <div class="product-info">
+          <h3>Tesla Sunglasses</h3>
+          <div class="product-price">
+            <span class="price">$75.00</span>
+            
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.6 (412)</span>
+          </div>
+        </div>
+        
+        <div class="product-card-quick-add" role="button" tabindex="0" data-quick-add="{&#34;productId&#34;:&#34;6a182cae62af63be1d5ce391&#34;,&#34;quantity&#34;:&#34;1&#34;,&#34;color&#34;:&#34;Black&#34;}">Quick Add +</div>
+        
+      </a>
+      
+    </div>
+  </div>
+</section>
+
+<!-- New Arrivals Banner -->
+<section style="background:#171a20; padding:60px; text-align:center;">
+  <div style="display:inline-block; background:rgba(232,33,39,0.15); color:#e82127; font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:5px 14px; border-radius:20px; margin-bottom:20px; border:1px solid rgba(232,33,39,0.3);">New Arrivals</div>
+  <h2 style="font-size:40px; font-weight:300; color:white; margin-bottom:16px;">Just Added to the Store</h2>
+  <p style="color:rgba(255,255,255,0.6); font-size:16px; margin-bottom:40px; max-width:500px; margin-left:auto; margin-right:auto;">Fresh gear for Cybertruck owners, new apparel and the latest charging solutions.</p>
+  <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap; max-width:1000px; margin:0 auto;">
+    
+    <a href="shop/product/nacs-ccs1-adapter.html" style="text-decoration:none; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px; flex:1; min-width:200px; max-width:240px; transition:all 0.3s; color:white;" onmouseover="this.style.background='rgba(255,255,255,0.09)'; this.style.borderColor='rgba(232,33,39,0.4)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.12)'">
+      <div style="font-size:11px; font-weight:700; color:#e82127; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px;">New</div>
+      <div style="font-size:15px; font-weight:500; margin-bottom:8px;">NACS to CCS1 Adapter</div>
+      <div style="font-size:18px; font-weight:700; color:#e82127;">$250</div>
+    </a>
+    
+    <a href="shop/product/tesla-womens-sweatshirt.html" style="text-decoration:none; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px; flex:1; min-width:200px; max-width:240px; transition:all 0.3s; color:white;" onmouseover="this.style.background='rgba(255,255,255,0.09)'; this.style.borderColor='rgba(232,33,39,0.4)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.12)'">
+      <div style="font-size:11px; font-weight:700; color:#e82127; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px;">New</div>
+      <div style="font-size:15px; font-weight:500; margin-bottom:8px;">Tesla Women&#39;s Pullover Sweatshirt</div>
+      <div style="font-size:18px; font-weight:700; color:#e82127;">$65</div>
+    </a>
+    
+    <a href="shop/product/tesla-backpack.html" style="text-decoration:none; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px; flex:1; min-width:200px; max-width:240px; transition:all 0.3s; color:white;" onmouseover="this.style.background='rgba(255,255,255,0.09)'; this.style.borderColor='rgba(232,33,39,0.4)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.12)'">
+      <div style="font-size:11px; font-weight:700; color:#e82127; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px;">New</div>
+      <div style="font-size:15px; font-weight:500; margin-bottom:8px;">Tesla Backpack</div>
+      <div style="font-size:18px; font-weight:700; color:#e82127;">$135</div>
+    </a>
+    
+    <a href="shop/product/cybertruck-bed-liner.html" style="text-decoration:none; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12); border-radius:12px; padding:20px; flex:1; min-width:200px; max-width:240px; transition:all 0.3s; color:white;" onmouseover="this.style.background='rgba(255,255,255,0.09)'; this.style.borderColor='rgba(232,33,39,0.4)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='rgba(255,255,255,0.12)'">
+      <div style="font-size:11px; font-weight:700; color:#e82127; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px;">New</div>
+      <div style="font-size:15px; font-weight:500; margin-bottom:8px;">Cybertruck Bed Liner</div>
+      <div style="font-size:18px; font-weight:700; color:#e82127;">$295</div>
+    </a>
+    
+  </div>
+  <a href="shop/category/vehicle-accessories.html" style="display:inline-block; margin-top:40px; padding:14px 40px; background:#e82127; color:white; border-radius:6px; font-size:15px; font-weight:600; text-decoration:none;">Shop New Arrivals →</a>
+</section>
+
+<!-- Charging Section -->
+<section style="padding:80px 60px; background:white;">
+  <div style="max-width:1400px; margin:0 auto;">
+    <div class="shop-section-header">
+      <div>
+        <h2>Charging Solutions</h2>
+        <p style="font-size:14px; color:#5c5e62; margin-top:4px;">Power your Tesla at home and on the road</p>
+      </div>
+      <a href="shop/category/charging.html">View all charging →</a>
+    </div>
+    <div class="products-grid">
+      
+      <a href="shop/product/nacs-ccs1-adapter.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Model-3-Social.jpg" alt="NACS to CCS1 Adapter" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Charging'">
+          <div class="product-badge" style="background:var(--tesla-dark);">Popular</div>
+        </div>
+        <div class="product-info">
+          <h3>NACS to CCS1 Adapter</h3>
+          <div class="product-price">
+            <span class="price">$250.00</span>
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.5 (312)</span>
+          </div>
+        </div>
+        <div class="product-card-quick-add">View Product →</div>
+      </a>
+      
+      <a href="shop/product/j1772-adapter.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Model-S-New-Social.jpg" alt="J1772 Charging Adapter" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Charging'">
+          
+        </div>
+        <div class="product-info">
+          <h3>J1772 Charging Adapter</h3>
+          <div class="product-price">
+            <span class="price">$45.00</span>
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.7 (567)</span>
+          </div>
+        </div>
+        <div class="product-card-quick-add">View Product →</div>
+      </a>
+      
+      <a href="shop/product/powerwall-connector.html" class="product-card">
+        <div class="product-img">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/1M-Powerwalls-Powerwall-3-Hero-Desktop.png" alt="High Voltage Powerwall Connector" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Charging'">
+          
+        </div>
+        <div class="product-info">
+          <h3>High Voltage Powerwall Connector</h3>
+          <div class="product-price">
+            <span class="price">$850.00</span>
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.9 (145)</span>
+          </div>
+        </div>
+        <div class="product-card-quick-add">View Product →</div>
+      </a>
+      
+      <a href="shop/product/universal-wall-connector.html" class="product-card">
+        <div class="product-img">
+          <img src="image/upload/f_auto%2Cq_auto/v1/content/dam/tesla/tesla-shop-marketing-imagery/flyout-nav/1948406-00-A_CT_Cybertent_FeaturedNav_696x482.png" alt="Universal Wall Connector" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300/f4f4f4/aaa?text=Charging'">
+          <div class="product-badge" style="background:var(--tesla-dark);">Popular</div>
+        </div>
+        <div class="product-info">
+          <h3>Universal Wall Connector</h3>
+          <div class="product-price">
+            <span class="price">$475.00</span>
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span>4.8 (1243)</span>
+          </div>
+        </div>
+        <div class="product-card-quick-add">View Product →</div>
+      </a>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Free Shipping Banner -->
+<section style="background:#f0fdf4; border-top:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; padding:20px 60px;">
+  <div style="max-width:1400px; margin:0 auto; display:flex; align-items:center; justify-content:center; gap:60px; flex-wrap:wrap;">
+    <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#166534;">
+      <span style="font-size:24px;"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg></span>
+      <div><strong>Free Shipping</strong> on orders over $100</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#166534;">
+      <span style="font-size:24px;">↩</span>
+      <div><strong>30-Day Returns</strong> on most items</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#166534;">
+      <span style="font-size:24px;"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></span>
+      <div><strong>Genuine Tesla</strong> products only</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#166534;">
+      <span style="font-size:24px;"><svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true" focusable="false"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
+      <div><strong>4.8/5</strong> average customer rating</div>
+    </div>
+  </div>
+</section>
+
+<footer style="background:#171a20; padding:40px 60px;">
+  <div style="max-width:1400px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+    <div style="display:flex; gap:24px; flex-wrap:wrap;">
+      <a href="shop.html" style="color:rgba(255,255,255,0.6); text-decoration:none; font-size:13px;">Shop Home</a>
+      <a href="shop/category/charging.html" style="color:rgba(255,255,255,0.6); text-decoration:none; font-size:13px;">Charging</a>
+      <a href="shop/category/vehicle-accessories.html" style="color:rgba(255,255,255,0.6); text-decoration:none; font-size:13px;">Vehicle Accessories</a>
+      <a href="shop/category/apparel.html" style="color:rgba(255,255,255,0.6); text-decoration:none; font-size:13px;">Apparel</a>
+      <a href="shop/category/lifestyle.html" style="color:rgba(255,255,255,0.6); text-decoration:none; font-size:13px;">Lifestyle</a>
+      <a href="index.htm" style="color:rgba(255,255,255,0.6); text-decoration:none; font-size:13px;">Tesla.com</a>
+    </div>
+    <p style="color:rgba(255,255,255,0.4); font-size:12px;">Tesla Shop © 2024</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+// Quick Add: put the product in the cart without leaving the page
+(function () {
+  const LOGGED_IN = false;
+  function setCartBadge(count) {
+    const cart = document.querySelector('.cart-btn');
+    if (!cart) return;
+    let badge = cart.querySelector('.cart-count-badge');
+    if (!badge) { badge = document.createElement('span'); badge.className = 'cart-count-badge'; cart.appendChild(badge); }
+    badge.textContent = String(count);
+  }
+  async function quickAdd(btn, e) {
+    e.preventDefault(); e.stopPropagation();   // don't follow the card link
+    if (!LOGGED_IN) { location.href = '/auth/login'; return; }
+    if (btn.dataset.busy) return;
+    btn.dataset.busy = '1';
+    const label = btn.textContent;
+    btn.textContent = 'Adding…';
+    try {
+      const r = await fetch('/shop/cart/add', {
+        method: 'POST', headers: { Accept: 'application/json' },
+        body: new URLSearchParams(JSON.parse(btn.dataset.quickAdd)),
+      });
+      if (r.redirected && /\/auth\/login/.test(r.url)) { location.href = '/auth/login'; return; }
+      const data = r.ok ? await r.json() : null;
+      if (!data || !data.ok) throw new Error('add failed');
+      btn.textContent = 'Added ✓';
+      setCartBadge(data.cartCount);
+      showToast('Item added to cart!', 'success');
+    } catch (_) {
+      btn.textContent = label;
+      showToast('Could not add to cart. Please try again.', 'error');
+    }
+    setTimeout(() => { btn.textContent = label; delete btn.dataset.busy; }, 1800);
+  }
+  document.querySelectorAll('[data-quick-add]').forEach(btn => {
+    btn.addEventListener('click', e => quickAdd(btn, e));
+    btn.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') quickAdd(btn, e); });
+  });
+})();
+</script>
+</body>
+</body></html>

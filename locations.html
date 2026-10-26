@@ -1,0 +1,421 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla Locations</title>
+  <link rel="icon" type="image/svg+xml" href="images/tesla-logo.svg">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gotham:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="">
+
+
+<header class="tz-header" id="main-header" data-tz-nav="">
+  <div class="tz-bar">
+    <a href="index.htm" class="tz-logo" aria-label="Tesla home"><svg viewbox="0 0 342 35" fill="currentColor" aria-hidden="true"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg></a>
+
+    <nav class="tz-primary" aria-label="Primary">
+      <button type="button" class="tz-navlink" data-panel="vehicles">Vehicles</button>
+      <button type="button" class="tz-navlink" data-panel="energy">Energy</button>
+      <button type="button" class="tz-navlink" data-panel="charging">Charging</button>
+      <button type="button" class="tz-navlink" data-panel="semi">Semi</button>
+      <button type="button" class="tz-navlink" data-panel="discover">Discover</button>
+      <button type="button" class="tz-navlink" data-panel="shop">Shop</button>
+      <a class="tz-navlink" href="invest.html">Invest</a>
+    </nav>
+
+    <div class="tz-actions">
+      <a class="tz-icon" href="contact.html" aria-label="Support" title="Support">
+        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+      </a>
+      <a class="tz-icon" href="locations.html" aria-label="Locations" title="Locations">
+        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+      </a>
+      <a class="tz-icon" href="auth/login.html" aria-label="Account" title="Account">
+        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 20a7.5 7.5 0 0 1 15 0"></path></svg>
+      </a>
+      <button class="tz-burger" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+
+  <!-- Full-width mega dropdown -->
+  <div class="tz-mega" id="tzMega">
+    <!-- Vehicles -->
+    <div class="tz-panel" data-panel="vehicles">
+      <div class="tz-grid">
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-3.png" alt="Model 3" loading="lazy">
+          <div class="tz-card-name">Model 3</div>
+          <div class="tz-card-links"><a href="model-3.html">Learn</a><a href="order/model-3.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-Y.png" alt="Model Y" loading="lazy">
+          <div class="tz-card-name">Model Y</div>
+          <div class="tz-card-links"><a href="model-y.html">Learn</a><a href="order/model-y.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Homepage-Cybertruck-Desktop.png" alt="Cybertruck" loading="lazy">
+          <div class="tz-card-name">Cybertruck</div>
+          <div class="tz-card-links"><a href="cybertruck.html">Learn</a><a href="order/cybertruck.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-S.png" alt="Model S" loading="lazy">
+          <div class="tz-card-name">Model S</div>
+          <div class="tz-card-links"><a href="model-s.html">Learn</a><a href="order/model-s.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-X.png" alt="Model X" loading="lazy">
+          <div class="tz-card-name">Model X</div>
+          <div class="tz-card-links"><a href="model-x.html">Learn</a><a href="order/model-x.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Roadster-Hero-Desktop.jpg" alt="Roadster" loading="lazy">
+          <div class="tz-card-name">Roadster</div>
+          <div class="tz-card-links"><a href="roadster.html">Learn</a><a href="reserve/roadster.html">Reserve</a></div>
+        </div>
+        
+      </div>
+      <aside class="tz-aside">
+        <a href="invest.html">Current Offers</a>
+        <a href="drive.html">Demo Drive</a>
+        <a href="shop.html">Inventory</a>
+        <a href="robotaxi.html">Robotaxi</a>
+        <a href="invest/shares.html">Compare &amp; Invest</a>
+        <a href="locations.html">Find Us</a>
+      </aside>
+    </div>
+
+    <!-- Energy -->
+    <div class="tz-panel" data-panel="energy">
+      <div class="tz-grid">
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Solar-Panels-Social.jpg" alt="Solar Panels" loading="lazy">
+          <div class="tz-card-name">Solar Panels</div>
+          <div class="tz-card-links"><a href="solar-panels.html">Learn</a><a href="solar-panels.html">Order</a></div>
+        </div>
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/1M-Powerwalls-Powerwall-3-Hero-Desktop.png" alt="Powerwall" loading="lazy">
+          <div class="tz-card-name">Powerwall</div>
+          <div class="tz-card-links"><a href="powerwall.html">Learn</a><a href="powerwall.html">Order</a></div>
+        </div>
+      </div>
+      <aside class="tz-aside">
+        <a href="solar-panels.html">Why Solar</a>
+        <a href="contact.html">Schedule a Consultation</a>
+        <a href="contact.html">Support</a>
+      </aside>
+    </div>
+
+    <!-- Charging -->
+    <div class="tz-panel" data-panel="charging">
+      <div class="tz-tiles">
+        <a class="tz-tile" href="shop/category/charging.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true" focusable="false"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span>Home Charging</span></a>
+        <a class="tz-tile" href="locations.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Supercharging</span></a>
+        <a class="tz-tile" href="shop/category/charging.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="1" y="4" width="22" height="16" rx="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg><span>Wall Connector</span></a>
+      </div>
+      <aside class="tz-aside">
+        <a href="locations.html">Find a Supercharger</a>
+        <a href="shop/category/charging.html">Charging Products</a>
+        <a href="contact.html">Help Me Charge</a>
+      </aside>
+    </div>
+
+    <!-- Semi -->
+    <div class="tz-panel" data-panel="semi">
+      <div class="tz-grid">
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Semi-Social.jpg" alt="Tesla Semi" loading="lazy">
+          <div class="tz-card-name">Semi</div>
+          <div class="tz-card-links"><a href="semi.html">Learn</a><a href="reserve/semi.html">Reserve</a></div>
+        </div>
+      </div>
+      <aside class="tz-aside">
+        <a href="locations.html">Find Us</a>
+        <a href="invest.html">Tesla for Business</a>
+      </aside>
+    </div>
+
+    <!-- Discover -->
+    <div class="tz-panel tz-panel-cols" data-panel="discover">
+      <div class="tz-col">
+        <div class="tz-col-label">Resources</div>
+        <a href="drive.html">Demo Drive</a>
+        <a href="invest.html">Current Offers</a>
+        <a href="news.html">Learn</a>
+        <a href="engage.html">Events</a>
+        <a href="privacy.html">Safety &amp; Legal</a>
+      </div>
+      <div class="tz-col">
+        <div class="tz-col-label">Location Services</div>
+        <a href="locations.html">Find Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="tz-col">
+        <div class="tz-col-label">Company</div>
+        <a href="about.html">About</a>
+        <a href="careers.html">Careers</a>
+        <a href="invest.html">Investor Relations</a>
+        <a href="news.html">News</a>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="tz-panel" data-panel="shop">
+      <div class="tz-tiles tz-tiles-4">
+        <a class="tz-tile" href="shop/category/charging.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true" focusable="false"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span>Charging</span></a>
+        <a class="tz-tile" href="shop/category/vehicle-accessories.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 17H3v-5l2-5h14l2 5v5h-2"></path><path d="M5 12h14"></path><circle cx="7.5" cy="17.5" r="1.5"></circle><circle cx="16.5" cy="17.5" r="1.5"></circle></svg><span>Vehicle Accessories</span></a>
+        <a class="tz-tile" href="shop/category/apparel.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.59 13.41 13.42 20.59a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg><span>Apparel</span></a>
+        <a class="tz-tile" href="shop/category/lifestyle.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg><span>Lifestyle</span></a>
+      </div>
+      <aside class="tz-aside">
+        <a href="shop.html">Shop Home</a>
+        
+        <a href="auth/login.html">Cart</a>
+      </aside>
+    </div>
+  </div>
+</header>
+<div class="tz-mega-backdrop" id="tzBackdrop"></div>
+
+<!-- Mobile overlay & slide-in menu (kept outside header) -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-header">
+    <svg width="100" height="10" viewbox="0 0 342 35" fill="#171a20" xmlns="http://www.w3.org/2000/svg" style="display:block;" class="mobile-logo">
+      <path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path>
+    </svg>
+    <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+      <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+  </div>
+  <div class="mobile-section-label">Vehicles</div>
+  <div class="mobile-menu-items">
+    
+    <a href="model-3.html" class="mobile-link"><span>Model 3</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="model-y.html" class="mobile-link"><span>Model Y</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="model-s.html" class="mobile-link"><span>Model S</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="model-x.html" class="mobile-link"><span>Model X</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="cybertruck.html" class="mobile-link"><span>Cybertruck</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="roadster.html" class="mobile-link"><span>Roadster</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="robotaxi.html" class="mobile-link"><span>Robotaxi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="semi.html" class="mobile-link"><span>Semi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+  </div>
+  <div class="mobile-section-label">Energy</div>
+  <div class="mobile-menu-items">
+    <a href="solar-panels.html" class="mobile-link"><span>Solar Panels</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="powerwall.html" class="mobile-link"><span>Powerwall</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Discover</div>
+  <div class="mobile-menu-items">
+    <a href="shop.html" class="mobile-link mobile-shop"><span>Tesla Shop</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="invest.html" class="mobile-link mobile-invest"><span>Invest</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Account</div>
+  <div class="mobile-menu-items mobile-account-items">
+    
+      <a href="auth/login.html" class="mobile-link"><span>Sign In</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+      <a href="auth/register.html" class="mobile-cta">Create Account</a>
+    
+  </div>
+</div>
+
+<script>
+(function () {
+  // ----- Desktop mega-menu -----
+  var header = document.getElementById('main-header');
+  var mega = document.getElementById('tzMega');
+  var backdrop = document.getElementById('tzBackdrop');
+  if (header && mega) {
+    var links = header.querySelectorAll('.tz-navlink');
+    var panels = mega.querySelectorAll('.tz-panel');
+    var current = null;
+    function open(name) {
+      if (!name) return close();
+      current = name;
+      panels.forEach(function (p) { p.classList.toggle('active', p.dataset.panel === name); });
+      links.forEach(function (l) { l.classList.toggle('active', l.dataset.panel === name); });
+      header.classList.add('mega-open');
+      if (backdrop) backdrop.classList.add('show');
+    }
+    function close() {
+      current = null;
+      header.classList.remove('mega-open');
+      links.forEach(function (l) { l.classList.remove('active'); });
+      if (backdrop) backdrop.classList.remove('show');
+    }
+    links.forEach(function (l) {
+      l.addEventListener('mouseenter', function () { open(l.dataset.panel); });
+      l.addEventListener('click', function () { current === l.dataset.panel ? close() : open(l.dataset.panel); });
+      l.addEventListener('focus', function () { open(l.dataset.panel); });
+    });
+    header.addEventListener('mouseleave', close);
+    if (backdrop) backdrop.addEventListener('mouseenter', close);
+    if (backdrop) backdrop.addEventListener('click', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  }
+
+  // ----- Mobile slide-in menu -----
+  var toggle = document.getElementById('menuToggle');
+  var menu = document.getElementById('mobileMenu');
+  var overlay = document.getElementById('mobileOverlay');
+  var closeBtn = document.getElementById('mobileClose');
+  if (toggle && menu && overlay && closeBtn) {
+    function openM() { menu.classList.add('open'); overlay.classList.add('active'); document.body.style.overflow = 'hidden'; toggle.setAttribute('aria-expanded', 'true'); }
+    function closeM() { menu.classList.remove('open'); overlay.classList.remove('active'); document.body.style.overflow = ''; toggle.setAttribute('aria-expanded', 'false'); }
+    toggle.addEventListener('click', openM);
+    closeBtn.addEventListener('click', closeM);
+    overlay.addEventListener('click', closeM);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeM(); });
+  }
+})();
+</script>
+
+<div style="padding-top:var(--nav-height);">
+
+  <section style="background:linear-gradient(135deg,#000,#171a20); padding:80px 60px; text-align:center;">
+    <h1 style="font-size:48px; font-weight:300; color:white; margin-bottom:12px;">Find Tesla Near You</h1>
+    <p style="color:rgba(255,255,255,0.5); font-size:16px; max-width:500px; margin:0 auto 36px;">Service centres, showrooms, Supercharger stations and delivery hubs worldwide</p>
+    <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+      <a href="#showrooms" style="padding:12px 28px; background:white; color:#171a20; border-radius:6px; text-decoration:none; font-weight:600; font-size:14px;">Showrooms</a>
+      <a href="#service" style="padding:12px 28px; background:rgba(255,255,255,0.1); color:white; border-radius:6px; text-decoration:none; font-weight:600; font-size:14px; border:1px solid rgba(255,255,255,0.2);">Service Centres</a>
+      <a href="#supercharger" style="padding:12px 28px; background:rgba(255,255,255,0.1); color:white; border-radius:6px; text-decoration:none; font-weight:600; font-size:14px; border:1px solid rgba(255,255,255,0.2);">Superchargers</a>
+    </div>
+  </section>
+
+  <div style="max-width:1060px; margin:0 auto; padding:60px 40px;">
+
+    <!-- Showrooms -->
+    <section id="showrooms" style="margin-bottom:60px;">
+      <h2 style="font-size:28px; font-weight:500; color:#171a20; margin-bottom:8px;">Showrooms</h2>
+      <p style="color:#8a8a8a; font-size:14px; margin-bottom:32px;">Visit a Tesla showroom to experience our vehicles in person</p>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px;">
+        
+        
+        <div style="border:1px solid #efefef; border-radius:12px; padding:22px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.boxShadow='none'">
+          <div style="width:40px; height:40px; background:#171a20; border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+            <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </div>
+          <h3 style="font-size:16px; font-weight:600; color:#171a20; margin-bottom:6px;">Los Angeles</h3>
+          <p style="font-size:12px; color:#8a8a8a; line-height:1.6; margin-bottom:8px;">8058 W Manchester Ave, Playa del Rey</p>
+          <p style="font-size:12px; color:#e82127; font-weight:500;">+1 310-827-2600</p>
+        </div>
+        
+        <div style="border:1px solid #efefef; border-radius:12px; padding:22px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.boxShadow='none'">
+          <div style="width:40px; height:40px; background:#171a20; border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+            <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </div>
+          <h3 style="font-size:16px; font-weight:600; color:#171a20; margin-bottom:6px;">New York</h3>
+          <p style="font-size:12px; color:#8a8a8a; line-height:1.6; margin-bottom:8px;">860 Washington St, New York, NY</p>
+          <p style="font-size:12px; color:#e82127; font-weight:500;">+1 212-242-3160</p>
+        </div>
+        
+        <div style="border:1px solid #efefef; border-radius:12px; padding:22px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.boxShadow='none'">
+          <div style="width:40px; height:40px; background:#171a20; border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+            <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </div>
+          <h3 style="font-size:16px; font-weight:600; color:#171a20; margin-bottom:6px;">Miami</h3>
+          <p style="font-size:12px; color:#8a8a8a; line-height:1.6; margin-bottom:8px;">1601 Alton Rd, Miami Beach, FL</p>
+          <p style="font-size:12px; color:#e82127; font-weight:500;">+1 786-534-7820</p>
+        </div>
+        
+        <div style="border:1px solid #efefef; border-radius:12px; padding:22px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.boxShadow='none'">
+          <div style="width:40px; height:40px; background:#171a20; border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+            <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </div>
+          <h3 style="font-size:16px; font-weight:600; color:#171a20; margin-bottom:6px;">Chicago</h3>
+          <p style="font-size:12px; color:#8a8a8a; line-height:1.6; margin-bottom:8px;">20 N Michigan Ave, Chicago, IL</p>
+          <p style="font-size:12px; color:#e82127; font-weight:500;">+1 312-667-7100</p>
+        </div>
+        
+        <div style="border:1px solid #efefef; border-radius:12px; padding:22px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.boxShadow='none'">
+          <div style="width:40px; height:40px; background:#171a20; border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+            <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </div>
+          <h3 style="font-size:16px; font-weight:600; color:#171a20; margin-bottom:6px;">London</h3>
+          <p style="font-size:12px; color:#8a8a8a; line-height:1.6; margin-bottom:8px;">20 Old Bond St, Mayfair, London</p>
+          <p style="font-size:12px; color:#e82127; font-weight:500;">+44 20 3469 9499</p>
+        </div>
+        
+        <div style="border:1px solid #efefef; border-radius:12px; padding:22px; transition:box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'" onmouseout="this.style.boxShadow='none'">
+          <div style="width:40px; height:40px; background:#171a20; border-radius:10px; display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+            <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </div>
+          <h3 style="font-size:16px; font-weight:600; color:#171a20; margin-bottom:6px;">Dubai</h3>
+          <p style="font-size:12px; color:#8a8a8a; line-height:1.6; margin-bottom:8px;">Dubai Mall, Financial Centre Rd</p>
+          <p style="font-size:12px; color:#e82127; font-weight:500;">+971 4 343 2333</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Service -->
+    <section id="service" style="margin-bottom:60px;">
+      <h2 style="font-size:28px; font-weight:500; color:#171a20; margin-bottom:8px;">Service Centres</h2>
+      <p style="color:#8a8a8a; font-size:14px; margin-bottom:32px;">Certified Tesla technicians for all repairs and maintenance</p>
+      <div style="background:#f4f4f4; border-radius:12px; padding:28px; display:flex; align-items:center; gap:24px;">
+        <div style="width:56px; height:56px; background:#171a20; border-radius:14px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+          <svg width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><circle cx="12" cy="12" r="3"></circle><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"></path></svg>
+        </div>
+        <div>
+          <h3 style="font-size:16px; font-weight:600; color:#171a20; margin-bottom:6px;">Schedule a Service Appointment</h3>
+          <p style="font-size:14px; color:#5c5e62; line-height:1.6; margin-bottom:14px;">Tesla Mobile Service brings our technicians to your home or office. 80% of issues can be resolved without a service centre visit.</p>
+          <a href="contact.html" style="display:inline-block; padding:10px 24px; background:#e82127; color:white; border-radius:6px; text-decoration:none; font-size:13px; font-weight:600;">Book Appointment →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supercharger -->
+    <section id="supercharger">
+      <h2 style="font-size:28px; font-weight:500; color:#171a20; margin-bottom:8px;">Supercharger Network</h2>
+      <p style="color:#8a8a8a; font-size:14px; margin-bottom:32px;">50,000+ Superchargers across 100+ countries — the world's largest fast-charging network</p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+        <div style="background:linear-gradient(135deg,#000,#171a20); border-radius:12px; padding:32px; color:white;">
+          <div style="font-size:42px; font-weight:700; color:#e82127; margin-bottom:8px;">50K+</div>
+          <div style="font-size:16px; font-weight:500; margin-bottom:6px;">Supercharger Stations</div>
+          <div style="font-size:13px; color:rgba(255,255,255,0.5);">Available globally, open 24/7</div>
+        </div>
+        <div style="background:linear-gradient(135deg,#000,#171a20); border-radius:12px; padding:32px; color:white;">
+          <div style="font-size:42px; font-weight:700; color:#e82127; margin-bottom:8px;">250kW</div>
+          <div style="font-size:16px; font-weight:500; margin-bottom:6px;">Maximum Charge Rate</div>
+          <div style="font-size:13px; color:rgba(255,255,255,0.5);">Up to 200 miles in 15 minutes</div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+<footer class="tesla-footer">
+  <div class="footer-links">
+    <span class="footer-copy">Tesla &copy; 2026</span>
+    <a href="privacy.html">Privacy &amp; Legal</a>
+    <a href="privacy.html">Vehicle Recalls</a>
+    <a href="contact.html">Contact</a>
+    <a href="news.html">News</a>
+    <a href="engage.html">Get Updates</a>
+    <a href="locations.html">Locations</a>
+    <a href="news.html">Learn</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
+

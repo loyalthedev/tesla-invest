@@ -1,0 +1,647 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Model X - Tesla</title>
+  <link rel="icon" type="image/svg+xml" href="../images/tesla-logo.svg">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gotham:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="oc">
+
+
+
+
+
+<!-- Order-flow header: Tesla wordmark + locale only -->
+<header class="oc-topbar">
+  <a class="oc-topbar-logo" href="../index.htm" aria-label="Tesla home"><svg viewbox="0 0 342 35" fill="currentColor" aria-hidden="true"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg></a>
+  <div class="oc-topbar-right">
+    <span class="oc-locale"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg> US</span>
+    <button type="button" class="vo-burger" id="voBurger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<form class="oc-layout" id="configForm" action="/order/model-x/sign-in" method="GET">
+  <!-- Left: vehicle photography -->
+  <div class="oc-visual" data-oc-carousel="">
+    
+    <img class="oc-slide active" src="../tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-X.png" alt="Studio" loading="eager">
+    
+    <img class="oc-slide " src="../tesla-contents/image/upload/f_auto%2Cq_auto/Model-X-Social.jpg" alt="Model X" loading="lazy">
+    
+    <img class="oc-slide " src="../tesla-contents/image/upload/f_auto%2Cq_auto/Homepage-Model-X-Desktop-US.png" alt="On the road" loading="lazy">
+    
+    <img class="oc-slide " src="../tesla-contents/image/upload/f_auto%2Cq_auto/Model-X-Main-Hero-Desktop-LHD.jpg" alt="Profile" loading="lazy">
+    
+    <img class="oc-slide " src="../tesla-contents/image/upload/f_auto%2Cq_auto/Model-X-Interior-Desktop.png" alt="Interior" loading="lazy">
+    
+    
+    <div class="oc-ctrls">
+      <button type="button" class="oc-nav" data-dir="-1" aria-label="Previous photo"><svg width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+      <div class="oc-dots">
+        <button type="button" class="oc-dot active" data-index="0" aria-label="Photo 1"></button><button type="button" class="oc-dot " data-index="1" aria-label="Photo 2"></button><button type="button" class="oc-dot " data-index="2" aria-label="Photo 3"></button><button type="button" class="oc-dot " data-index="3" aria-label="Photo 4"></button><button type="button" class="oc-dot " data-index="4" aria-label="Photo 5"></button>
+      </div>
+      <button type="button" class="oc-nav" data-dir="1" aria-label="Next photo"><svg width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+    </div>
+    
+  </div>
+
+  <!-- Right: configuration -->
+  <div class="oc-panel">
+    <h1 class="oc-title">Model X</h1>
+    <input class="oc-zip" id="zipTop" name="zip" inputmode="numeric" pattern="\d{5}" maxlength="5" placeholder="Enter Delivery ZIP" value="" autocomplete="postal-code" aria-label="Delivery ZIP">
+
+    
+    <div class="oc-tabs" role="radiogroup" aria-label="Purchase type">
+      <label><input type="radio" name="purchase" value="cash" checked=""><span>Cash</span></label>
+      <label><input type="radio" name="purchase" value="lease"><span>Lease</span></label>
+      <label><input type="radio" name="purchase" value="loan"><span>Finance</span></label>
+    </div>
+    
+
+    <section class="oc-card">
+      <div class="oc-specs">
+        <div><strong><span id="specRange">329</span><small>mi</small></strong><span>Range (EPA est.)</span></div>
+        <div><strong><span id="specTop">149</span><small>mph</small></strong><span>Top Speed</span></div>
+        <div><strong><span id="specAccel">3.8</span><small>sec</small></strong><span>0-60 mph</span></div>
+      </div>
+
+      
+      <div class="oc-variant is-active" data-variant="">
+        <button type="button" class="oc-variant-head" data-pick="long-range">
+          <span class="oc-variant-name">Model X</span>
+          <span class="oc-variant-from" data-from="">$79,990</span>
+          <span class="oc-variant-sub">All-Wheel Drive</span>
+        </button>
+        <div class="oc-variant-list">
+          
+          <label class="oc-radio-row">
+            <input type="radio" name="trim" value="long-range" checked="" data-price="79990" data-group="" data-drive="All-Wheel Drive" data-range="329 mi" data-accel="3.8 s" data-top="149 mph">
+            <span class="oc-radio" aria-hidden="true"></span>
+            <span class="oc-radio-name">All-Wheel Drive</span>
+            <span class="oc-radio-price" data-trim-price="long-range">$79,990</span>
+          </label>
+          
+        </div>
+      </div>
+      
+      <div class="oc-variant " data-variant="">
+        <button type="button" class="oc-variant-head" data-pick="plaid">
+          <span class="oc-variant-name">Model X <em>Plaid</em></span>
+          <span class="oc-variant-from" data-from="">$94,990</span>
+          <span class="oc-variant-sub">Tri-Motor All-Wheel Drive</span>
+        </button>
+        <div class="oc-variant-list">
+          
+          <label class="oc-radio-row">
+            <input type="radio" name="trim" value="plaid" data-price="94990" data-group="Plaid" data-drive="Tri-Motor All-Wheel Drive" data-range="314 mi" data-accel="2.5 s" data-top="163 mph">
+            <span class="oc-radio" aria-hidden="true"></span>
+            <span class="oc-radio-name">Tri-Motor All-Wheel Drive</span>
+            <span class="oc-radio-price" data-trim-price="plaid">$94,990</span>
+          </label>
+          
+        </div>
+      </div>
+      
+
+      
+    </section>
+
+    
+    <section class="oc-card">
+      <h2 class="oc-h">Full Self-Driving (Supervised)</h2>
+      <p class="oc-lead">Your vehicle will be able to drive itself almost anywhere with minimal driver intervention</p>
+      <label class="oc-check-row">
+        <input type="checkbox" name="fsd" value="on">
+        <span class="oc-check" aria-hidden="true"></span>
+        <span class="oc-check-body"><span class="oc-check-name">Monthly Subscription</span></span>
+        <span class="oc-check-price">$99 <small>/mo</small></span>
+      </label>
+      <p class="oc-note">Subscription starts after 1 mo trial</p>
+      <p class="oc-fine">Currently enabled features require active driver supervision and do not make the vehicle autonomous. The activation and use of these features are dependent on development and regulatory approval, which may take longer in some jurisdictions. Price shown excludes tax and is billed separately each month until cancelled. Terms Apply</p>
+    </section>
+    
+
+    <section class="oc-card">
+      <h2 class="oc-h">Exterior</h2>
+      <div class="oc-opt-head"><span data-label="paint">Stealth Grey</span><span data-price-label="paint">Included</span></div>
+      <div class="oc-swatches">
+        
+        <label class="oc-swatch" title="Stealth Grey">
+          <input type="radio" name="paint" value="stealth-grey" data-price="0" data-name="Stealth Grey" checked="">
+          <span style="background:#3d3f43;"></span>
+        </label>
+        
+        <label class="oc-swatch" title="Pearl White Multi-Coat">
+          <input type="radio" name="paint" value="pearl-white" data-price="1500" data-name="Pearl White Multi-Coat">
+          <span style="background:#f2f2f2;"></span>
+        </label>
+        
+        <label class="oc-swatch" title="Deep Blue Metallic">
+          <input type="radio" name="paint" value="deep-blue" data-price="1500" data-name="Deep Blue Metallic">
+          <span style="background:#1f3b6e;"></span>
+        </label>
+        
+        <label class="oc-swatch" title="Diamond Black">
+          <input type="radio" name="paint" value="diamond-black" data-price="1500" data-name="Diamond Black">
+          <span style="background:#0d0d0f;"></span>
+        </label>
+        
+        <label class="oc-swatch" title="Ultra Red">
+          <input type="radio" name="paint" value="ultra-red" data-price="2000" data-name="Ultra Red">
+          <span style="background:#a3161c;"></span>
+        </label>
+        
+        <label class="oc-swatch" title="Quicksilver">
+          <input type="radio" name="paint" value="quicksilver" data-price="2000" data-name="Quicksilver">
+          <span style="background:#a9adb3;"></span>
+        </label>
+        
+      </div>
+
+      <div class="oc-opt-head"><span data-label="wheels">20&#34; Cyberstream Wheels</span><span data-price-label="wheels">Included</span></div>
+      <p class="oc-opt-desc"><span data-desc="wheels"></span><br>Range (EPA est.) : <span data-wheel-range="">329 mi</span></p>
+      <div class="oc-swatches">
+        
+        <label class="oc-swatch oc-wheel" title="20&#34; Cyberstream Wheels">
+          <input type="radio" name="wheels" value="20-cyberstream" data-price="0" data-name="20&#34; Cyberstream Wheels" data-desc="" checked="">
+          <span><svg viewbox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="27" fill="#1d1e20"></circle><circle cx="28" cy="28" r="19" fill="#3a3c40"></circle><g stroke="#16171a" stroke-width="3.2" stroke-linecap="round"><line x1="28" y1="12" x2="28" y2="22"></line><line x1="43" y1="23" x2="34" y2="26"></line><line x1="37" y1="41" x2="32" y2="33"></line><line x1="19" y1="41" x2="24" y2="33"></line><line x1="13" y1="23" x2="22" y2="26"></line></g><circle cx="28" cy="28" r="4.5" fill="#8b8d91"></circle></svg></span>
+        </label>
+        
+        <label class="oc-swatch oc-wheel" title="22&#34; Turbine Wheels">
+          <input type="radio" name="wheels" value="22-turbine" data-price="5500" data-name="22&#34; Turbine Wheels" data-desc="">
+          <span><svg viewbox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="27" fill="#1d1e20"></circle><circle cx="28" cy="28" r="19" fill="#3a3c40"></circle><g stroke="#16171a" stroke-width="3.2" stroke-linecap="round"><line x1="28" y1="12" x2="28" y2="22"></line><line x1="43" y1="23" x2="34" y2="26"></line><line x1="37" y1="41" x2="32" y2="33"></line><line x1="19" y1="41" x2="24" y2="33"></line><line x1="13" y1="23" x2="22" y2="26"></line></g><circle cx="28" cy="28" r="4.5" fill="#8b8d91"></circle></svg></span>
+        </label>
+        
+      </div>
+
+      
+    </section>
+
+    <section class="oc-card">
+      <h2 class="oc-h">Interior</h2>
+      <div class="oc-opt-head"><span data-label="interior">All Black</span><span data-price-label="interior">Included</span></div>
+      <p class="oc-opt-desc" data-desc="interior">Microsuede and textile decor</p>
+      <div class="oc-swatches">
+        
+        <label class="oc-swatch" title="All Black">
+          <input type="radio" name="interior" value="all-black" data-price="0" data-name="All Black" data-desc="Microsuede and textile decor" checked="">
+          <span style="background:#111;"></span>
+        </label>
+        
+        <label class="oc-swatch" title="Black and White">
+          <input type="radio" name="interior" value="black-white" data-price="1000" data-name="Black and White" data-desc="Microsuede and textile decor">
+          <span style="background:#e9e9e9;"></span>
+        </label>
+        
+        <label class="oc-swatch" title="Cream">
+          <input type="radio" name="interior" value="cream" data-price="2000" data-name="Cream" data-desc="">
+          <span style="background:#e6dccb;"></span>
+        </label>
+        
+      </div>
+      
+    </section>
+
+    
+    <section class="oc-card">
+      <h2 class="oc-h">Charging</h2>
+      <p class="oc-lead">Every Tesla includes access to the largest global Supercharging network</p>
+      <h3 class="oc-sub-h">Home Charging</h3>
+      
+    <label class="oc-check-row">
+      <input type="checkbox" name="acc" value="wall-connector" data-price="585">
+      <span class="oc-check" aria-hidden="true"></span>
+      <span class="oc-check-body"><span class="oc-check-name">Wall Connector</span><span class="oc-check-desc">Adds up to 44 mi of range/hr. Installation required.</span></span>
+      <span class="oc-check-price">$585</span>
+    </label>
+      <div class="oc-included-row">
+        <span class="oc-check-body"><span class="oc-check-name">Mobile Connector</span><span class="oc-check-desc">Adds up to 30 mi of range/hr. Works with any outlet.</span></span>
+        <span class="oc-included"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg> Included</span>
+      </div>
+      
+      <h3 class="oc-sub-h">Power Devices</h3>
+      <p class="oc-opt-desc oc-gap">When paired with Mobile Connector</p>
+      
+    <label class="oc-check-row">
+      <input type="checkbox" name="acc" value="outlet-adapter" data-price="80">
+      <span class="oc-check" aria-hidden="true"></span>
+      <span class="oc-check-body"><span class="oc-check-name">Outlet Adapter</span></span>
+      <span class="oc-check-price">$80</span>
+    </label>
+      
+      <h3 class="oc-sub-h">Power Your Home</h3>
+      <p class="oc-opt-desc">When paired with Powerwall 3. Extends your home backup by over two days. <a href="../powerwall.html">Learn More</a></p>
+    </section>
+    
+
+    
+    <section class="oc-card">
+      <div class="oc-h-row"><h2 class="oc-h">Accessories</h2><a href="../shop.html">Learn More</a></div>
+      
+    <label class="oc-check-row">
+      <input type="checkbox" name="acc" value="console-trays" data-price="40">
+      <span class="oc-check" aria-hidden="true"></span>
+      <span class="oc-check-body"><span class="oc-check-name">Center Console Trays</span></span>
+      <span class="oc-check-price">$40</span>
+    </label>
+    <label class="oc-check-row">
+      <input type="checkbox" name="acc" value="tire-repair-kit" data-price="110">
+      <span class="oc-check" aria-hidden="true"></span>
+      <span class="oc-check-body"><span class="oc-check-name">Air Compressor + Tire Repair Kit 3.0</span></span>
+      <span class="oc-check-price">$110</span>
+    </label>
+    <label class="oc-check-row">
+      <input type="checkbox" name="acc" value="pet-liner" data-price="145">
+      <span class="oc-check" aria-hidden="true"></span>
+      <span class="oc-check-body"><span class="oc-check-name">Pet Liner</span></span>
+      <span class="oc-check-price">$145</span>
+    </label>
+    <label class="oc-check-row">
+      <input type="checkbox" name="acc" value="all-weather-liners" data-price="345">
+      <span class="oc-check" aria-hidden="true"></span>
+      <span class="oc-check-body"><span class="oc-check-name">All-Weather Liner Bundle</span></span>
+      <span class="oc-check-price">$345</span>
+    </label>
+    <label class="oc-check-row">
+      <input type="checkbox" name="acc" value="roof-rack" data-price="500">
+      <span class="oc-check" aria-hidden="true"></span>
+      <span class="oc-check-body"><span class="oc-check-name">Roof Rack</span></span>
+      <span class="oc-check-price">$500</span>
+    </label>
+    </section>
+    
+
+    <!-- Delivery + pricing summary -->
+    <section class="oc-summary" id="pricing">
+      <h2 class="oc-summary-title">Enter Delivery ZIP</h2>
+      <input class="oc-zip" id="zipBottom" inputmode="numeric" maxlength="5" placeholder="Enter Delivery ZIP" value="" aria-label="Delivery ZIP">
+      <p class="oc-zip-note" id="zipNote">Est. delivery: 4–6 weeks</p>
+
+      
+      <div class="oc-fin" data-type="loan" hidden="">
+        <h3 class="oc-sub-h">Finance details</h3>
+        <div class="oc-fin-fields">
+          <label>Down Payment<input type="number" name="down" min="0" step="any" value="8138" disabled=""></label>
+          <label>Term<select name="term" disabled="">
+            <option value="36">36 months</option><option value="48">48 months</option><option value="60">60 months</option><option value="72" selected="">72 months</option><option value="84">84 months</option>
+          </select></label>
+        </div>
+        <p class="oc-fine">Estimated at 6.49% APR. Your rate depends on credit approval.</p>
+      </div>
+      
+      
+      <div class="oc-fin" data-type="lease" hidden="">
+        <h3 class="oc-sub-h">Lease details</h3>
+        <div class="oc-fin-fields">
+          <label>Down Payment<input type="number" name="down" min="0" step="any" value="3000" disabled=""></label>
+          <label>Term<select name="term" disabled="">
+            <option value="24">24 months</option><option value="36" selected="">36 months</option><option value="48">48 months</option>
+          </select></label>
+          <label class="oc-span-2">Annual Mileage<select name="miles" disabled="">
+            <option value="10000" selected="">10,000 miles / year</option><option value="12000">12,000 miles / year</option><option value="15000">15,000 miles / year</option>
+          </select></label>
+        </div>
+        <p class="oc-fine">Estimate excludes taxes and registration. Leasing depends on credit approval and isn't available in every state.</p>
+      </div>
+      
+
+      <button type="button" class="oc-details-toggle" id="detailsToggle" aria-expanded="false" aria-controls="pricingDetails"><span>Show Pricing Details</span> <svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+      <div class="oc-details" id="pricingDetails" hidden="">
+        <div class="oc-line"><span id="detTrim">Model X Long Range All-Wheel Drive</span><span id="detTrimPrice">$79,990</span></div>
+        <div class="oc-line"><span id="detPaint">Stealth Grey</span><span id="detPaintPrice">Included</span></div>
+        <div class="oc-line"><span id="detWheels">20&#34; Cyberstream Wheels</span><span id="detWheelsPrice">Included</span></div>
+        <div class="oc-line"><span id="detInterior">All Black Interior</span><span id="detInteriorPrice">Included</span></div>
+        
+        <div class="oc-line"><span>Destination Fee</span><span>$1,390</span></div>
+        <div class="oc-line"><span>Order Fee</span><span>$250</span></div>
+      </div>
+
+      <div class="oc-sum-row oc-sum-major">
+        <div><strong>Est. Purchase Price</strong><span class="oc-sum-sub">Includes Destination and Order Fee</span></div>
+        <strong id="sumPurchase">$81,630</strong>
+      </div>
+      <div class="oc-sum-row" id="sumMonthlyRow" hidden="">
+        <span id="sumMonthlyLabel">Est. Loan Payment</span>
+        <span id="sumMonthly"></span>
+      </div>
+      
+      <div class="oc-sum-row" data-acc-row="wall-connector" hidden=""><span>Wall Connector</span><span>$585</span></div>
+      
+      <div class="oc-sum-row" data-acc-row="outlet-adapter" hidden=""><span>Outlet Adapter</span><span>$80</span></div>
+      
+      <div class="oc-sum-row" data-acc-row="console-trays" hidden=""><span>Center Console Trays</span><span>$40</span></div>
+      
+      <div class="oc-sum-row" data-acc-row="tire-repair-kit" hidden=""><span>Air Compressor + Tire Repair Kit 3.0</span><span>$110</span></div>
+      
+      <div class="oc-sum-row" data-acc-row="pet-liner" hidden=""><span>Pet Liner</span><span>$145</span></div>
+      
+      <div class="oc-sum-row" data-acc-row="all-weather-liners" hidden=""><span>All-Weather Liner Bundle</span><span>$345</span></div>
+      
+      <div class="oc-sum-row" data-acc-row="roof-rack" hidden=""><span>Roof Rack</span><span>$500</span></div>
+      
+      
+      <div class="oc-sum-row" id="sumFsdRow" hidden=""><span>FSD (Supervised) Subscription</span><span>$99 /mo</span></div>
+      
+      <div class="oc-sum-row oc-sum-minor"><span>Sales Tax</span><span>Pending</span></div>
+      <div class="oc-sum-row">
+        <div><strong>Order Deposit</strong><span class="oc-sum-sub">Non-Refundable Order Fee</span></div>
+        <span>$250</span>
+      </div>
+      <div class="oc-sum-row oc-sum-due"><strong>Due Today</strong><strong id="sumDue">$250</strong></div>
+      <p class="oc-legal">By placing this order, I agree to the <a href="../privacy.html">Model X Order Agreement</a>, <a href="../privacy.html">Terms of Use</a>, <a href="../privacy.html">Accessories Terms</a>, and <a href="../privacy.html">Privacy Notice</a>.</p>
+    </section>
+
+    <!-- Delivery + payment (sign-in prompt for guests) -->
+    <section class="oc-checkout" id="checkout">
+      <h2 class="oc-summary-title">Complete Your Order</h2>
+      
+
+
+<button type="submit" class="oc-order-btn oc-order-btn-block vo-pay-submit">Sign in to Order</button>
+<p class="vo-legal">You'll sign in or create an account, then come straight back here to complete your order.</p>
+
+
+    </section>
+  </div>
+
+  <!-- Sticky build summary + primary action -->
+  <div class="oc-bar">
+    <div class="oc-bar-build">
+      <div class="oc-bar-name">Model X <em id="barGroup"></em></div>
+      <div class="oc-bar-spec" id="barSpec"></div>
+    </div>
+    <button type="button" class="oc-bar-price" id="barPrice" aria-controls="pricingDetails">
+      <span class="oc-bar-amount"><strong id="barAmount">$79,990</strong><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      <small id="barLabel">Vehicle Price</small>
+    </button>
+    <button type="button" class="oc-order-btn" id="barOrder">Order Now</button>
+  </div>
+</form>
+
+<!-- Mobile slide-in navigation for the order flow -->
+<div class="mobile-overlay" id="voMobileOverlay"></div>
+<div class="mobile-menu" id="voMobileMenu">
+  <div class="mobile-menu-header">
+    <span class="mobile-logo" style="display:block;width:100px;color:#171a20;"><svg viewbox="0 0 342 35" fill="currentColor" aria-hidden="true"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg></span>
+    <button class="mobile-close" id="voMobileClose" aria-label="Close menu">
+      <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+  </div>
+  <div class="mobile-section-label">Vehicles</div>
+  <div class="mobile-menu-items">
+    
+    <a href="../model-3.html" class="mobile-link"><span>Model 3</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-y.html" class="mobile-link"><span>Model Y</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-s.html" class="mobile-link"><span>Model S</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../model-x.html" class="mobile-link"><span>Model X</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../cybertruck.html" class="mobile-link"><span>Cybertruck</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../roadster.html" class="mobile-link"><span>Roadster</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../robotaxi.html" class="mobile-link"><span>Robotaxi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="../semi.html" class="mobile-link"><span>Semi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+  </div>
+  <div class="mobile-section-label">Energy</div>
+  <div class="mobile-menu-items">
+    <a href="../solar-panels.html" class="mobile-link"><span>Solar Panels</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="../powerwall.html" class="mobile-link"><span>Powerwall</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Discover</div>
+  <div class="mobile-menu-items">
+    <a href="../shop.html" class="mobile-link mobile-shop"><span>Tesla Shop</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="../invest.html" class="mobile-link mobile-invest"><span>Invest</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Account</div>
+  <div class="mobile-menu-items mobile-account-items">
+    
+      <a href="../auth/login.html" class="mobile-link"><span>Sign In</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+      <a href="../auth/register.html" class="mobile-cta">Create Account</a>
+    
+  </div>
+</div>
+
+<script>
+// Mobile slide-in menu for the order flow
+(function () {
+  var toggle = document.getElementById('voBurger');
+  var menu = document.getElementById('voMobileMenu');
+  var overlay = document.getElementById('voMobileOverlay');
+  var closeBtn = document.getElementById('voMobileClose');
+  if (!(toggle && menu && overlay && closeBtn)) return;
+  function openM() { menu.classList.add('open'); overlay.classList.add('active'); document.body.style.overflow = 'hidden'; toggle.setAttribute('aria-expanded', 'true'); }
+  function closeM() { menu.classList.remove('open'); overlay.classList.remove('active'); document.body.style.overflow = ''; toggle.setAttribute('aria-expanded', 'false'); }
+  toggle.addEventListener('click', openM);
+  closeBtn.addEventListener('click', closeM);
+  overlay.addEventListener('click', closeM);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeM(); });
+})();
+
+// Left-panel photo carousel
+(function () {
+  const root = document.querySelector('[data-oc-carousel]');
+  if (!root) return;
+  const slides = Array.prototype.slice.call(root.querySelectorAll('.oc-slide'));
+  const dots = Array.prototype.slice.call(root.querySelectorAll('.oc-dot'));
+  if (slides.length < 2) return;
+  let cur = 0;
+  function show(i) {
+    cur = (i + slides.length) % slides.length;
+    slides.forEach((s, idx) => s.classList.toggle('active', idx === cur));
+    dots.forEach((d, idx) => d.classList.toggle('active', idx === cur));
+  }
+  root.querySelectorAll('.oc-nav').forEach(b => b.addEventListener('click', () => show(cur + Number(b.dataset.dir))));
+  dots.forEach(d => d.addEventListener('click', () => show(Number(d.dataset.index))));
+})();
+
+// Configurator: prices, variant cards, summary and the sticky bar
+(function () {
+  const form = document.getElementById('configForm');
+  const fmt = n => '$' + Number(n).toLocaleString('en-US');
+  const perMonth = n => '$' + Math.round(n).toLocaleString('en-US');
+  const DEST = 1390;
+  const ORDER_FEE = 250;
+  const FIN = {"loan":{"apr":6.49,"terms":[36,48,60,72,84],"defaultTerm":72,"defaultDownPct":0.1},"lease":{"moneyFactor":0.0025,"terms":[24,36,48],"defaultTerm":36,"miles":[10000,12000,15000],"defaultMiles":10000,"defaultDown":3000,"maxDownPct":0.3,"residualByTerm":{"24":0.66,"36":0.58,"48":0.5},"residualMilesAdjust":{"10000":0.02,"12000":0,"15000":-0.03}}};
+  const DELIVERY = "4–6 weeks";
+  const SEATING = "";
+  const NAME = "Model X";
+  const picked = name => form.querySelector('input[name="' + name + '"]:checked');
+  const $ = id => document.getElementById(id);
+  const priceOrIncluded = p => Number(p) ? fmt(p) : 'Included';
+
+  // Mirrors financeQuote() in src/utils/vehicles.ts
+  function monthly(type, price, group) {
+    const val = name => { const el = group.querySelector('[name="' + name + '"]'); return el ? Number(el.value) : NaN; };
+    if (type === 'loan') {
+      const c = FIN.loan;
+      const term = c.terms.includes(val('term')) ? val('term') : c.defaultTerm;
+      const down = Math.min(Math.max(isNaN(val('down')) ? Math.round(price * c.defaultDownPct) : val('down'), 0), price);
+      const p = price - down, r = c.apr / 100 / 12;
+      return p <= 0 ? 0 : (p * r) / (1 - Math.pow(1 + r, -term));
+    }
+    const c = FIN.lease;
+    const term = c.terms.includes(val('term')) ? val('term') : c.defaultTerm;
+    const miles = c.miles.includes(val('miles')) ? val('miles') : c.defaultMiles;
+    const down = Math.min(Math.max(isNaN(val('down')) ? c.defaultDown : val('down'), 0), Math.round(price * c.maxDownPct));
+    const residual = price * (c.residualByTerm[term] + c.residualMilesAdjust[miles]);
+    const cap = price - down;
+    return Math.max((cap - residual) / term + (cap + residual) * c.moneyFactor, 0);
+  }
+
+  function update() {
+    const trim = picked('trim');
+    const purchaseEl = picked('purchase');
+    const purchase = purchaseEl ? purchaseEl.value : 'cash';
+    const tow = form.querySelector('input[name="tow"]');
+    const options = ['paint', 'interior', 'wheels'].reduce((s, n) => s + Number(picked(n).dataset.price), 0)
+      + (tow && tow.checked ? Number(tow.dataset.price) : 0);
+    const vehiclePrice = Number(trim.dataset.price) + options;
+    const accChecked = Array.prototype.slice.call(form.querySelectorAll('input[name="acc"]:checked'));
+    const accessories = accChecked.reduce((s, a) => s + Number(a.dataset.price), 0);
+
+    // Only the active financing group is shown and submitted
+    form.querySelectorAll('.oc-fin').forEach(g => {
+      const on = g.dataset.type === purchase;
+      g.hidden = !on;
+      g.querySelectorAll('input, select').forEach(i => i.disabled = !on);
+    });
+    const group = form.querySelector('.oc-fin[data-type="' + purchase + '"]');
+    const priceFor = base => group
+      ? perMonth(monthly(purchase, base + options + DEST, group)) + ' <small>/mo</small>'
+      : fmt(base);
+
+    // Variant cards: expand the one holding the selected trim; prices follow Cash/Lease/Finance
+    form.querySelectorAll('[data-variant]').forEach(v => {
+      const radios = Array.prototype.slice.call(v.querySelectorAll('input[name="trim"]'));
+      v.classList.toggle('is-active', radios.some(r => r.checked));
+      radios.forEach(r => { form.querySelector('[data-trim-price="' + r.value + '"]').innerHTML = priceFor(Number(r.dataset.price)); });
+      const min = Math.min.apply(null, radios.map(r => Number(r.dataset.price)));
+      v.querySelector('[data-from]').innerHTML = (radios.length > 1 ? 'From ' : '') + priceFor(min);
+    });
+
+    $('specRange').textContent = trim.dataset.range.replace(/\s*mi$/, '');
+    $('specTop').textContent = trim.dataset.top.replace(/\s*mph$/, '');
+    $('specAccel').textContent = trim.dataset.accel.replace(/\s*s$/, '');
+    const wheelRange = form.querySelector('[data-wheel-range]');
+    if (wheelRange) wheelRange.textContent = trim.dataset.range;
+
+    ['paint', 'wheels', 'interior'].forEach(n => {
+      const o = picked(n);
+      form.querySelector('[data-label="' + n + '"]').textContent = o.dataset.name;
+      form.querySelector('[data-price-label="' + n + '"]').textContent = priceOrIncluded(o.dataset.price);
+      const desc = form.querySelector('[data-desc="' + n + '"]');
+      if (desc) desc.textContent = o.dataset.desc || '';
+    });
+
+    // Pricing details + summary
+    $('detTrim').textContent = [NAME, trim.dataset.group, trim.dataset.drive].filter(Boolean).join(' ');
+    $('detTrimPrice').textContent = fmt(trim.dataset.price);
+    [['paint', 'Paint'], ['wheels', 'Wheels'], ['interior', 'Interior']].forEach(([n, k]) => {
+      const o = picked(n);
+      $('det' + k).textContent = o.dataset.name + (n === 'interior' ? ' Interior' : '');
+      $('det' + k + 'Price').textContent = priceOrIncluded(o.dataset.price);
+    });
+    if ($('detTow')) $('detTow').hidden = !(tow && tow.checked);
+    $('sumPurchase').textContent = fmt(vehiclePrice + DEST + ORDER_FEE);
+    $('sumMonthlyRow').hidden = !group;
+    if (group) {
+      $('sumMonthlyLabel').textContent = purchase === 'lease' ? 'Est. Lease Payment' : 'Est. Loan Payment';
+      $('sumMonthly').textContent = perMonth(monthly(purchase, vehiclePrice + DEST, group)) + ' /mo';
+    }
+    form.querySelectorAll('[data-acc-row]').forEach(row => {
+      row.hidden = !accChecked.some(a => a.value === row.dataset.accRow);
+    });
+    const fsd = form.querySelector('input[name="fsd"]');
+    if ($('sumFsdRow')) $('sumFsdRow').hidden = !fsd.checked;
+    $('sumDue').textContent = fmt(ORDER_FEE + accessories);
+    // Inline payment: Pay in Full is only offered for cash purchases
+    if (window.setPaymentDue) {
+      const due = { fee: ORDER_FEE + accessories };
+      if (!group) due.full = vehiclePrice + DEST + ORDER_FEE + accessories;
+      window.setPaymentDue(due);
+    }
+
+    // Sticky bar
+    $('barGroup').textContent = trim.dataset.group;
+    $('barSpec').textContent = [trim.dataset.drive, picked('paint').dataset.name, picked('wheels').dataset.name, picked('interior').dataset.name, SEATING]
+      .filter(Boolean).join(' • ');
+    $('barAmount').textContent = group ? perMonth(monthly(purchase, vehiclePrice + DEST, group)) + ' /mo' : fmt(vehiclePrice);
+    $('barLabel').textContent = group ? (purchase === 'lease' ? 'Est. Lease' : 'Est. Financing') : 'Vehicle Price';
+
+    const zip = $('zipTop').value.trim();
+    $('zipNote').textContent = (/^\d{5}$/.test(zip) ? 'Est. delivery to ' + zip : 'Est. delivery') + ': ' + DELIVERY;
+  }
+
+  // Collapsed variant card → select its first trim
+  form.querySelectorAll('[data-pick]').forEach(head => head.addEventListener('click', () => {
+    const r = form.querySelector('input[name="trim"][value="' + head.dataset.pick + '"]');
+    if (r && !r.closest('[data-variant]').classList.contains('is-active')) { r.checked = true; update(); }
+  }));
+
+  // The two ZIP fields mirror each other (only the top one is submitted) and
+  // prefill the delivery address ZIP until the customer edits it
+  const zipTop = $('zipTop'), zipBottom = $('zipBottom');
+  const postal = form.querySelector('input[name="postalCode"]');
+  if (postal) postal.addEventListener('input', () => { postal.dataset.edited = '1'; });
+  function syncZip(v) {
+    zipTop.value = zipBottom.value = v;
+    if (postal && !postal.dataset.edited) postal.value = v;
+  }
+  zipBottom.addEventListener('input', () => syncZip(zipBottom.value));
+  zipTop.addEventListener('input', () => syncZip(zipTop.value));
+  // Enter in a ZIP field shouldn't submit the order
+  [zipTop, zipBottom].forEach(z => z.addEventListener('keydown', e => { if (e.key === 'Enter') e.preventDefault(); }));
+
+  // Bar "Order Now" scrolls to delivery + payment; the bar hides once that section is in view
+  const checkout = $('checkout'), bar = form.querySelector('.oc-bar');
+  $('barOrder').addEventListener('click', () => checkout.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(entries => entries.forEach(e => bar.classList.toggle('is-hidden', e.isIntersecting)),
+      { rootMargin: '0px 0px -15% 0px' }).observe(checkout);
+  }
+
+  // Pricing details toggle; the bar's price jumps to it
+  const toggle = $('detailsToggle'), details = $('pricingDetails');
+  function setDetails(open) {
+    details.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.querySelector('span').textContent = open ? 'Hide Pricing Details' : 'Show Pricing Details';
+    toggle.classList.toggle('open', open);
+  }
+  toggle.addEventListener('click', () => setDetails(details.hidden));
+  $('barPrice').addEventListener('click', () => { setDetails(true); $('pricing').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+
+  form.addEventListener('change', update);
+  form.addEventListener('input', update);
+  update();
+})();
+</script>
+
+<footer class="tesla-footer">
+  <div class="footer-links">
+    <span class="footer-copy">Tesla &copy; 2026</span>
+    <a href="../privacy.html">Privacy &amp; Legal</a>
+    <a href="../privacy.html">Vehicle Recalls</a>
+    <a href="../contact.html">Contact</a>
+    <a href="../news.html">News</a>
+    <a href="../engage.html">Get Updates</a>
+    <a href="../locations.html">Locations</a>
+    <a href="../news.html">Learn</a>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>
+

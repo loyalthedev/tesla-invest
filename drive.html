@@ -1,0 +1,771 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule a Demo Drive - Tesla</title>
+  <link rel="icon" type="image/svg+xml" href="images/tesla-logo.svg">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gotham:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+</head>
+<body class="">
+
+
+<header class="tz-header" id="main-header" data-tz-nav="">
+  <div class="tz-bar">
+    <a href="index.htm" class="tz-logo" aria-label="Tesla home"><svg viewbox="0 0 342 35" fill="currentColor" aria-hidden="true"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path></svg></a>
+
+    <nav class="tz-primary" aria-label="Primary">
+      <button type="button" class="tz-navlink" data-panel="vehicles">Vehicles</button>
+      <button type="button" class="tz-navlink" data-panel="energy">Energy</button>
+      <button type="button" class="tz-navlink" data-panel="charging">Charging</button>
+      <button type="button" class="tz-navlink" data-panel="semi">Semi</button>
+      <button type="button" class="tz-navlink" data-panel="discover">Discover</button>
+      <button type="button" class="tz-navlink" data-panel="shop">Shop</button>
+      <a class="tz-navlink" href="invest.html">Invest</a>
+    </nav>
+
+    <div class="tz-actions">
+      <a class="tz-icon" href="contact.html" aria-label="Support" title="Support">
+        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+      </a>
+      <a class="tz-icon" href="locations.html" aria-label="Locations" title="Locations">
+        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+      </a>
+      <a class="tz-icon" href="auth/login.html" aria-label="Account" title="Account">
+        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 20a7.5 7.5 0 0 1 15 0"></path></svg>
+      </a>
+      <button class="tz-burger" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+
+  <!-- Full-width mega dropdown -->
+  <div class="tz-mega" id="tzMega">
+    <!-- Vehicles -->
+    <div class="tz-panel" data-panel="vehicles">
+      <div class="tz-grid">
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-3.png" alt="Model 3" loading="lazy">
+          <div class="tz-card-name">Model 3</div>
+          <div class="tz-card-links"><a href="model-3.html">Learn</a><a href="order/model-3.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-Y.png" alt="Model Y" loading="lazy">
+          <div class="tz-card-name">Model Y</div>
+          <div class="tz-card-links"><a href="model-y.html">Learn</a><a href="order/model-y.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Homepage-Cybertruck-Desktop.png" alt="Cybertruck" loading="lazy">
+          <div class="tz-card-name">Cybertruck</div>
+          <div class="tz-card-links"><a href="cybertruck.html">Learn</a><a href="order/cybertruck.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-S.png" alt="Model S" loading="lazy">
+          <div class="tz-card-name">Model S</div>
+          <div class="tz-card-links"><a href="model-s.html">Learn</a><a href="order/model-s.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-X.png" alt="Model X" loading="lazy">
+          <div class="tz-card-name">Model X</div>
+          <div class="tz-card-links"><a href="model-x.html">Learn</a><a href="order/model-x.html">Order</a></div>
+        </div>
+        
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Roadster-Hero-Desktop.jpg" alt="Roadster" loading="lazy">
+          <div class="tz-card-name">Roadster</div>
+          <div class="tz-card-links"><a href="roadster.html">Learn</a><a href="reserve/roadster.html">Reserve</a></div>
+        </div>
+        
+      </div>
+      <aside class="tz-aside">
+        <a href="invest.html">Current Offers</a>
+        <a href="drive.html">Demo Drive</a>
+        <a href="shop.html">Inventory</a>
+        <a href="robotaxi.html">Robotaxi</a>
+        <a href="invest/shares.html">Compare &amp; Invest</a>
+        <a href="locations.html">Find Us</a>
+      </aside>
+    </div>
+
+    <!-- Energy -->
+    <div class="tz-panel" data-panel="energy">
+      <div class="tz-grid">
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Solar-Panels-Social.jpg" alt="Solar Panels" loading="lazy">
+          <div class="tz-card-name">Solar Panels</div>
+          <div class="tz-card-links"><a href="solar-panels.html">Learn</a><a href="solar-panels.html">Order</a></div>
+        </div>
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/1M-Powerwalls-Powerwall-3-Hero-Desktop.png" alt="Powerwall" loading="lazy">
+          <div class="tz-card-name">Powerwall</div>
+          <div class="tz-card-links"><a href="powerwall.html">Learn</a><a href="powerwall.html">Order</a></div>
+        </div>
+      </div>
+      <aside class="tz-aside">
+        <a href="solar-panels.html">Why Solar</a>
+        <a href="contact.html">Schedule a Consultation</a>
+        <a href="contact.html">Support</a>
+      </aside>
+    </div>
+
+    <!-- Charging -->
+    <div class="tz-panel" data-panel="charging">
+      <div class="tz-tiles">
+        <a class="tz-tile" href="shop/category/charging.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true" focusable="false"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span>Home Charging</span></a>
+        <a class="tz-tile" href="locations.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Supercharging</span></a>
+        <a class="tz-tile" href="shop/category/charging.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="1" y="4" width="22" height="16" rx="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg><span>Wall Connector</span></a>
+      </div>
+      <aside class="tz-aside">
+        <a href="locations.html">Find a Supercharger</a>
+        <a href="shop/category/charging.html">Charging Products</a>
+        <a href="contact.html">Help Me Charge</a>
+      </aside>
+    </div>
+
+    <!-- Semi -->
+    <div class="tz-panel" data-panel="semi">
+      <div class="tz-grid">
+        <div class="tz-card">
+          <img src="tesla-contents/image/upload/f_auto%2Cq_auto/Semi-Social.jpg" alt="Tesla Semi" loading="lazy">
+          <div class="tz-card-name">Semi</div>
+          <div class="tz-card-links"><a href="semi.html">Learn</a><a href="reserve/semi.html">Reserve</a></div>
+        </div>
+      </div>
+      <aside class="tz-aside">
+        <a href="locations.html">Find Us</a>
+        <a href="invest.html">Tesla for Business</a>
+      </aside>
+    </div>
+
+    <!-- Discover -->
+    <div class="tz-panel tz-panel-cols" data-panel="discover">
+      <div class="tz-col">
+        <div class="tz-col-label">Resources</div>
+        <a href="drive.html">Demo Drive</a>
+        <a href="invest.html">Current Offers</a>
+        <a href="news.html">Learn</a>
+        <a href="engage.html">Events</a>
+        <a href="privacy.html">Safety &amp; Legal</a>
+      </div>
+      <div class="tz-col">
+        <div class="tz-col-label">Location Services</div>
+        <a href="locations.html">Find Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="tz-col">
+        <div class="tz-col-label">Company</div>
+        <a href="about.html">About</a>
+        <a href="careers.html">Careers</a>
+        <a href="invest.html">Investor Relations</a>
+        <a href="news.html">News</a>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="tz-panel" data-panel="shop">
+      <div class="tz-tiles tz-tiles-4">
+        <a class="tz-tile" href="shop/category/charging.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true" focusable="false"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg><span>Charging</span></a>
+        <a class="tz-tile" href="shop/category/vehicle-accessories.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 17H3v-5l2-5h14l2 5v5h-2"></path><path d="M5 12h14"></path><circle cx="7.5" cy="17.5" r="1.5"></circle><circle cx="16.5" cy="17.5" r="1.5"></circle></svg><span>Vehicle Accessories</span></a>
+        <a class="tz-tile" href="shop/category/apparel.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.59 13.41 13.42 20.59a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg><span>Apparel</span></a>
+        <a class="tz-tile" href="shop/category/lifestyle.html"><svg width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg><span>Lifestyle</span></a>
+      </div>
+      <aside class="tz-aside">
+        <a href="shop.html">Shop Home</a>
+        
+        <a href="auth/login.html">Cart</a>
+      </aside>
+    </div>
+  </div>
+</header>
+<div class="tz-mega-backdrop" id="tzBackdrop"></div>
+
+<!-- Mobile overlay & slide-in menu (kept outside header) -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-header">
+    <svg width="100" height="10" viewbox="0 0 342 35" fill="#171a20" xmlns="http://www.w3.org/2000/svg" style="display:block;" class="mobile-logo">
+      <path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path>
+    </svg>
+    <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+      <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+  </div>
+  <div class="mobile-section-label">Vehicles</div>
+  <div class="mobile-menu-items">
+    
+    <a href="model-3.html" class="mobile-link"><span>Model 3</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="model-y.html" class="mobile-link"><span>Model Y</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="model-s.html" class="mobile-link"><span>Model S</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="model-x.html" class="mobile-link"><span>Model X</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="cybertruck.html" class="mobile-link"><span>Cybertruck</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="roadster.html" class="mobile-link"><span>Roadster</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="robotaxi.html" class="mobile-link"><span>Robotaxi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+    <a href="semi.html" class="mobile-link"><span>Semi</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    
+  </div>
+  <div class="mobile-section-label">Energy</div>
+  <div class="mobile-menu-items">
+    <a href="solar-panels.html" class="mobile-link"><span>Solar Panels</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="powerwall.html" class="mobile-link"><span>Powerwall</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Discover</div>
+  <div class="mobile-menu-items">
+    <a href="shop.html" class="mobile-link mobile-shop"><span>Tesla Shop</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+    <a href="invest.html" class="mobile-link mobile-invest"><span>Invest</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+  </div>
+  <div class="mobile-section-label">Account</div>
+  <div class="mobile-menu-items mobile-account-items">
+    
+      <a href="auth/login.html" class="mobile-link"><span>Sign In</span><svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+      <a href="auth/register.html" class="mobile-cta">Create Account</a>
+    
+  </div>
+</div>
+
+<script>
+(function () {
+  // ----- Desktop mega-menu -----
+  var header = document.getElementById('main-header');
+  var mega = document.getElementById('tzMega');
+  var backdrop = document.getElementById('tzBackdrop');
+  if (header && mega) {
+    var links = header.querySelectorAll('.tz-navlink');
+    var panels = mega.querySelectorAll('.tz-panel');
+    var current = null;
+    function open(name) {
+      if (!name) return close();
+      current = name;
+      panels.forEach(function (p) { p.classList.toggle('active', p.dataset.panel === name); });
+      links.forEach(function (l) { l.classList.toggle('active', l.dataset.panel === name); });
+      header.classList.add('mega-open');
+      if (backdrop) backdrop.classList.add('show');
+    }
+    function close() {
+      current = null;
+      header.classList.remove('mega-open');
+      links.forEach(function (l) { l.classList.remove('active'); });
+      if (backdrop) backdrop.classList.remove('show');
+    }
+    links.forEach(function (l) {
+      l.addEventListener('mouseenter', function () { open(l.dataset.panel); });
+      l.addEventListener('click', function () { current === l.dataset.panel ? close() : open(l.dataset.panel); });
+      l.addEventListener('focus', function () { open(l.dataset.panel); });
+    });
+    header.addEventListener('mouseleave', close);
+    if (backdrop) backdrop.addEventListener('mouseenter', close);
+    if (backdrop) backdrop.addEventListener('click', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  }
+
+  // ----- Mobile slide-in menu -----
+  var toggle = document.getElementById('menuToggle');
+  var menu = document.getElementById('mobileMenu');
+  var overlay = document.getElementById('mobileOverlay');
+  var closeBtn = document.getElementById('mobileClose');
+  if (toggle && menu && overlay && closeBtn) {
+    function openM() { menu.classList.add('open'); overlay.classList.add('active'); document.body.style.overflow = 'hidden'; toggle.setAttribute('aria-expanded', 'true'); }
+    function closeM() { menu.classList.remove('open'); overlay.classList.remove('active'); document.body.style.overflow = ''; toggle.setAttribute('aria-expanded', 'false'); }
+    toggle.addEventListener('click', openM);
+    closeBtn.addEventListener('click', closeM);
+    overlay.addEventListener('click', closeM);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeM(); });
+  }
+})();
+</script>
+
+
+
+<main class="dd-page">
+  
+
+
+  <h1 class="dd-title">Schedule a Drive</h1>
+
+  <!-- Perks -->
+  <div class="dd-perks">
+    <div class="dd-perk">
+      <div class="dd-perk-icon">
+        <svg width="26" height="26" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M3.3 10.5c5.8-1.6 11.6-1.6 17.4 0"></path><path d="M10 21v-3.5a2 2 0 0 1 4 0V21"></path><circle cx="12" cy="13.5" r="1.2" fill="currentColor"></circle></svg>
+      </div>
+      <h3>Experience Full Self-Driving (Supervised)<sup>1</sup></h3>
+      <p>Let your vehicle drive you almost anywhere under your active supervision.</p>
+    </div>
+    <div class="dd-perk">
+      <div class="dd-perk-icon">
+        <svg width="26" height="26" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.5" width="10" height="19" rx="2.2"></rect><line x1="11" y1="5" x2="13" y2="5"></line></svg>
+      </div>
+      <h3>Do It All Through the App</h3>
+      <p>Download the Tesla app to locate and unlock your vehicle.</p>
+    </div>
+    <div class="dd-perk">
+      <div class="dd-perk-icon">
+        <svg width="26" height="26" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 4 14 12 14 11 22 20 10 12 10 13 2"></polygon></svg>
+      </div>
+      <h3>Easy Check-In</h3>
+      <p>Whether you do a self-serve drive or schedule one with a Tesla Advisor, you'll start your drive in minutes.</p>
+    </div>
+  </div>
+
+  <form class="dd-form" id="ddForm" method="POST" action="/drive" novalidate="">
+
+    <!-- Select a Model -->
+    <section class="dd-section">
+      <h2>Select a Model</h2>
+      <div class="dd-model-grid">
+        <div class="dd-model-list" role="radiogroup" aria-label="Model">
+          
+          <label class="dd-model active" data-photo="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-Y-Main-Hero-Desktop-Global.png" data-studio="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-Y.png">
+            <input type="radio" name="model" value="model-y" checked="">
+            <strong>Model Y</strong>
+            <span>Midsize SUV for families, road trips and extra cargo space</span>
+          </label>
+          
+          <label class="dd-model " data-photo="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Performance-Hero-Desktop.png" data-studio="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3.png">
+            <input type="radio" name="model" value="model-3">
+            <strong>Model 3</strong>
+            <span>Sports sedan for families, commuting and road trips</span>
+          </label>
+          
+          <label class="dd-model " data-photo="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Cybertruck-Main-Hero-Desktop.jpg" data-studio="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Cybertruck-1x.png">
+            <input type="radio" name="model" value="cybertruck">
+            <strong>Cybertruck</strong>
+            <span>More utility than a truck with more performance than a sports car</span>
+          </label>
+          
+          <button type="button" class="dd-help" id="ddHelpBtn" aria-expanded="false" aria-controls="ddHelp">
+            Help Me Choose <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          </button>
+          <div class="dd-help-panel" id="ddHelp" hidden="">
+            <p><strong>Model Y</strong> — the most room for people and cargo, with an optional third row.</p>
+            <p><strong>Model 3</strong> — the lightest and most efficient, with the longest range per charge.</p>
+            <p><strong>Cybertruck</strong> — a 6-foot bed, adaptive air suspension and up to 11,000 lbs of towing.</p>
+          </div>
+        </div>
+        <div class="dd-model-media">
+          <img id="ddModelPhoto" src="tesla-contents/image/upload/f_auto%2Cq_auto/Model-Y-Main-Hero-Desktop-Global.png" alt="Model Y">
+        </div>
+      </div>
+    </section>
+
+    <!-- Select Location and Time -->
+    <section class="dd-section">
+      <h2>Select Location and Time</h2>
+      <p class="dd-lead">Enter or edit your address as needed to find a demo drive location nearby and choose a time</p>
+      <div class="dd-address">
+        <svg width="22" height="22" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="ddAddress" name="address" placeholder="Enter Address" autocomplete="street-address">
+      </div>
+      <p class="dd-status" id="ddStatus" hidden=""></p>
+
+      <div class="dd-locations" id="ddLocations" hidden=""></div>
+
+      <div class="dd-when" id="ddWhen" hidden="">
+        <h3>Date</h3>
+        <div class="dd-chips" id="ddDates"></div>
+        <h3>Time</h3>
+        <div class="dd-chips" id="ddTimes"></div>
+      </div>
+
+      <input type="hidden" name="location" id="ddLocationInput">
+      <input type="hidden" name="date" id="ddDateInput">
+      <input type="hidden" name="time" id="ddTimeInput">
+    </section>
+
+    <!-- Driver's Details -->
+    <section class="dd-section dd-details">
+      <div class="dd-details-form">
+        <h2>Driver's Details</h2>
+        <div class="dd-fields">
+          <label class="dd-field">First Name<input type="text" name="firstName" autocomplete="given-name" required=""></label>
+          <label class="dd-field">Last Name<input type="text" name="lastName" autocomplete="family-name" required=""></label>
+          <label class="dd-field">Email Address<input type="email" name="email" autocomplete="email" required=""></label>
+          <label class="dd-field">Phone Number
+            <span class="dd-phone">
+              <select name="dialCode" aria-label="Country code">
+                <option value="+1">US +1</option>
+                <option value="+1">CA +1</option>
+                <option value="+44">UK +44</option>
+                <option value="+49">DE +49</option>
+                <option value="+33">FR +33</option>
+                <option value="+61">AU +61</option>
+                <option value="+971">AE +971</option>
+                <option value="+86">CN +86</option>
+              </select>
+              <input type="tel" name="phone" placeholder="(201) 555-0123" autocomplete="tel-national" required="">
+            </span>
+          </label>
+        </div>
+        <label class="dd-check"><input type="checkbox" name="energy" value="1"> Learn about Energy Products</label>
+        <p class="dd-error" id="ddError" hidden=""></p>
+        <button type="submit" class="dd-submit">Submit</button>
+      </div>
+      <div class="dd-details-media">
+        <img id="ddModelStudio" src="tesla-contents/image/upload/f_auto%2Cq_auto/Mega-Menu-Vehicles-Model-Y.png" alt="">
+      </div>
+    </section>
+
+    <p class="dd-footnote"><sup>1</sup>Full Self-Driving (Supervised) requires the driver to remain attentive and does not make the vehicle autonomous.</p>
+  </form>
+</main>
+
+<!-- Thank You (shown after a successful submit) -->
+<div class="dd-thanks" id="ddThanks" role="dialog" aria-modal="true" aria-labelledby="ddThanksTitle" hidden="">
+  <a class="dd-thanks-close" href="drive.html" id="ddThanksClose" aria-label="Close"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></a>
+  <div class="dd-thanks-inner">
+    <svg class="dd-thanks-check" width="88" height="88" viewbox="0 0 88 88" fill="none" stroke="#1db32a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="44" cy="44" r="40"></circle><polyline points="27 45 39 57 62 33"></polyline></svg>
+    <h2 id="ddThanksTitle">Thank You</h2>
+    <p class="dd-thanks-lead">A Tesla Advisor will reach out to find the best time and location for your drive.</p>
+    <div class="dd-thanks-cards">
+      <div class="dd-thanks-card">
+        <img id="ddThanksPhoto" src="tesla-contents/image/upload/f_auto%2Cq_auto/Model-Y-Main-Hero-Desktop-Global.png" alt="">
+        <h3>Explore</h3>
+        <p><span data-thanks-name="">Model Y</span> Features and Specs</p>
+        <a class="dd-thanks-btn" id="ddThanksExplore" href="model-y.html">Explore <span data-thanks-name="">Model Y</span></a>
+      </div>
+      <div class="dd-thanks-card">
+        <img src="tesla-contents/image/upload/f_auto%2Cq_auto/CPO-Hero-Desktop.jpg" alt="">
+        <h3>Existing Inventory</h3>
+        <p>Find new and used vehicles</p>
+        <a class="dd-thanks-btn" href="shop.html">View Inventory</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.dd-page { padding: calc(var(--nav-height) + 40px) 24px 40px; max-width: 1480px; margin: 0 auto; color: var(--tesla-dark); }
+.dd-title { text-align: center; font-size: clamp(30px, 3.6vw, 48px); font-weight: 500; letter-spacing: -0.5px; margin: 0 0 100px; }
+
+.dd-perks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; max-width: 1300px; margin: 0 auto 120px; text-align: center; align-items: start; }
+.dd-perk-icon { width: 60px; height: 60px; margin: 0 auto 26px; border-radius: 4px; background: var(--tesla-light-gray); display: flex; align-items: center; justify-content: center; }
+.dd-perk h3 { font-size: 15px; font-weight: 500; margin: 0 0 4px; }
+.dd-perk h3 sup { font-size: 9px; }
+.dd-perk p { font-size: 15px; line-height: 1.5; color: #393c41; margin: 0 auto; max-width: 400px; }
+
+.dd-form { max-width: 1300px; margin: 0 auto; }
+.dd-section { margin-bottom: 100px; }
+.dd-section h2 { font-size: clamp(24px, 2.2vw, 30px); font-weight: 500; margin: 0 0 14px; }
+
+/* Model picker */
+.dd-model-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+.dd-model-list { display: flex; flex-direction: column; gap: 12px; }
+.dd-model { display: block; cursor: pointer; padding: 26px 30px; border: 1px solid #d0d1d2; border-radius: 4px; transition: background .2s, border-color .2s; }
+.dd-model input { position: absolute; opacity: 0; pointer-events: none; }
+.dd-model strong { display: block; font-size: 18px; font-weight: 500; color: #5c5e62; margin-bottom: 6px; }
+.dd-model span { font-size: 14px; color: #5c5e62; }
+.dd-model.active { background: var(--tesla-light-gray); border-color: #393c41; }
+.dd-model.active strong, .dd-model.active span { color: var(--tesla-dark); }
+.dd-model:has(input:focus-visible) { outline: 2px solid #3e6ae1; outline-offset: 2px; }
+.dd-help { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 34px 30px; border: 0; border-radius: 4px; background: var(--tesla-light-gray); font: inherit; font-size: 18px; font-weight: 500; color: #5c5e62; cursor: pointer; text-align: left; }
+.dd-help svg { color: var(--tesla-dark); }
+.dd-help-panel { padding: 4px 30px 8px; font-size: 14px; line-height: 1.55; color: #393c41; }
+.dd-help-panel p { margin: 8px 0; }
+.dd-model-media { border-radius: 8px; overflow: hidden; aspect-ratio: 4 / 3; background: #e9e9e9; }
+.dd-model-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity .25s; }
+
+/* Location and time */
+.dd-lead { font-size: 15px; color: #393c41; margin: 0 0 14px; }
+.dd-address { display: flex; align-items: center; gap: 12px; max-width: 640px; padding: 0 20px; height: 56px; background: var(--tesla-light-gray); border-radius: 4px; color: #393c41; }
+.dd-address input { flex: 1; min-width: 0; border: 0; background: transparent; font: inherit; font-size: 16px; color: var(--tesla-dark); outline: none; }
+.dd-address input::placeholder { color: #8e8e8e; }
+.dd-address:focus-within { box-shadow: inset 0 0 0 1px #393c41; }
+.dd-status { font-size: 13px; color: #5c5e62; margin: 12px 0 0; }
+.dd-locations { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; max-width: 900px; margin-top: 24px; }
+.dd-loc { text-align: left; padding: 18px 20px; border: 1px solid #d0d1d2; border-radius: 4px; background: #fff; font: inherit; color: var(--tesla-dark); cursor: pointer; }
+.dd-loc strong { display: block; font-size: 15px; font-weight: 500; }
+.dd-loc span { display: block; font-size: 13px; color: #5c5e62; margin-top: 4px; }
+.dd-loc.active { background: var(--tesla-light-gray); border-color: #393c41; }
+.dd-when h3 { font-size: 15px; font-weight: 500; margin: 28px 0 10px; }
+.dd-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.dd-chip { padding: 10px 16px; border: 1px solid #d0d1d2; border-radius: 4px; background: #fff; font: inherit; font-size: 13px; color: var(--tesla-dark); cursor: pointer; }
+.dd-chip.active { background: var(--tesla-dark); border-color: var(--tesla-dark); color: #fff; }
+
+/* Driver's details */
+.dd-details { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 40px; align-items: center; }
+.dd-details h2 { margin-bottom: 44px; }
+.dd-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 30px; }
+.dd-field { display: flex; flex-direction: column; gap: 10px; font-size: 15px; font-weight: 500; color: #5c5e62; }
+.dd-field input, .dd-phone { height: 52px; border: 0; border-radius: 4px; background: var(--tesla-light-gray); font: inherit; font-size: 16px; font-weight: 400; color: var(--tesla-dark); padding: 0 16px; outline: none; }
+.dd-field input:focus, .dd-phone:focus-within { box-shadow: inset 0 0 0 1px #393c41; }
+.dd-field input.invalid { box-shadow: inset 0 0 0 1px var(--tesla-red); }
+.dd-phone { display: flex; align-items: center; gap: 6px; }
+.dd-phone select { border: 0; background: transparent; font: inherit; font-weight: 500; color: var(--tesla-dark); outline: none; cursor: pointer; }
+.dd-phone input { flex: 1; min-width: 0; height: 100%; padding: 0; background: transparent; box-shadow: none !important; }
+.dd-check { display: inline-flex; align-items: center; gap: 14px; margin-top: 30px; font-size: 15px; font-weight: 500; color: #5c5e62; cursor: pointer; }
+.dd-check input { width: 30px; height: 30px; margin: 0; accent-color: var(--tesla-dark); }
+.dd-error { margin: 20px 0 0; font-size: 13px; color: var(--tesla-red); }
+.dd-submit { display: block; width: calc(50% - 15px); height: 52px; margin-top: 70px; border: 0; border-radius: 4px; background: #3e6ae1; color: #fff; font: inherit; font-size: 15px; font-weight: 500; cursor: pointer; transition: background .2s; }
+.dd-submit:hover { background: #3457b1; }
+.dd-submit:disabled { opacity: .6; cursor: default; }
+.dd-details-media img { width: 100%; height: auto; display: block; }
+.dd-footnote { font-size: 14px; color: #393c41; margin: 0 0 40px; }
+.dd-footnote sup { font-size: 9px; }
+
+/* Thank You: full-viewport overlay above the navbar */
+.dd-thanks { position: fixed; inset: 0; z-index: 2000; background: #fff; overflow-y: auto; overscroll-behavior: contain; animation: dd-fade .3s ease; }
+.dd-thanks[hidden] { display: none; }
+@keyframes dd-fade { from { opacity: 0; } to { opacity: 1; } }
+body.dd-locked { overflow: hidden; }
+.dd-thanks-close { position: absolute; top: 20px; right: 20px; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; border-radius: 50%; color: #393c41; transition: background .2s; }
+.dd-thanks-close:hover { background: var(--tesla-light-gray); }
+.dd-thanks-inner { min-height: 100%; max-width: 1300px; margin: 0 auto; padding: clamp(32px, 4vw, 40px) 24px 60px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: var(--tesla-dark); box-sizing: border-box; }
+.dd-thanks-check { width: clamp(64px, 7vw, 88px); height: auto; margin-bottom: clamp(24px, 4vw, 44px); }
+.dd-thanks h2 { font-size: clamp(34px, 4.6vw, 58px); font-weight: 500; letter-spacing: -1px; line-height: 1.05; margin: 0 0 clamp(16px, 2vw, 28px); }
+.dd-thanks-lead { font-size: clamp(16px, 1.8vw, 24px); font-weight: 500; color: #5c5e62; line-height: 1.35; margin: 0 0 clamp(40px, 7vw, 100px); }
+.dd-thanks-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; width: 100%; max-width: 1060px; text-align: left; }
+.dd-thanks-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 8px; background: #e9e9e9; margin-bottom: clamp(24px, 4vw, 56px); }
+.dd-thanks-card h3 { font-size: clamp(22px, 2.2vw, 30px); font-weight: 500; margin: 0 0 12px; }
+.dd-thanks-card p { font-size: clamp(14px, 1.3vw, 17px); font-weight: 500; color: #5c5e62; margin: 0 0 28px; }
+.dd-thanks-btn { display: flex; align-items: center; justify-content: center; height: 56px; border-radius: 4px; background: var(--tesla-light-gray); color: #393c41; font-size: clamp(14px, 1.3vw, 16px); font-weight: 500; text-decoration: none; transition: background .2s; }
+.dd-thanks-btn:hover { background: #e6e6e6; }
+
+@media (max-width: 900px) {
+  .dd-title { margin-bottom: 56px; }
+  .dd-perks { grid-template-columns: 1fr; gap: 44px; margin-bottom: 72px; }
+  .dd-section { margin-bottom: 72px; }
+  .dd-model-grid, .dd-details { grid-template-columns: 1fr; }
+  .dd-model-media { order: -1; }
+  .dd-details-media { order: -1; max-width: 520px; }
+  .dd-details h2 { margin-bottom: 28px; }
+}
+@media (max-width: 560px) {
+  .dd-page { padding-left: 16px; padding-right: 16px; }
+  .dd-fields { grid-template-columns: 1fr; }
+  .dd-submit { width: 100%; margin-top: 40px; }
+  .dd-model, .dd-help { padding: 20px; }
+  .dd-thanks-cards { grid-template-columns: 1fr; gap: 48px; }
+  .dd-thanks-inner { justify-content: flex-start; padding-top: 72px; }
+  .dd-thanks-close { top: 12px; right: 12px; }
+}
+</style>
+
+<script>
+(function () {
+  var form = document.getElementById('ddForm');
+
+  // Model picker: swap the photo and the studio shot
+  var photo = document.getElementById('ddModelPhoto');
+  var studio = document.getElementById('ddModelStudio');
+  var cards = form.querySelectorAll('.dd-model');
+  cards.forEach(function (card) {
+    card.querySelector('input').addEventListener('change', function () {
+      cards.forEach(function (c) { c.classList.toggle('active', c === card); });
+      photo.src = card.dataset.photo;
+      photo.alt = card.querySelector('strong').textContent;
+      studio.src = card.dataset.studio;
+    });
+  });
+  var helpBtn = document.getElementById('ddHelpBtn');
+  var help = document.getElementById('ddHelp');
+  helpBtn.addEventListener('click', function () {
+    help.hidden = !help.hidden;
+    helpBtn.setAttribute('aria-expanded', String(!help.hidden));
+  });
+
+  // Demo drive locations: geocode the address (OpenStreetMap Nominatim) and list the nearest
+  var LOCATIONS = [
+    ['Tesla Fremont', '45500 Fremont Blvd, Fremont, CA', 37.4925, -121.9446],
+    ['Tesla San Francisco', '999 Van Ness Ave, San Francisco, CA', 37.7845, -122.4214],
+    ['Tesla Los Angeles', '8058 W Manchester Ave, Playa del Rey, CA', 33.9599, -118.4436],
+    ['Tesla San Diego', '6692 Convoy Ct, San Diego, CA', 32.8258, -117.1547],
+    ['Tesla Seattle', '1201 Western Ave, Seattle, WA', 47.6064, -122.3392],
+    ['Tesla Portland', '9455 SW Washington Square Rd, Portland, OR', 45.4505, -122.7814],
+    ['Tesla Las Vegas', '6020 W Sahara Ave, Las Vegas, NV', 36.1446, -115.2234],
+    ['Tesla Phoenix', '7171 E Camelback Rd, Scottsdale, AZ', 33.5016, -111.9262],
+    ['Tesla Denver', '3000 E 1st Ave, Denver, CO', 39.7178, -104.9522],
+    ['Tesla Austin', '13101 Tesla Rd, Austin, TX', 30.2223, -97.6170],
+    ['Tesla Dallas', '8687 N Central Expy, Dallas, TX', 32.8687, -96.7718],
+    ['Tesla Houston', '5015 Westheimer Rd, Houston, TX', 29.7380, -95.4610],
+    ['Tesla Chicago', '20 N Michigan Ave, Chicago, IL', 41.8823, -87.6247],
+    ['Tesla Minneapolis', '3601 W 77th St, Edina, MN', 44.8642, -93.3257],
+    ['Tesla Detroit', '2800 W Big Beaver Rd, Troy, MI', 42.5609, -83.1830],
+    ['Tesla Atlanta', '3393 Peachtree Rd NE, Atlanta, GA', 33.8480, -84.3620],
+    ['Tesla Miami', '1601 Alton Rd, Miami Beach, FL', 25.7895, -80.1406],
+    ['Tesla Orlando', '4192 Conroy Rd, Orlando, FL', 28.4870, -81.4310],
+    ['Tesla Charlotte', '4235 Barclay Downs Dr, Charlotte, NC', 35.1508, -80.8303],
+    ['Tesla Washington DC', '1050 Connecticut Ave NW, Washington, DC', 38.9035, -77.0397],
+    ['Tesla New York', '860 Washington St, New York, NY', 40.7397, -74.0081],
+    ['Tesla Boston', '100 Huntington Ave, Boston, MA', 42.3474, -71.0786],
+    ['Tesla Philadelphia', '160 N Gulph Rd, King of Prussia, PA', 40.0886, -75.3936],
+    ['Tesla Toronto', '3401 Dufferin St, Toronto, ON', 43.7255, -79.4522],
+    ['Tesla London', '20 Old Bond St, Mayfair, London', 51.5083, -0.1418],
+  ];
+
+  var addr = document.getElementById('ddAddress');
+  var status = document.getElementById('ddStatus');
+  var locList = document.getElementById('ddLocations');
+  var when = document.getElementById('ddWhen');
+  var locInput = document.getElementById('ddLocationInput');
+  var dateInput = document.getElementById('ddDateInput');
+  var timeInput = document.getElementById('ddTimeInput');
+  var searchTimer = null, searchSeq = 0;
+
+  function setStatus(msg) { status.textContent = msg; status.hidden = !msg; }
+  function miles(lat1, lon1, lat2, lon2) {
+    var r = Math.PI / 180, dLat = (lat2 - lat1) * r, dLon = (lon2 - lon1) * r;
+    var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    return 3958.8 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+  function chip(label, value, onPick) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'dd-chip'; b.textContent = label;
+    b.addEventListener('click', function () {
+      b.parentNode.querySelectorAll('.dd-chip').forEach(function (c) { c.classList.toggle('active', c === b); });
+      onPick(value);
+    });
+    return b;
+  }
+  function renderWhen() {
+    var dates = document.getElementById('ddDates'), times = document.getElementById('ddTimes');
+    dates.innerHTML = ''; times.innerHTML = '';
+    dateInput.value = ''; timeInput.value = '';
+    for (var d = 1; d <= 7; d++) {
+      var day = new Date(); day.setDate(day.getDate() + d);
+      var iso = day.getFullYear() + '-' + String(day.getMonth() + 1).padStart(2, '0') + '-' + String(day.getDate()).padStart(2, '0');
+      dates.appendChild(chip(day.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }), iso, function (v) { dateInput.value = v; }));
+    }
+    ['10:00 AM', '11:00 AM', '12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM'].forEach(function (t) {
+      times.appendChild(chip(t, t, function (v) { timeInput.value = v; }));
+    });
+    when.hidden = false;
+  }
+  function renderLocations(list) {
+    locList.innerHTML = '';
+    locInput.value = '';
+    when.hidden = true;
+    list.forEach(function (loc) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'dd-loc';
+      b.innerHTML = '<strong></strong><span></span>';
+      b.querySelector('strong').textContent = loc[0];
+      b.querySelector('span').textContent = loc[1] + (loc.dist != null ? ' · ' + Math.round(loc.dist).toLocaleString('en-US') + ' mi' : '');
+      b.addEventListener('click', function () {
+        locList.querySelectorAll('.dd-loc').forEach(function (x) { x.classList.toggle('active', x === b); });
+        locInput.value = loc[0] + ', ' + loc[1];
+        renderWhen();
+      });
+      locList.appendChild(b);
+    });
+    locList.hidden = !list.length;
+  }
+  function search() {
+    var q = addr.value.trim();
+    if (q.length < 3) { renderLocations([]); setStatus(''); return; }
+    var seq = ++searchSeq;
+    setStatus('Finding demo drive locations near you…');
+    fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&q=' + encodeURIComponent(q), { headers: { 'Accept': 'application/json' } })
+      .then(function (r) { return r.json(); })
+      .then(function (res) {
+        if (seq !== searchSeq) return;
+        if (!res.length) { setStatus("We couldn't find that address. Choose any location below."); renderLocations(LOCATIONS.slice(0, 6)); return; }
+        var lat = parseFloat(res[0].lat), lon = parseFloat(res[0].lon);
+        var near = LOCATIONS.map(function (l) { var c = l.slice(); c.dist = miles(lat, lon, l[2], l[3]); return c; })
+          .sort(function (a, b) { return a.dist - b.dist; }).slice(0, 3);
+        setStatus('Demo drive locations near ' + res[0].display_name.split(',').slice(0, 3).join(','));
+        renderLocations(near);
+      })
+      .catch(function () {
+        if (seq !== searchSeq) return;
+        setStatus('Location search is unavailable right now. Choose any location below.');
+        renderLocations(LOCATIONS.slice(0, 6));
+      });
+  }
+  addr.addEventListener('input', function () { clearTimeout(searchTimer); searchTimer = setTimeout(search, 600); });
+  addr.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); clearTimeout(searchTimer); search(); }
+  });
+
+  // Submit: check every step before posting
+  var error = document.getElementById('ddError');
+  form.addEventListener('submit', function (e) {
+    var problems = [];
+    form.querySelectorAll('.dd-field input').forEach(function (inp) {
+      var bad = !inp.value.trim() || (inp.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(inp.value.trim()));
+      inp.classList.toggle('invalid', bad);
+      if (bad) problems.push('details');
+    });
+    if (!locInput.value) problems.unshift('location');
+    else if (!dateInput.value || !timeInput.value) problems.unshift('time');
+    e.preventDefault();
+    if (!problems.length) { send(); return; }
+    error.textContent = problems[0] === 'location' ? 'Enter your address and choose a demo drive location.'
+      : problems[0] === 'time' ? 'Choose a date and time for your drive.'
+      : 'Please complete your details.';
+    error.hidden = false;
+    if (problems[0] !== 'details') addr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  // Post in the background, then open the Thank You overlay
+  var submitBtn = form.querySelector('.dd-submit');
+  function send() {
+    error.hidden = true;
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting…';
+    fetch('/drive', {
+      method: 'POST',
+      headers: { 'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(new FormData(form)).toString()
+    })
+      .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, data: d }; }); })
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.data.error || 'Something went wrong. Please try again.');
+        var card = form.querySelector('.dd-model input:checked').closest('.dd-model');
+        var name = card.querySelector('strong').textContent;
+        document.getElementById('ddThanksPhoto').src = card.dataset.photo;
+        document.getElementById('ddThanksExplore').href = '/' + card.querySelector('input').value;
+        thanks.querySelectorAll('[data-thanks-name]').forEach(function (s) { s.textContent = name; });
+        openThanks();
+      })
+      .catch(function (err) {
+        error.textContent = err.message || 'Something went wrong. Please try again.';
+        error.hidden = false;
+      })
+      .finally(function () { submitBtn.disabled = false; submitBtn.textContent = 'Submit'; });
+  }
+
+  var thanks = document.getElementById('ddThanks');
+  function openThanks() {
+    thanks.hidden = false;
+    document.body.classList.add('dd-locked');
+    document.getElementById('ddThanksClose').focus();
+  }
+  // Close is a link back to a fresh /drive (clears the form and any ?thanks= param)
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !thanks.hidden) document.getElementById('ddThanksClose').click();
+  });
+  if (!thanks.hidden) openThanks();
+})();
+</script>
+
+<footer class="tesla-footer">
+  <div class="footer-links">
+    <span class="footer-copy">Tesla &copy; 2026</span>
+    <a href="privacy.html">Privacy &amp; Legal</a>
+    <a href="privacy.html">Vehicle Recalls</a>
+    <a href="contact.html">Contact</a>
+    <a href="news.html">News</a>
+    <a href="engage.html">Get Updates</a>
+    <a href="locations.html">Locations</a>
+    <a href="news.html">Learn</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,16 @@
+# Dependencies and build output
+node_modules/
+.next/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# Large downloaded video assets
+tesla-contents/video/upload/**/*.mp4
